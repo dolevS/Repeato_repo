@@ -1,0 +1,190 @@
+{
+    "id": "4cd93c9c-bd1f-96cf-4336-f3695a73eb3f",
+    "title": "Rate Us Button - Exit Game Popup",
+    "steps": [
+        {
+            "id": "e2c4c646-9321-dd71-cb17-2e65cbba76e9",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1634718360031
+        },
+        {
+            "id": "a650ff4d-525a-f863-f348-0d72e2b88d44",
+            "originalFrame": "a5eb3bc5-db1d-f033-3288-6c8b94a30d9e_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1636645551376,
+            "selection": {
+                "x": 0.20859436296698652,
+                "y": 0.4251076320939335,
+                "width": 0.22661596958174904,
+                "height": 0.08458904109589041
+            },
+            "image": "526776ff-8306-f101-453b-3953e18d1a1f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.20833333333333334,
+                        "y": 0.425
+                    },
+                    "size": {
+                        "width": 0.22592592592592592,
+                        "height": 0.08458333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "3a6ff81b-9573-7c92-9ddb-b8943938841d",
+            "originalFrame": "48d8056c-8ef9-cfea-5225-dd060a2ce100_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1634718360031,
+            "selection": {
+                "x": 0.15285171102661604,
+                "y": 0.03869863013698629,
+                "width": 0.31787072243346004,
+                "height": 0.04863013698630137
+            },
+            "image": "f3c3c7eb-dfe8-1865-8331-9f756e9c58f0_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.1527777777777778,
+                        "y": 0.03875
+                    },
+                    "size": {
+                        "width": 0.3175925925925926,
+                        "height": 0.04875
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "970142bc-458a-7bd0-dab7-c23fdd9a53e1",
+            "originalFrame": "c7412845-ba9a-c7d7-54ad-fb029d24b6d9_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1636645526794,
+            "selection": {
+                "x": 0.27168809222041135,
+                "y": 0.08664383561643836,
+                "width": 0.6895286378176111,
+                "height": 0.18561643835616437
+            },
+            "image": "53d5d132-2f93-7853-03ce-2b3d7ae6c5da_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2712962962962963,
+                        "y": 0.08625
+                    },
+                    "size": {
+                        "width": 0.6888888888888889,
+                        "height": 0.18541666666666667
+                    },
+                    "probability": 0.9999999180024209
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "909d3ea2-ebf2-a8fd-2557-acb67cd4c5d1",
+            "type": "startApp",
+            "optional": false,
+            "createdOn": 1634718360031,
+            "packageName": "shooter.two.purple",
+            "activityName": ".main.BubbleShooterOriginal",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "2f5b9450-becb-3382-2025-b42acfe4b3f4",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1634718360031,
+            "testId": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1636645554493,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "e6ad74d7-98ed-b83f-c9d3-e548dbc37faa",
+            "date": 1636645539912,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "c56ad356-598f-fd8c-e452-6b721f3e0173",
+                    "step": "e2c4c646-9321-dd71-cb17-2e65cbba76e9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3bfa0db3-7b84-aa73-d949-10db48e21f1e-screenshot.jpg",
+                    "createdOn": 1636645540712
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.35",
+                    "code": 90000943,
+                    "minSdk": 19,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-11-11 16:52:03",
+                    "lastUpdateTime": "2021-11-11 16:52:03"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

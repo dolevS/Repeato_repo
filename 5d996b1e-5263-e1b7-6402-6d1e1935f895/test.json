@@ -1,0 +1,177 @@
+{
+    "id": "5d996b1e-5263-e1b7-6402-6d1e1935f895",
+    "title": "In-App Purchases - Inter",
+    "steps": [
+        {
+            "id": "8a8a5ef3-00a9-0a15-3bff-23234b1086d7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "000388b8-0fe0-5861-5635-90ff2261c197",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "64b1bf37-4e50-2c6b-210b-135d7105a430",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 90000
+        },
+        {
+            "id": "ed4c2062-9419-20d4-e7fa-fd747cf5116e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "75a7ed52-877d-cdd5-074f-7ecb7c2ff992",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d01dd4a3-8442-a94c-7061-314609627cf3",
+            "originalFrame": "2d57e674-f500-67fd-9adb-a6fe097e07e1_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.003802281368821312,
+                "y": 0.7133561643835616,
+                "width": 0.1885931558935361,
+                "height": 0.2832191780821917
+            },
+            "image": "1ea91304-a5ce-f187-5254-68f7ea8d109d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.003703703703703704,
+                        "y": 0.7133333333333334
+                    },
+                    "size": {
+                        "width": 0.18796296296296297,
+                        "height": 0.28291666666666665
+                    },
+                    "probability": 0.9999999464912103
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-27T07:32:29.368Z",
+    "changedOn": 1624779631679,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "883f77d4-28a5-07aa-d57b-37673a93854a",
+            "date": 1624779607139,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "c39007b8-9c2c-90f3-41d7-6e334f95e94d",
+                    "step": "fc90f081-0c5a-6f1c-62f4-6521d4b3896e",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.04537037037037037,
+                                "y": 0.03375
+                            },
+                            "size": {
+                                "width": 0.07037037037037037,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "0dd97115-915c-0f10-423f-fc6feb86c8a2-screenshot.jpg"
+                },
+                {
+                    "id": "db407e8d-d922-4309-3890-b374a335331b",
+                    "step": "3dc3b696-5bde-f0f4-9c34-0b40e6446f6c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.019444444444444445,
+                                "y": 0.09166666666666666
+                            },
+                            "size": {
+                                "width": 0.12037037037037036,
+                                "height": 0.225
+                            },
+                            "probability": 0.9910961914746319
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "82eb2600-3499-73a8-c389-a444a9c474e0-screenshot.jpg"
+                },
+                {
+                    "id": "fed90fc9-68e1-bb57-a8fc-90ced6c1964d",
+                    "step": "4468d285-7eb0-395b-267e-c3130e7d5c4f",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.030555555555555555,
+                                "y": 0.09708333333333333
+                            },
+                            "size": {
+                                "width": 0.10092592592592593,
+                                "height": 0.04708333333333333
+                            },
+                            "probability": 0.9579849701658546
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "267b459a-2681-527b-65d6-b0bdd66c1eed-screenshot.jpg"
+                },
+                {
+                    "id": "1941b2fb-2615-6f55-9739-b2001eb17776",
+                    "step": "7278a934-2250-c360-dc80-8cc859ff34e7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.24814814814814815,
+                                "y": 0.5266666666666666
+                            },
+                            "size": {
+                                "width": 0.2074074074074074,
+                                "height": 0.0625
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "243e8017-4b24-2648-131d-84470f6a71da-screenshot.jpg"
+                },
+                {
+                    "id": "8c69f138-e151-af89-5b40-2f942518a272",
+                    "step": "ed4c2062-9419-20d4-e7fa-fd747cf5116e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "019f1132-052f-4545-e978-bcb8a562f146-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 3647,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

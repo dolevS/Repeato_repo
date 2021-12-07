@@ -1,0 +1,152 @@
+{
+    "id": "76ecb3c1-25e0-7bac-5074-a65bb8ff3418",
+    "title": "UK VPN Ads + Level Exit Inter",
+    "steps": [
+        {
+            "id": "06c6893f-74ef-033d-2d28-c6e52e8e5fda",
+            "type": "subTest",
+            "optional": false,
+            "testId": "4eb99583-b600-f18b-727f-6c6f8e2d67ff",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d76f02f4-f4ce-853c-3f5b-0b6a7422561a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e8fff210-a7bc-d8ca-57ff-1d84c78b2529",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b9b6d409-f2ff-29d6-aab8-50d3ab380b26",
+            "type": "subTest",
+            "optional": false,
+            "testId": "5c88941d-2a04-665d-5a78-500236026fa6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f4a37530-0c8d-e3f6-f22b-a24e29e04bc7",
+            "originalFrame": "019fa3c7-435c-0d40-43b3-db547f6eefcc_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.054702676882511424,
+                "y": 0.04380462406248056,
+                "width": 0.09013508607677169,
+                "height": 0.036798797495816035
+            },
+            "image": "64476a5f-ef78-0bfc-ecf5-9d7a8023f990_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05462962962962963,
+                        "y": 0.04375
+                    },
+                    "size": {
+                        "width": 0.08981481481481482,
+                        "height": 0.03666666666666667
+                    },
+                    "probability": 0.9999999900741869
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "a6038db7-99a2-a301-63ce-36195e375c47",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "d1d09b8d-d557-c19d-d3af-7de956704a4c",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8fd6af36-2c73-7f1d-f53a-2af0a46deee6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0aa4fe4b-3b74-689f-f609-783c5204dcc7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c99f028a-0fbb-8b77-dd48-88720f15535b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "44c29bec-c942-0f14-e59c-596d991cbd43",
+            "type": "subTest",
+            "optional": false,
+            "testId": "08a55d0c-61d0-b82c-8d8f-6d2a7e0613c1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d71f5b19-25e8-3163-1b31-e8c93afbed8c",
+            "type": "subTest",
+            "optional": false,
+            "testId": "449d00e8-e4c2-3588-c5cd-f193051694df",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1634546466253,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "79419183-ba18-bd85-c6ff-f26b3af8bbd3",
+            "date": 1625752457999,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 1886,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-08 13:48:06"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

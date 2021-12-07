@@ -1,0 +1,312 @@
+{
+    "id": "db5f3ee3-626b-3f72-7af4-632c83cd62b3",
+    "title": "Shoot Red Bubble",
+    "steps": [
+        {
+            "id": "f2c3c174-c99f-93da-a6a3-0989eb47e2a2",
+            "originalFrame": "6915bb04-6038-8aeb-b26a-43fc48964297_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.45703422053231935,
+                "y": 0.8246575342465755,
+                "width": 0.07452471482889735,
+                "height": 0.03835616438356164
+            },
+            "image": "09293e2a-86ef-af9f-e754-40134e20127d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.04351851851851852,
+                        "y": 0.20041666666666666
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9552931401719196
+                },
+                {
+                    "position": {
+                        "x": 0.13055555555555556,
+                        "y": 0.20041666666666666
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9573816280433639
+                },
+                {
+                    "position": {
+                        "x": 0.17407407407407408,
+                        "y": 0.16708333333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.955074775389326
+                },
+                {
+                    "position": {
+                        "x": 0.2611111111111111,
+                        "y": 0.16708333333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9555664045322135
+                },
+                {
+                    "position": {
+                        "x": 0.45740740740740743,
+                        "y": 0.8245833333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.6083333333333333,
+                        "y": 0.36666666666666664
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9603317444932037
+                },
+                {
+                    "position": {
+                        "x": 0.7388888888888889,
+                        "y": 0.13375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9680800112368247
+                },
+                {
+                    "position": {
+                        "x": 0.7824074074074074,
+                        "y": 0.23375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9592304351230774
+                },
+                {
+                    "position": {
+                        "x": 0.8694444444444445,
+                        "y": 0.23375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9666233404183312
+                },
+                {
+                    "position": {
+                        "x": 0.912962962962963,
+                        "y": 0.26708333333333334
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9621532909632199
+                }
+            ],
+            "matchIndex": 4
+        },
+        {
+            "id": "61c2082c-d9b8-718c-a040-afea66a8214e",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot red ball')\n }\nelse {\n  log('No red ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-18T11:22:33.064Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "d88195e6-a34f-0e8a-001f-f79898f93740",
+            "date": 1618744910761,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "db699a5b-0b5c-9b13-92f4-7d879333a1f2",
+                    "step": "f2c3c174-c99f-93da-a6a3-0989eb47e2a2",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.04351851851851852,
+                                "y": 0.20041666666666666
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9552931401719196
+                        },
+                        {
+                            "position": {
+                                "x": 0.13055555555555556,
+                                "y": 0.20041666666666666
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9573816280433639
+                        },
+                        {
+                            "position": {
+                                "x": 0.17407407407407408,
+                                "y": 0.16708333333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.955074775389326
+                        },
+                        {
+                            "position": {
+                                "x": 0.2611111111111111,
+                                "y": 0.16708333333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9555664045322135
+                        },
+                        {
+                            "position": {
+                                "x": 0.45740740740740743,
+                                "y": 0.8245833333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        },
+                        {
+                            "position": {
+                                "x": 0.6083333333333333,
+                                "y": 0.36666666666666664
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9603317444932037
+                        },
+                        {
+                            "position": {
+                                "x": 0.7388888888888889,
+                                "y": 0.13375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9680800112368247
+                        },
+                        {
+                            "position": {
+                                "x": 0.7824074074074074,
+                                "y": 0.23375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9592304351230774
+                        },
+                        {
+                            "position": {
+                                "x": 0.8694444444444445,
+                                "y": 0.23375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9666233404183312
+                        },
+                        {
+                            "position": {
+                                "x": 0.912962962962963,
+                                "y": 0.26708333333333334
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9621532909632199
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "14df1ee1-69ee-c798-7324-327bbcee23db-screenshot.jpg"
+                },
+                {
+                    "id": "cfea0fa1-b5a6-da65-0847-4dd46ba684b0",
+                    "step": "61c2082c-d9b8-718c-a040-afea66a8214e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "ERROR occured while execution script:\n\nTypeError: testRunner.rootTest.checkLastMatchAndShoot is not a function",
+                    "screenshot": "6f0cf987-4409-2215-f1ae-bb058c52f48a-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

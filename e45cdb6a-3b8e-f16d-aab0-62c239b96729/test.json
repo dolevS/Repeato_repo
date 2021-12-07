@@ -1,0 +1,523 @@
+{
+    "id": "e45cdb6a-3b8e-f16d-aab0-62c239b96729",
+    "title": "Win Level 30 (from 23)",
+    "steps": [
+        {
+            "id": "5f67cabe-c231-a815-b3d7-75c54519b131",
+            "originalFrame": "2fdbe277-9c48-75bc-4de0-fc8df4a0392e_frame.jpg",
+            "type": "drag",
+            "optional": false,
+            "selection": {
+                "x": 0.4,
+                "y": 0.4,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "image": "8906597f-03b9-dd16-1851-363c90c1e2d5_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.1
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [
+                {
+                    "x": 0.5631726024139366,
+                    "y": 0.20833886954904202
+                },
+                {
+                    "x": 0.5707830429870979,
+                    "y": 0.3392947304084398
+                },
+                {
+                    "x": 0.5783934835602592,
+                    "y": 0.42263027822805666
+                },
+                {
+                    "x": 0.5860039241334205,
+                    "y": 0.5246738061704446
+                },
+                {
+                    "x": 0.5860039241334205,
+                    "y": 0.5790970210730515
+                },
+                {
+                    "x": 0.5555621618407753,
+                    "y": 0.6811405490154394
+                },
+                {
+                    "x": 0.5175099589749688,
+                    "y": 0.7423666657808722
+                },
+                {
+                    "x": 0.4832629763957429,
+                    "y": 0.8137971353405437
+                },
+                {
+                    "x": 0.4452107735299364,
+                    "y": 0.8546145465174989
+                },
+                {
+                    "x": 0.41476901123729115,
+                    "y": 0.9022348595572799
+                }
+            ],
+            "duration": 0,
+            "longClick": false,
+            "startPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.5403412806944528,
+                    "y": 0.4260317291594696
+                }
+            },
+            "endPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.5251203995481301,
+                    "y": 0.7644760968350562
+                }
+            },
+            "dragType": "AtoB",
+            "repeatDrag": false,
+            "stopOnFingerprintFound": false
+        },
+        {
+            "id": "6c875836-afbe-edd9-a66d-43e6ef51ab85",
+            "originalFrame": "a503ca9b-922a-fdc0-afc5-f3b3f7d047a5_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "7c208440-4dd8-7964-73b1-05ef00413161",
+            "originalFrame": "4ca49df5-6ead-604f-fdac-5318f020d62e_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.45185096530073,
+                "y": 0.7119724832315022,
+                "width": 0.13396182988243316,
+                "height": 0.04488990304895355
+            },
+            "image": "fe920010-fcf9-f7e0-3246-b6611af1499d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.45092592592592595,
+                        "y": 0.7116666666666667
+                    },
+                    "size": {
+                        "width": 0.13333333333333333,
+                        "height": 0.044583333333333336
+                    },
+                    "probability": 0.9999998807907104
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "88df84da-3e63-dd48-b67e-ed858b4ff425",
+            "originalFrame": "0776554e-8ad7-03ff-5e88-85687b8c0df9_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.4456273764258555,
+                "y": 0.6858188554099877,
+                "width": 0.14190703283955852,
+                "height": 0.07260273972602739
+            },
+            "image": "1d8427cf-b696-126e-d171-42cce81a6118_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.44537037037037036,
+                        "y": 0.6854166666666667
+                    },
+                    "size": {
+                        "width": 0.14166666666666666,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "d9fb5e57-2fa0-9ced-04bd-8ad4db609b81",
+            "originalFrame": "660fac4b-2baf-2c37-31ff-808ef447bb90_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.2786676364172014,
+                "y": 0.14439431738396494,
+                "width": 0.45475285171102664,
+                "height": 0.057029324330380486
+            },
+            "image": "dce10bdf-d6db-8db6-9334-bc1992496a26_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2777777777777778,
+                        "y": 0.14416666666666667
+                    },
+                    "size": {
+                        "width": 0.4546296296296296,
+                        "height": 0.056666666666666664
+                    },
+                    "probability": 0.9999999852827628
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "05cd04a2-4d69-c585-2ee1-e2eacf5e3c08",
+            "originalFrame": "f0018bcd-1b75-da1d-1bb5-fcd5b5d0a972_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.23016783435678842,
+                "y": 0.6283522056736529,
+                "width": 0.21140684410646388,
+                "height": 0.06404109589041096
+            },
+            "image": "bf8c52e8-29b0-3cbb-e376-ff5af7ad02f4_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.22962962962962963,
+                        "y": 0.6283333333333333
+                    },
+                    "size": {
+                        "width": 0.2111111111111111,
+                        "height": 0.06375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "f84a949e-ad8c-f22d-923b-41e5be6eb8b9",
+            "originalFrame": "5c345c3e-ec73-ebae-c4bf-72150169367f_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "6df655a1-7655-a88d-563c-9ec72e441b4d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "2d2a96d7-31e3-745d-535a-4c6b9b460ba1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "a1f14275-1bb8-ad31-822f-23e6ce79d548",
+            "originalFrame": "da00e920-9cce-a596-1de9-0502ec579473_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.01458860788628143,
+                "y": 0.15085875621816233,
+                "width": 0.3026615969581749,
+                "height": 0.024657534246575342
+            },
+            "image": "2c288dd4-87fb-6bcf-4b15-8fc0e94a834e_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.013888888888888888,
+                        "y": 0.15083333333333335
+                    },
+                    "size": {
+                        "width": 0.30185185185185187,
+                        "height": 0.024583333333333332
+                    },
+                    "probability": 0.9999983708063761
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "ad8bf066-eb4a-9a41-a3a9-c1c4bb73aad0",
+            "originalFrame": "1b1ac9b2-6f2a-d77c-efc3-e955656adf84_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.2401937046004842,
+                "y": 0.11828571428571429,
+                "width": 0.5196125907990315,
+                "height": 0.043293347873500546
+            },
+            "image": "58877112-bc9b-bce2-2493-4c084d4bdc7f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.23981481481481481,
+                        "y": 0.11791666666666667
+                    },
+                    "size": {
+                        "width": 0.5194444444444445,
+                        "height": 0.042916666666666665
+                    },
+                    "probability": 0.9999999050517981
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "5657dd0a-4579-d526-4755-77ef0c200581",
+            "originalFrame": "7e32b104-49d5-dd04-016e-506dc740d1fe_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8202325375855051,
+                "y": 0.1249408284907605,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "a8eb2f47-9ab3-1ffb-36b7-e7c7a39556e5_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8194444444444444,
+                        "y": 0.12458333333333334
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.029583333333333333
+                    },
+                    "probability": 0.9999998981784491
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626694577141,
+    "changedOn": 1632056662149,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "187d2b40-5185-846c-b58b-07b1e4007ce5",
+            "date": 1632056528477,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "5ac3b352-7303-1e68-29d7-92f4e6bcd92b",
+                    "step": "6c875836-afbe-edd9-a66d-43e6ef51ab85",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "760afd42-9d1a-35d1-3dd4-f62d68f0cd72-screenshot.jpg"
+                },
+                {
+                    "id": "8b96f9a2-4823-fbd9-1c09-717700b2ce63",
+                    "step": "f84a949e-ad8c-f22d-923b-41e5be6eb8b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "2eae96ff-94a5-2700-b5c6-120f623e59b1-screenshot.jpg"
+                },
+                {
+                    "id": "3a92d235-5f92-322f-78fb-614f969759a1",
+                    "step": "5f67cabe-c231-a815-b3d7-75c54519b131",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "a193fdc2-7839-1b58-aa21-fcdca3d876a4-screenshot.jpg"
+                },
+                {
+                    "id": "1ca16680-b043-3125-9a2c-9f7a8b0073de",
+                    "step": "7c208440-4dd8-7964-73b1-05ef00413161",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.45092592592592595,
+                                "y": 0.7116666666666667
+                            },
+                            "size": {
+                                "width": 0.13333333333333333,
+                                "height": 0.044583333333333336
+                            },
+                            "probability": 0.9989834906707488
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "dc7611e8-a567-15fb-dd79-f698c2cba7b8-screenshot.jpg"
+                },
+                {
+                    "id": "0620f840-10d4-37a3-f29b-2ab722395f72",
+                    "step": "05cd04a2-4d69-c585-2ee1-e2eacf5e3c08",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.22962962962962963,
+                                "y": 0.6283333333333333
+                            },
+                            "size": {
+                                "width": 0.2111111111111111,
+                                "height": 0.06375
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "eaf5f32f-e779-5ddb-16b0-e421b7201b68-screenshot.jpg"
+                },
+                {
+                    "id": "e5a91c2a-3220-e587-d1f0-2cb348fa852a",
+                    "step": "c5600dfa-96f0-dae4-1430-69ecb28e0ec8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f96fd33a-175a-bdf6-85d4-6b90e6b0dcb3-screenshot.jpg"
+                },
+                {
+                    "id": "b2512923-9714-c77e-e16f-274d4172adf7",
+                    "step": "3602bb66-9918-ba9f-b209-0c97f18257b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "33db51ad-2721-b933-250b-e6ea8a75bdd6-screenshot.jpg"
+                },
+                {
+                    "id": "1938890b-530c-bb25-8c17-5e7852605f6e",
+                    "step": "31f83e31-173c-bdd7-7432-56250b8d8a08",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "d5d8073c-5d81-b0a6-64fd-b404ca05b8b8-screenshot.jpg"
+                },
+                {
+                    "id": "2db37acb-8365-cc94-8b86-c1870441e8ff",
+                    "step": "9064f5e7-0bd8-6def-00d1-f490029d145c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.06481481481481481,
+                                "y": 0.1275
+                            },
+                            "size": {
+                                "width": 0.2,
+                                "height": 0.1
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "421f911e-6119-6217-a141-ab1721515790-screenshot.jpg"
+                },
+                {
+                    "id": "1b6c5592-a0af-a61f-d678-f4cf25aed61f",
+                    "step": "57e8258e-cedd-ce28-5350-c8cadf58b966",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3ef69122-2fcf-ee5f-22f0-c80a6c62530d-screenshot.jpg"
+                },
+                {
+                    "id": "b5d9990d-548b-2d1b-8b26-51734d889e01",
+                    "step": "6df655a1-7655-a88d-563c-9ec72e441b4d",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "01e443e5-713b-03f6-32db-aa2680af1c76-screenshot.jpg"
+                },
+                {
+                    "id": "d5670a00-2a1f-f041-e765-c060d1654a58",
+                    "step": "a1f14275-1bb8-ad31-822f-23e6ce79d548",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.013888888888888888,
+                                "y": 0.15083333333333335
+                            },
+                            "size": {
+                                "width": 0.30185185185185187,
+                                "height": 0.024583333333333332
+                            },
+                            "probability": 0.9999983708063761
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f2d8666f-c7af-1181-826d-c15d81b3abb8-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 10364,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.28",
+                    "code": 300009066,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-18 09:33:26"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

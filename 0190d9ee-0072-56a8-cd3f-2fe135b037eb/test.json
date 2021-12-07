@@ -1,0 +1,169 @@
+{
+    "id": "0190d9ee-0072-56a8-cd3f-2fe135b037eb",
+    "title": "A",
+    "steps": [
+        {
+            "id": "fd785934-1a89-22f1-7b02-cc09f62ea0ec",
+            "originalFrame": "a1ccd9b0-5c7a-3e99-22d0-d75c61fe6fbb_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.045627376425855515,
+                "y": 0.8195205479452055,
+                "width": 0.11634980988593158,
+                "height": 0.05890410958904109
+            },
+            "image": "b9665684-1634-8931-6d14-5b01bda77773_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.04537037037037037,
+                        "y": 0.8191666666666667
+                    },
+                    "size": {
+                        "width": 0.11574074074074074,
+                        "height": 0.05875
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "75c8fd20-bfdc-5725-d971-596c54af50f2",
+            "originalFrame": "1964327e-b3c9-509f-9fbb-d5bdfbdca390_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.23269961977186301,
+                "y": 0.43253424657534245,
+                "width": 0.5422053231939163,
+                "height": 0.1582191780821918
+            },
+            "image": "6293f550-876e-d0b2-3959-8b35398c83d7_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2324074074074074,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.5416666666666666,
+                        "height": 0.15791666666666668
+                    },
+                    "probability": 0.9999999864944457
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "1091d1a3-755d-5e2f-7d98-ab1ce037c52b",
+            "originalFrame": "48816f8e-5bde-6a77-22f6-55116554e196_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.24030418250950575,
+                "y": 0.43595890410958904,
+                "width": 0.5231939163498098,
+                "height": 0.06404109589041095
+            },
+            "image": "2fd25614-5324-576b-a92c-40fc4e814dc0_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.23981481481481481,
+                        "y": 0.43583333333333335
+                    },
+                    "size": {
+                        "width": 0.5231481481481481,
+                        "height": 0.06375
+                    },
+                    "probability": 0.9999998437385159
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-05-30T13:31:24.402Z",
+    "changedOn": 1622381916816,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "6368f799-cf1b-d375-25dd-6f6ad9eecc63",
+            "date": 1622381534460,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "7a120c9c-f2ab-878f-dd83-4c50aa1dc4eb",
+                    "step": "fd785934-1a89-22f1-7b02-cc09f62ea0ec",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.04537037037037037,
+                                "y": 0.8191666666666667
+                            },
+                            "size": {
+                                "width": 0.11574074074074074,
+                                "height": 0.05875
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1bdf363e-434f-dff5-589e-beb102586b18-screenshot.jpg"
+                },
+                {
+                    "id": "3a69dee7-9e92-c6d8-f1e2-391832c163b9",
+                    "step": "1091d1a3-755d-5e2f-7d98-ab1ce037c52b",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.23981481481481481,
+                                "y": 0.43583333333333335
+                            },
+                            "size": {
+                                "width": 0.5231481481481481,
+                                "height": 0.06375
+                            },
+                            "probability": 0.9999999964877627
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1cd7b044-a7e1-75e2-4aab-f57dce805b00-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

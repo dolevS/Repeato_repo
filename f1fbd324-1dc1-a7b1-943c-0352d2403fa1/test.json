@@ -1,0 +1,110 @@
+{
+    "id": "f1fbd324-1dc1-a7b1-943c-0352d2403fa1",
+    "title": "Close UK VPN",
+    "steps": [
+        {
+            "id": "5f04a184-bdce-cf4b-de2b-3b4319b37667",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ]
+        },
+        {
+            "id": "4e1a08b1-ef6b-122f-c2e8-537fa3e971d8",
+            "originalFrame": "7c8a484d-ae5c-8340-ac3a-7fdd9da8291a_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.5406844106463878,
+                "y": 0.43253424657534256,
+                "width": 0.15437262357414447,
+                "height": 0.06575342465753425
+            },
+            "image": "8efe0fff-cce1-55b2-b8ec-280ab1862142_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5407407407407407,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.15462962962962962,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "0db9a91b-3762-3795-383d-9c3ef1b90acd",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "0f887cc7-63b1-9884-a805-38c4c0d7672c",
+            "originalFrame": "6c946a04-acb3-5bae-2507-0c9dd997bc99_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.30494296577946783,
+                "y": 0.43082191780821916,
+                "width": 0.38631178707224334,
+                "height": 0.0726027397260274
+            },
+            "image": "c64e07a8-65ee-f0fb-882d-c6b5078f9831_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.43083333333333335
+                    },
+                    "size": {
+                        "width": 0.3861111111111111,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "135593d6-5e98-7566-8e02-2d40f0649569",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "shooter.two.purple",
+            "activityName": ".main.BubbleShooterOriginal",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ]
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-24T12:10:50.414Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

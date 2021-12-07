@@ -1,0 +1,176 @@
+{
+    "id": "f4557810-d11f-ac69-0c79-30660825d1c8",
+    "title": "Level Start RV",
+    "steps": [
+        {
+            "id": "23b5cac3-73a7-95e4-18f7-28b08f8c1533",
+            "originalFrame": "0dcbcbf1-49cc-573e-cd3b-b4e98bdbbfc2_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.07680608365019012,
+                "y": 0.638013698630137,
+                "width": 0.13916349809885933,
+                "height": 0.05547945205479452
+            },
+            "image": "dcc0e143-9fc8-97a2-96c0-b789118dfb7b_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.07592592592592592,
+                        "y": 0.6379166666666667
+                    },
+                    "size": {
+                        "width": 0.1388888888888889,
+                        "height": 0.05541666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "89183fe0-a2a1-2e03-f7a3-339a0d7bd3d3",
+            "originalFrame": "42ba79c5-1616-ebec-4443-e14bd606749d_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.5443529434243461,
+                "y": 0.5953914337073081,
+                "width": 0.3835317270764469,
+                "height": 0.09660633484162898
+            },
+            "image": "7b21f009-acf8-fa45-4fd4-49bcfad8b171_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5435185185185185,
+                        "y": 0.595
+                    },
+                    "size": {
+                        "width": 0.38333333333333336,
+                        "height": 0.09625
+                    },
+                    "probability": 0.9999999811457178
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "9eb9fbdf-7435-511c-8bdf-f37cc0bd79b7",
+            "originalFrame": "16921000-902e-0ac4-f5fd-5a6a37fde505_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.548623344861188,
+                "y": 0.6306142688898528,
+                "width": 0.3110877581825477,
+                "height": 0.06187162957912354
+            },
+            "image": "ad67ea28-c3d5-4987-3490-819ee2755b30_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5481481481481482,
+                        "y": 0.6304166666666666
+                    },
+                    "size": {
+                        "width": 0.3101851851851852,
+                        "height": 0.06166666666666667
+                    },
+                    "probability": 0.9999998997287965
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "ef6f68c3-b1db-5dcf-bbb5-46acd901253e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8d0aea1c-532f-da61-805b-9bed76f534f3",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f5be6618-c841-1e61-3bdf-d54793f1bb71",
+            "type": "subTest",
+            "optional": false,
+            "testId": "77c6bd9f-e315-0558-7cb1-4b01fc02813b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-07T14:15:33.133Z",
+    "changedOn": 1630319725719,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "22cd6348-329e-82e5-8745-99182cbd874d",
+            "date": 1625667351385,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "08b585cf-9e80-69c9-f696-5f13bbbd6e09",
+                    "step": "23b5cac3-73a7-95e4-18f7-28b08f8c1533",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.07592592592592592,
+                                "y": 0.6379166666666667
+                            },
+                            "size": {
+                                "width": 0.1388888888888889,
+                                "height": 0.05541666666666667
+                            },
+                            "probability": 0.9999570327207667
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "7c3c0bcb-3d7e-f18a-c1a6-f1f8a0e9a128-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

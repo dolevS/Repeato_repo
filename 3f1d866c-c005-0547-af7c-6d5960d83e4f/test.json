@@ -1,0 +1,179 @@
+{
+    "id": "3f1d866c-c005-0547-af7c-6d5960d83e4f",
+    "title": "Restart Level UI",
+    "steps": [
+        {
+            "id": "881acc4d-aa80-ce21-fa77-b2af676f4acb",
+            "originalFrame": "9c0ed58c-7f4b-57b6-c439-f2eae7098da4_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.04182509505703422,
+                "y": 0.03356164383561642,
+                "width": 0.07832699619771862,
+                "height": 0.03493150684931508
+            },
+            "image": "8360b8c9-4734-3db0-2a73-4b7ec6168a72_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.041666666666666664,
+                        "y": 0.03375
+                    },
+                    "size": {
+                        "width": 0.0787037037037037,
+                        "height": 0.035
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "ace810ec-42e1-3932-ffcf-c37002f4df06",
+            "originalFrame": "b7fe4305-c11a-b651-8a51-8730475c9370_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.0349809885931559,
+                "y": 0.27157534246575343,
+                "width": 0.08212927756653993,
+                "height": 0.04006849315068494
+            },
+            "image": "72808fe5-e0f3-b939-cafa-2d417528add2_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.03518518518518519,
+                        "y": 0.27166666666666667
+                    },
+                    "size": {
+                        "width": 0.0824074074074074,
+                        "height": 0.04
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "80bac9e7-f5c9-d0fe-94f6-6e7f7abf8dc8",
+            "originalFrame": "2be8ecb4-b9e2-6f0f-0888-05e5522628fd_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.23650190114068437,
+                "y": 0.5061643835616436,
+                "width": 0.485171102661597,
+                "height": 0.04691780821917815
+            },
+            "image": "0e8181c3-2363-f233-5909-6ca3f74f9b93_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2361111111111111,
+                        "y": 0.5058333333333334
+                    },
+                    "size": {
+                        "width": 0.4842592592592593,
+                        "height": 0.04666666666666667
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-24T12:42:04.913Z",
+    "changedOn": 1627224357246,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "2ea068df-c782-9b50-e4af-c39cd32865d0",
+            "date": 1624538621986,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "9e67f713-409b-892a-b8ce-42d408b48d76",
+                    "step": "881acc4d-aa80-ce21-fa77-b2af676f4acb",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.041666666666666664,
+                                "y": 0.03375
+                            },
+                            "size": {
+                                "width": 0.0787037037037037,
+                                "height": 0.035
+                            },
+                            "probability": 0.9999999964877627
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "26595766-6f33-2c4d-32d2-bfc3cb2f1ae1-screenshot.jpg"
+                },
+                {
+                    "id": "4f6dce5f-2234-30b5-d1af-4c0b1e2000dc",
+                    "step": "ace810ec-42e1-3932-ffcf-c37002f4df06",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.03425925925925926,
+                                "y": 0.27166666666666667
+                            },
+                            "size": {
+                                "width": 0.0824074074074074,
+                                "height": 0.04
+                            },
+                            "probability": 0.9613861193772614
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "903a7b13-7382-7973-0e2e-2526cc986821-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-06-01 11:36:32"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

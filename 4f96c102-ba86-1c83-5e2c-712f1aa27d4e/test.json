@@ -1,0 +1,66 @@
+{
+    "id": "4f96c102-ba86-1c83-5e2c-712f1aa27d4e",
+    "title": "Level Failed Inter",
+    "steps": [
+        {
+            "id": "1da8f980-ad8e-3ec2-618e-0480a05725a6",
+            "type": "subTest",
+            "optional": false,
+            "testId": "08a55d0c-61d0-b82c-8d8f-6d2a7e0613c1",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "46e1e10a-1186-025e-de2e-d5bed87fcab7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "281f968d-f856-eb31-fbcd-cbce30f9bed8",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8c2365da-3f30-8a8e-4e40-c9fc605b86af",
+            "originalFrame": "4be66aa4-31fb-2e07-d9d8-d81af89d668d_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8296577946768062,
+                "y": 0.3023972602739726,
+                "width": 0.06311787072243348,
+                "height": 0.03493150684931507
+            },
+            "image": "f83423d5-edcf-91bb-c804-e94b56e2381c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8296296296296296,
+                        "y": 0.3020833333333333
+                    },
+                    "size": {
+                        "width": 0.06296296296296296,
+                        "height": 0.034583333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-05T13:27:11.950Z",
+    "changedOn": 1625654972732,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

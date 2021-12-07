@@ -1,0 +1,113 @@
+{
+    "id": "f408328b-80bc-3d90-1bf7-dad9d3bc358e",
+    "title": "Check CP ",
+    "steps": [
+        {
+            "id": "c71e5f1d-6605-c81e-4921-ea8696370713",
+            "originalFrame": "76767917-5026-071d-dd76-b4f6bda576d5_frame.jpg",
+            "timeout": 1,
+            "type": "click",
+            "optional": true,
+            "createdOn": 1637845488708,
+            "selection": {
+                "x": 0.8285714285714283,
+                "y": 0.30142857142857143,
+                "width": 0.07936507936507935,
+                "height": 0.03714285714285714
+            },
+            "image": "f507641e-b478-52e1-46ac-e1e576d575fd_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8277777777777777,
+                        "y": 0.30125
+                    },
+                    "size": {
+                        "width": 0.0787037037037037,
+                        "height": 0.037083333333333336
+                    },
+                    "probability": 0.9999999847717748
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "d632d216-3791-29b5-7194-56fb59c0d2a4",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1634718359917,
+            "script": "const stepResults = testRunner.getTestRun().stepResults\nconst allStepResults = testRunner.getTestRun().stepResults\nconst thisTestStepResults = allStepResults.filter(stepResult => testRunner.currentTest.steps.find(step => step === stepResult.step))\ndata.oneAdShown = 0\nfor(data.i = 1; data.i <= thisTestStepResults.length; data.i++){  //6\n   log((data.i-1) + ' steps before prev result: '+ stepResults[currentStepIndex-data.i].success)\n   if(thisTestStepResults[currentStepIndex-data.i].success){\n     log('At least one banner shown: '+data.i+'th from the end')\n     data.oneAdShown = 1\n     break\n   }\n}\nif(data.oneAdShown == 0){\n  throw \"damn- no banner shown at all!\"\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1637847672453,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "20037338-0726-3efe-52bd-237aa34d04e7",
+            "date": 1619679598146,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "1ef081c1-d546-2fe7-7d1c-1b9a521938a5",
+                    "step": "d632d216-3791-29b5-7194-56fb59c0d2a4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "c35a6128-f1cc-8c71-c2a2-5a6a4c581c54-screenshot.jpg",
+                    "createdOn": 1634718359917
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 3774,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-28 14:23:17",
+                    "lastUpdateTime": "2021-04-28 14:23:17"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

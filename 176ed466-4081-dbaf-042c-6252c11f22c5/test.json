@@ -1,0 +1,111 @@
+{
+    "id": "176ed466-4081-dbaf-042c-6252c11f22c5",
+    "title": "Reach Champions Island",
+    "steps": [
+        {
+            "id": "b28c239a-6fc1-05d6-ecc1-54ba9d79cd0a",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636381710805,
+            "testId": "3b840c9b-e91b-e823-21fb-4fa89a366226",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "133cb6a5-8dd7-d398-9f51-4b576eeb388b",
+            "originalFrame": "9b99d442-999e-dfc0-fdad-5b0280114f06_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1636624600556,
+            "duration": 1000
+        },
+        {
+            "id": "e2825ea7-377d-8391-bb02-53d21226537d",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636382666511,
+            "testId": "29f40a68-af56-0570-65a5-5001f1d2253b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "4780ecef-84cd-fbf7-1006-505e03851ec5",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636381798831,
+            "testId": "fa5f43fe-7a42-d878-db2b-e8c9e631759d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1636380118531,
+    "changedOn": 1636624606798,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "448f47a7-49f7-e2a7-5c71-622f3c6ebfba",
+            "date": 1636382347580,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "1afc1cd9-7cd8-5581-55fb-8c19ba9bf8b3",
+                    "step": "f0c84228-2a37-6aaf-a984-f47bfb32d4b2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "1a8e5657-ce37-50b6-0c3c-eacb14306a9f-screenshot.jpg",
+                    "createdOn": 1636382347975
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "com.ilyon.cuberush",
+                    "name": "7.3.11",
+                    "code": 300009620,
+                    "minSdk": 21,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-10-24 14:05:58",
+                    "lastUpdateTime": "2021-10-24 14:05:58"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

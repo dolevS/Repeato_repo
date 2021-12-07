@@ -1,0 +1,136 @@
+{
+    "id": "fc15326e-0533-b025-f9d9-f45345a277b5",
+    "title": "More Games Button - Exit Game Popup",
+    "steps": [
+        {
+            "id": "4df2b0af-3367-7676-5498-678ab9728564",
+            "type": "back",
+            "optional": false
+        },
+        {
+            "id": "a1c78999-f980-fb78-948d-5dd1047c5930",
+            "originalFrame": "55950dde-1790-432b-e76c-464189375c92_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.5520912547528516,
+                "y": 0.43253424657534245,
+                "width": 0.22661596958174904,
+                "height": 0.08458904109589041
+            },
+            "image": "78dda623-240d-5061-4a63-33d6bcffce3f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5518518518518518,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.22685185185185186,
+                        "height": 0.08458333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "551a9aad-468d-3134-dd8d-ce5382c6c200",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8d8391b5-f82f-f4eb-8544-fad882f0756e",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "5c20c105-9beb-cc90-82d1-2ab7cffe98e3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "28ea1fc8-796c-0670-e36d-bef9f07f7d0b",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": 1622375772560,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "e89be67b-bc63-5231-1af8-8cdd4d25ae18",
+            "date": 1622375770815,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "c32c45d8-6e9a-3120-f05d-76520b16607c",
+                    "step": "4df2b0af-3367-7676-5498-678ab9728564",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "14854a5c-b1b1-5e6e-4dfa-92f3bb5dd133-screenshot.jpg"
+                },
+                {
+                    "id": "a6f63967-77f3-f6da-5e5c-85884abd5128",
+                    "step": "a1c78999-f980-fb78-948d-5dd1047c5930",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5518518518518518,
+                                "y": 0.4325
+                            },
+                            "size": {
+                                "width": 0.22685185185185186,
+                                "height": 0.08458333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "a63030cc-5f9e-cc9a-2d54-ee635d0ff7cb-screenshot.jpg"
+                },
+                {
+                    "id": "18ffe412-0e59-e07a-360a-f55177d15acb",
+                    "step": "5ddce6ab-4bdd-6de4-5582-3ba41c0247b7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "cea06d8c-6cef-d679-6673-9c4815cbdda6-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 1857,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-05-24 13:25:19"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

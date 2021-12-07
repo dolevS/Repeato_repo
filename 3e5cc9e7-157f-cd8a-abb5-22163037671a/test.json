@@ -1,0 +1,103 @@
+{
+    "id": "3e5cc9e7-157f-cd8a-abb5-22163037671a",
+    "title": "In-App Purchases - Inter",
+    "steps": [
+        {
+            "id": "b1a43bbb-2e85-be96-dd05-defdffdb09fb",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 90000
+        },
+        {
+            "id": "bf8750e1-a0bc-d9a9-cef5-d424714e71e2",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bc36ae05-b946-c375-ec12-b00e06126628",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d08e1a81-8038-5d3c-943a-b61290e41b8a",
+            "originalFrame": "3887762f-5728-5ceb-2ce6-5c91f7b47ae8_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.8987255669984907,
+                "y": 0.04732225872435383,
+                "width": 0.07846074478858167,
+                "height": 0.02988749767557181
+            },
+            "image": "538bf6c2-9fb6-d4b0-048a-d70f4ee44f55_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8981481481481481,
+                        "y": 0.04708333333333333
+                    },
+                    "size": {
+                        "width": 0.07777777777777778,
+                        "height": 0.029583333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-07T14:00:16.423Z",
+    "changedOn": 1630329339301,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "2a93fb56-2ffc-1346-b0a9-9fa6107edc07",
+            "date": 1625666461319,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 2007,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.28",
+                    "code": 300009066,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-07-07 14:57:39"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

@@ -1,0 +1,108 @@
+{
+    "id": "ddc7babf-0294-48e2-e752-ac7bd25c45ad",
+    "title": "Enter To Quest",
+    "steps": [
+        {
+            "id": "ef6c29ee-647e-d3e4-42af-b50726a313f1",
+            "originalFrame": "81669e02-5b28-d973-b08f-72112b62538f_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.031178707224334423,
+                "y": 0.2202054794520549,
+                "width": 0.9269961977186313,
+                "height": 0.5503424657534247
+            },
+            "image": "09a557e6-f35a-9ac0-2227-ec2cb1a2598d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.03148148148148148,
+                        "y": 0.22
+                    },
+                    "size": {
+                        "width": 0.9268518518518518,
+                        "height": 0.5504166666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "c3f55aea-ae85-bab2-ce3f-b856aed808c4",
+            "originalFrame": "fea077cb-0e38-7911-d5cc-4b1d35a5be83_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.3657794676806083,
+                "y": 0.6928082191780821,
+                "width": 0.26083650190114066,
+                "height": 0.06575342465753428
+            },
+            "image": "1121be21-fe88-f8d5-35cf-b61f3f3710ea_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.36574074074074076,
+                        "y": 0.6929166666666666
+                    },
+                    "size": {
+                        "width": 0.2611111111111111,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "bde19c72-930a-f05e-18bc-c337f9e8715b",
+            "originalFrame": "3add0e3c-120b-4096-3da2-f72da4a107b7_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.7574144486692017,
+                "y": 0.2030821917808219,
+                "width": 0.2190114068441065,
+                "height": 0.09315068493150687
+            },
+            "image": "4e3cf9bd-878d-4d65-530c-45418c63e8cc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7574074074074074,
+                        "y": 0.20291666666666666
+                    },
+                    "size": {
+                        "width": 0.21944444444444444,
+                        "height": 0.09333333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-25T13:15:53.633Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

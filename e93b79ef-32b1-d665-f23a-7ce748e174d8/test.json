@@ -1,0 +1,176 @@
+{
+    "id": "e93b79ef-32b1-d665-f23a-7ce748e174d8",
+    "title": "Shoot Blue Bubble",
+    "steps": [
+        {
+            "id": "976e0603-5317-4bfc-56ee-efc8e1971173",
+            "originalFrame": "00237d16-cc31-979e-9fcb-3fd38f291058_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.4684410646387831,
+                "y": 0.852054794520548,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "4cdf35fc-1a6b-022b-5396-5da3b7efb7ea_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.012037037037037037,
+                        "y": 0.17125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9593051953424651
+                },
+                {
+                    "position": {
+                        "x": 0.05555555555555555,
+                        "y": 0.20458333333333334
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9647002873952332
+                },
+                {
+                    "position": {
+                        "x": 0.09907407407407408,
+                        "y": 0.17125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9554475640477204
+                },
+                {
+                    "position": {
+                        "x": 0.22962962962962963,
+                        "y": 0.27125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9537703647670464
+                },
+                {
+                    "position": {
+                        "x": 0.22962962962962963,
+                        "y": 0.3375
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9578964625379678
+                },
+                {
+                    "position": {
+                        "x": 0.31666666666666665,
+                        "y": 0.13791666666666666
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9567977700201323
+                },
+                {
+                    "position": {
+                        "x": 0.4685185185185185,
+                        "y": 0.8520833333333333
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.5768518518518518,
+                        "y": 0.13791666666666666
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9531480222908192
+                },
+                {
+                    "position": {
+                        "x": 0.7944444444444444,
+                        "y": 0.17125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9614802426328602
+                },
+                {
+                    "position": {
+                        "x": 0.7944444444444444,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9631871392391482
+                },
+                {
+                    "position": {
+                        "x": 0.8379629629629629,
+                        "y": 0.20458333333333334
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9661184388543701
+                },
+                {
+                    "position": {
+                        "x": 0.8814814814814815,
+                        "y": 0.17125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9546686974013179
+                }
+            ],
+            "matchIndex": 6
+        },
+        {
+            "id": "55fd64f9-19d0-070e-0e7d-94136230bc41",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot blue ball')\n }\nelse {\n  log('No blue ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-02T13:02:35.315Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

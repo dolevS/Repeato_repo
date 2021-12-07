@@ -1,0 +1,164 @@
+{
+    "id": "f23411a7-47c6-d719-e1b3-bf159dd43ad8",
+    "title": "Reach Level 2",
+    "steps": [
+        {
+            "id": "486ca1f2-1877-e3e4-c190-06f56a66d598",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f9571eb5-2d48-b06d-7eb0-3d117423d2a9",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3a32bf23-c209-1f1e-ca88-f0ba6c147b6f",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "9d339f1a-8016-4a5d-f916-ae73aaaa6a5a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "7704efae-06a5-8fd5-40a1-6f6233bc8369",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "61951930-fba4-b6a6-ccaf-0a002cf11e46",
+            "originalFrame": "95c39a6d-ed6d-9b5f-67b0-7dc1fa5c0f29_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.32015209125475286,
+                "y": 0.1465753424657534,
+                "width": 0.35209125475285163,
+                "height": 0.06232876712328768
+            },
+            "image": "6c8f6417-3240-95ab-bfa0-a6af7bb8f123_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3194444444444444,
+                        "y": 0.14625
+                    },
+                    "size": {
+                        "width": 0.35185185185185186,
+                        "height": 0.06208333333333333
+                    },
+                    "probability": 0.9999998673164612
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "bffbe290-f740-5119-9748-09b57e138da2",
+            "originalFrame": "49051438-bce6-f752-1b21-376163f478b0_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.3822783117106445,
+                "y": 0.6281513667637764,
+                "width": 0.23164109520988974,
+                "height": 0.06407208826628649
+            },
+            "image": "6c317491-a0ed-16e7-62e1-aa2eeba7573a_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3814814814814815,
+                        "y": 0.6279166666666667
+                    },
+                    "size": {
+                        "width": 0.23148148148148148,
+                        "height": 0.06375
+                    },
+                    "probability": 0.9999997107877941
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "375de975-1f78-70df-deda-f388098f1d02",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-07T11:23:54.677Z",
+    "changedOn": 1630325887206,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "91a561fc-8f3e-5cb6-652f-758713898498",
+            "date": 1625751279245,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "48f3ad56-fe53-576b-0fd4-7819391b82fc",
+                    "step": "3a32bf23-c209-1f1e-ca88-f0ba6c147b6f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "97bdff22-503d-5f2c-c241-a263247b0bb2-screenshot.jpg"
+                },
+                {
+                    "id": "71431601-b7f5-943c-ac46-047230f858db",
+                    "step": "375de975-1f78-70df-deda-f388098f1d02",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "44042407-091a-7ac3-e04b-3f95b95e2865-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 3989,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-08 13:48:06"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

@@ -1,0 +1,173 @@
+{
+    "id": "7704efae-06a5-8fd5-40a1-6f6233bc8369",
+    "title": "Win A Level",
+    "steps": [
+        {
+            "id": "72a6cd38-a1b8-b061-943a-a202b1bd1ad0",
+            "type": "subTest",
+            "optional": false,
+            "testId": "2d2a96d7-31e3-745d-535a-4c6b9b460ba1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ebe40296-99d3-722d-fdde-fe8f893bcef5",
+            "originalFrame": "4a6a641b-36c8-d4aa-f5a6-b91aeafbe409_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.01216730038022816,
+                "y": 0.11232876712328768,
+                "width": 0.3026615969581749,
+                "height": 0.024657534246575342
+            },
+            "image": "d0318022-be88-2143-92b9-e70e72e4ac80_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.012037037037037037,
+                        "y": 0.1125
+                    },
+                    "size": {
+                        "width": 0.30277777777777776,
+                        "height": 0.024583333333333332
+                    },
+                    "probability": 0.9999997615814209
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "8cfd016c-dba5-422d-72e4-e0048db8ebef",
+            "originalFrame": "7e833425-69cc-a8ea-2c65-98ddf731fc88_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.3798326231920057,
+                "y": 0.5891154775925124,
+                "width": 0.23401990943309703,
+                "height": 0.05560342155829666
+            },
+            "image": "5ff693cc-ae0e-8982-b8a2-564c6ae0ba9e_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.37962962962962965,
+                        "y": 0.58875
+                    },
+                    "size": {
+                        "width": 0.23333333333333334,
+                        "height": 0.05541666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1630237657064,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "ae1402b2-667d-ff5d-c977-5257327fe6e9",
+            "date": 1630237605506,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "16a915ff-4fff-2bf7-0cda-2a16d19ae22b",
+                    "step": "c5600dfa-96f0-dae4-1430-69ecb28e0ec8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "9961964e-b5ab-7d33-5486-eb5a4f722616-screenshot.jpg"
+                },
+                {
+                    "id": "15eb966e-d3b3-9a0e-8aff-c7047368abc7",
+                    "step": "3602bb66-9918-ba9f-b209-0c97f18257b9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "4f0e87dd-7b80-443d-7f51-d55c220345bc-screenshot.jpg"
+                },
+                {
+                    "id": "8995c907-233e-ad4e-08c2-ac33da56bf4f",
+                    "step": "31f83e31-173c-bdd7-7432-56250b8d8a08",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "dd228e8a-0e1e-1f4a-a69c-686221d262cc-screenshot.jpg"
+                },
+                {
+                    "id": "0d1e567c-b2ce-3f18-6e50-8175f0620cca",
+                    "step": "9064f5e7-0bd8-6def-00d1-f490029d145c",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "fad1027d-f1f9-0232-ea80-62217231bc92-screenshot.jpg"
+                },
+                {
+                    "id": "b87d44ba-8b0d-e726-aee5-125b3f8329fc",
+                    "step": "72a6cd38-a1b8-b061-943a-a202b1bd1ad0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "4d9e597b-6ba1-6cb2-8f1b-1009c4f4843e-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "champions.empire.bubble",
+                    "name": "9.3.26",
+                    "code": 300009129,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-08-29 11:29:35",
+                    "lastUpdateTime": "2021-08-29 11:29:35"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

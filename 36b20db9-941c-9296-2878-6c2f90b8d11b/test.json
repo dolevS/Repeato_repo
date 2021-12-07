@@ -1,0 +1,169 @@
+{
+    "id": "36b20db9-941c-9296-2878-6c2f90b8d11b",
+    "title": "Three OOM RV",
+    "steps": [
+        {
+            "id": "ce182754-cbf2-a5ba-ba14-f14459a1f251",
+            "type": "subTest",
+            "optional": false,
+            "testId": "d6cb706e-85de-4e90-3fb2-330d7f26beff",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "33a3a555-1156-bc40-fec7-017a5b38765d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "d7dbe5c8-a5df-955b-282d-37f21127a8c1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e6138eae-e0e9-7c01-7a58-ede43931dd11",
+            "originalFrame": "831cd603-374d-f3c7-5189-f192cad33df3_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7954372623574139,
+                "y": 0.39828767123287667,
+                "width": 0.05931558935361217,
+                "height": 0.033219178082191776
+            },
+            "image": "083bc549-913b-ed07-1726-541492732b68_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7953703703703704,
+                        "y": 0.39791666666666664
+                    },
+                    "size": {
+                        "width": 0.05925925925925926,
+                        "height": 0.032916666666666664
+                    },
+                    "probability": 0.9999998615202893
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "ddec9a12-6abc-21c4-5c15-0d9d4200cbe5",
+            "originalFrame": "29326826-9f79-e61a-017e-698fbfaea47c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7954372623574139,
+                "y": 0.39828767123287667,
+                "width": 0.05931558935361217,
+                "height": 0.033219178082191776
+            },
+            "image": "131852d1-b92e-4304-5000-d870dde1b4cd_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7953703703703704,
+                        "y": 0.39791666666666664
+                    },
+                    "size": {
+                        "width": 0.05925925925925926,
+                        "height": 0.032916666666666664
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-05T13:18:36.847Z",
+    "changedOn": 1630322933639,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "60ac793a-80f8-b725-b3cd-498de30796bd",
+            "date": 1625491161632,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "8665f8d7-a600-5da4-31c6-42babfd0c3ea",
+                    "step": "e6138eae-e0e9-7c01-7a58-ede43931dd11",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7953703703703704,
+                                "y": 0.39791666666666664
+                            },
+                            "size": {
+                                "width": 0.05925925925925926,
+                                "height": 0.032916666666666664
+                            },
+                            "probability": 0.9999998615202893
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "27f68ca5-cd71-b445-a5a0-1ea4b2a5124e-screenshot.jpg"
+                },
+                {
+                    "id": "16270225-1ce5-558f-7aa6-5dced4e706d2",
+                    "step": "ddec9a12-6abc-21c4-5c15-0d9d4200cbe5",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7953703703703704,
+                                "y": 0.39791666666666664
+                            },
+                            "size": {
+                                "width": 0.05925925925925926,
+                                "height": 0.032916666666666664
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "31a39f40-1832-2501-d855-d446e96b06e1-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

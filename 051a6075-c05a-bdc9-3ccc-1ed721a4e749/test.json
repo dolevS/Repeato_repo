@@ -1,0 +1,143 @@
+{
+    "id": "051a6075-c05a-bdc9-3ccc-1ed721a4e749",
+    "title": "Main UI",
+    "steps": [
+        {
+            "id": "5a745a2e-0f9e-e4c8-82b0-8ce4ed352b5a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "53a738a6-a018-5afd-1d76-0399778d4965",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "4eaace2e-9694-9aa5-11cc-971f4a002c58",
+            "type": "subTest",
+            "optional": false,
+            "testId": "5f24d7f1-fe23-1aff-336a-95557cbc5add",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "37545f44-f5d1-9c9a-982a-a5e769351fa6",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bea2d810-5f44-a6b5-d7f7-78495c2c1db1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "a4e360c9-6618-35b9-1b6d-4cefdf559ff2",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f28213a4-a270-66eb-8360-a8f27ddb9985",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "901968b1-b967-6ca9-3c21-c4d97302deaf",
+            "type": "subTest",
+            "optional": false,
+            "testId": "692373a2-4cc4-5c9e-ceec-458042346d07",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "96a663ee-11bb-7e29-d4f4-eecc5e64ccf1",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "60b1c264-8e5c-47f0-bc3f-b906abd9fe3f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ac8bb549-a3d8-c7d9-6aea-d2698766bc20",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ef901b15-e1b6-bd91-804f-c3bce01b62f9",
+            "type": "subTest",
+            "optional": true,
+            "testId": "dbfc8b42-bd3b-42b6-c1b9-1e6a2ae24338",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "9e0cb15b-0349-5d7c-009e-fe98dda1d02b",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "d5ca2c21-c3d7-e052-50a6-b2bbea5c20f7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "14bab355-8814-5025-f5b5-3d79acb4da23",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "868a4611-f687-c1d5-cbf1-d291418a0bc4",
+            "type": "subTest",
+            "optional": true,
+            "testId": "47e1c552-e226-4b5a-d41c-29de632c0b3d",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "55b2def2-83c1-ea2b-c1be-9535a3db67d4",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fe520c23-20de-d63d-de00-67cb8f6928cf",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "66c3595a-f33d-9503-a506-4cca42c72153",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "239002c0-c81e-0f93-fc04-1b17b615730b",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cbe3cb51-2309-35ce-988d-fcd47779cf45",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "51c9e68b-512e-5b14-dc93-e503e8d36e62",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f28083e4-0cf7-9054-4a5f-bea87374aa13",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626353646146,
+    "changedOn": 1634652384597,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

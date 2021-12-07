@@ -1,0 +1,112 @@
+{
+    "id": "2bb7b598-60d4-5621-ed68-9dcdeb7f2589",
+    "title": "Test2",
+    "steps": [
+        {
+            "id": "5485ab5c-4071-ea08-00dc-29a1647f66e1",
+            "type": "execScript",
+            "optional": false,
+            "script": "testRunner.rootTest.checkLastMatchAndShoot = async () => {\n var matches = testRunner.lastStepResult.matches\n log(testRunner.lastStepResult) //\n matches = matches.sort((match1,match2) => match1.position.y - match2.position.y)\n if(matches.length === 0){ //no ball of this color found\n   return false\n }\n log(testRunner.lastStepResult) //\n const lastMatch = matches[matches.length - 1]\n log('lastMatch: ' + lastMatch.position.x + ' ' + lastMatch.position.y)\n if(lastMatch.position.y > 0.7) {\n   const oneBeforeLastMatch = matches[matches.length - 2]\n   testRunner.deviceConnector.sendDown(lastMatch.position.x, lastMatch.position.y)\n   await sleep(1000)\n   testRunner.deviceConnector.sendMove( oneBeforeLastMatch.position.x,  oneBeforeLastMatch.position.y)\n   await sleep(1000)\n   testRunner.deviceConnector.sendUp()\n   return true\n  } else {\n    return false\n }\n}",
+            "language": "js"
+        },
+        {
+            "id": "6c25c15b-4510-1141-9fd2-fffeba89e34f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "33b009bc-5dee-81cb-6f18-0aa79853c664",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c12c8b14-d2cd-a965-e255-a14ef3bb0dfb",
+            "type": "execScript",
+            "optional": false,
+            "script": "//go back to start\ntestRunner.setNextStepIndex(1)",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-25T11:53:43.542Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "caefea2f-57ae-4f00-cb90-1767d8ab4e15",
+            "date": 1619351544487,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "ec6c369d-2fb4-13da-ef72-566ccd178146",
+                    "step": "5485ab5c-4071-ea08-00dc-29a1647f66e1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f2a92f30-4594-6400-fa2a-4d4ed5ee6e57-screenshot.jpg"
+                },
+                {
+                    "id": "95ad8a11-f757-458d-866a-dc4778f764b3",
+                    "step": "44d7aeda-0684-9be4-3662-243503469143",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "2072453b-cc84-96bc-9c60-ef4d5960d061-screenshot.jpg"
+                },
+                {
+                    "id": "51e7dafb-e823-260c-8c37-64a767009c7b",
+                    "step": "6c25c15b-4510-1141-9fd2-fffeba89e34f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "0d0ce484-31fd-00d4-22fa-8b267180c9e0-screenshot.jpg"
+                },
+                {
+                    "id": "4b38a19c-0f81-0449-3316-f0d678b4a104",
+                    "step": "c12c8b14-d2cd-a965-e255-a14ef3bb0dfb",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "cd489fc2-32fc-67f8-9e35-1da0b7392901-screenshot.jpg"
+                },
+                {
+                    "id": "ebc50ab9-97e2-d82f-914f-cbda778c35d8",
+                    "step": "31bde1e9-d539-82d9-5ade-d209a63e0528",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "4cbe2589-b5bb-da08-96e9-d69cae64765f-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 8080,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

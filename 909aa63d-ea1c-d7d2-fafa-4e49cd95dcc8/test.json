@@ -1,0 +1,110 @@
+{
+    "id": "909aa63d-ea1c-d7d2-fafa-4e49cd95dcc8",
+    "title": "Shoot Turquoise Bubble",
+    "steps": [
+        {
+            "id": "a2b99a7a-77ad-2fe1-e31b-8aecf4f4d33c",
+            "originalFrame": "9c80336a-fe5c-f689-6470-238a62b21f90_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.4684410646387831,
+                "y": 0.852054794520548,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "2a20ad24-b61f-9912-3dcb-853a3199b27f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.22962962962962963,
+                        "y": 0.20458333333333334
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9501331270321577
+                },
+                {
+                    "position": {
+                        "x": 0.31574074074074077,
+                        "y": 0.27125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9510633359194243
+                },
+                {
+                    "position": {
+                        "x": 0.4685185185185185,
+                        "y": 0.8520833333333333
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.4898148148148148,
+                        "y": 0.4041666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9559645188785422
+                },
+                {
+                    "position": {
+                        "x": 0.5333333333333333,
+                        "y": 0.37083333333333335
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9572298510808682
+                },
+                {
+                    "position": {
+                        "x": 0.6203703703703703,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9635685056462372
+                }
+            ],
+            "matchIndex": 2
+        },
+        {
+            "id": "ab2cd2d3-91f6-0203-43dd-e593db5ab43f",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot turquoise ball')\n }\nelse {\n  log('No turquoise ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-02T13:06:25.060Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

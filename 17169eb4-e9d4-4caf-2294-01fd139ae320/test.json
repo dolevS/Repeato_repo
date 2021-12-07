@@ -1,0 +1,47 @@
+{
+    "id": "17169eb4-e9d4-4caf-2294-01fd139ae320",
+    "title": "Google Play UI",
+    "steps": [
+        {
+            "id": "d3dfc795-c0a7-7291-7810-9ff846edb451",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-15T12:46:49.003Z",
+    "changedOn": 1627457797130,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "3ac91c42-a62c-a4c9-25f7-4f56e6c55046",
+            "date": 1626353231636,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

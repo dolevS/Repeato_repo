@@ -1,0 +1,46 @@
+{
+    "id": "c9ba97cd-41e9-a72d-76c3-28328e0b0f56",
+    "title": "Check 10 Inters",
+    "steps": [
+        {
+            "id": "23fd8ab0-2d17-9f8c-31e6-d7a12f1adae1",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636447761309,
+            "testId": "4ad97cbf-836a-24bf-86cf-d6f2815fc5d8",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c5720ba7-07e3-4a57-5e97-441278da2dbb",
+            "type": "execScript",
+            "optional": false,
+            "createdOn": 1634718360366,
+            "script": "for(i = 0; i < 10; i++){\n   setNextStepIndex(0) \n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1636447759006,
+    "changedOn": 1636447949640,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

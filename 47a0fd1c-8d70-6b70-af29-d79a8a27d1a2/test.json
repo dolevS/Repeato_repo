@@ -1,0 +1,206 @@
+{
+    "id": "47a0fd1c-8d70-6b70-af29-d79a8a27d1a2",
+    "title": "Close VPN",
+    "steps": [
+        {
+            "id": "9a513659-88c1-4e2d-1ceb-b778fa11953a",
+            "type": "startApp",
+            "optional": false,
+            "createdOn": 1634718360318,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "84bf237c-d308-8679-d4b8-75eb67411b6d",
+            "originalFrame": "1b019cd4-e560-4743-a7a4-9f5f1abbb4a0_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1637248877482,
+            "selection": {
+                "x": 0.057142857142857155,
+                "y": 0.8871428571428572,
+                "width": 0.8857142857142857,
+                "height": 0.05857142857142858
+            },
+            "image": "f25f32ce-a5f6-33f4-e4fe-b4c6a07ba9b5_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05648148148148148,
+                        "y": 0.8870833333333333
+                    },
+                    "size": {
+                        "width": 0.8851851851851852,
+                        "height": 0.058333333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "b5dbaf91-4768-f13b-63f1-d6ef94ef2d42",
+            "originalFrame": "c48fb110-25c7-045d-eded-1c74d7e36c58_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1634718360318,
+            "selection": {
+                "x": 0.5406844106463878,
+                "y": 0.43253424657534256,
+                "width": 0.15437262357414447,
+                "height": 0.06575342465753425
+            },
+            "image": "ad8d0733-60b4-b3db-62cc-659699d85529_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5407407407407407,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.15462962962962962,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "1dddb411-8512-0fde-5f35-6aa6c290da09",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1634718360318,
+            "duration": 1000
+        },
+        {
+            "id": "30bb0e18-2528-9626-74af-204fc9fbfcc1",
+            "originalFrame": "ca01411f-35b1-a5d3-2b98-9ac3167fbd90_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1634718360318,
+            "selection": {
+                "x": 0.30494296577946783,
+                "y": 0.43082191780821916,
+                "width": 0.38631178707224334,
+                "height": 0.0726027397260274
+            },
+            "image": "07cc6aee-dcf8-b747-3a5e-97fbeef3172a_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.43083333333333335
+                    },
+                    "size": {
+                        "width": 0.3861111111111111,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "52def852-902a-f61f-2c0f-f2e4c0f40270",
+            "type": "startApp",
+            "optional": false,
+            "createdOn": 1634718360318,
+            "packageName": "champions.empire.bubble",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [],
+            "os": "Android"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1637248879889,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "5831d2f9-346f-7c37-5b45-853ea38e6425",
+            "date": 1630221723092,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "67c12016-5962-4309-e703-37250c21d30c",
+                    "step": "9a513659-88c1-4e2d-1ceb-b778fa11953a",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f52767fd-3a84-ef29-5b7f-68191d37faf6-screenshot.jpg",
+                    "createdOn": 1634718360318
+                },
+                {
+                    "id": "18e46135-08b2-d866-20a7-aec1108fd7c9",
+                    "step": "b5dbaf91-4768-f13b-63f1-d6ef94ef2d42",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "d5ebb945-afdb-d7fd-1238-b786fcbd2480-screenshot.jpg",
+                    "createdOn": 1634718360319
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "com.hidemyass.hidemyassprovpn",
+                    "name": "5.36.5960",
+                    "code": 6505960,
+                    "minSdk": 23,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-02-14 09:56:15",
+                    "lastUpdateTime": "2021-07-12 17:43:42"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

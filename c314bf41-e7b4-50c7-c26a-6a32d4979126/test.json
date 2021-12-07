@@ -1,0 +1,192 @@
+{
+    "id": "c314bf41-e7b4-50c7-c26a-6a32d4979126",
+    "title": "Open UK VPN (+ Reset App Data)",
+    "steps": [
+        {
+            "id": "323c5dd5-5db4-7b72-4fa7-3e22218193dc",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ]
+        },
+        {
+            "id": "eca5ced4-c662-e73f-f746-656c0af26dfe",
+            "originalFrame": "29327bf3-5f55-4088-07a8-8bebcdb6420a_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.01596958174904941,
+                "y": 0.8794520547945203,
+                "width": 0.9718631178707224,
+                "height": 0.06917808219178082
+            },
+            "image": "06b86e0b-1824-e7f7-c433-7a461b1cb7fc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.01574074074074074,
+                        "y": 0.8795833333333334
+                    },
+                    "size": {
+                        "width": 0.9722222222222222,
+                        "height": 0.06916666666666667
+                    },
+                    "probability": 0.9999997615814209
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "88c1aeca-9d9e-b6f6-f72f-b756251375a2",
+            "originalFrame": "ca8c93d8-6041-2464-23c3-8755a6467437_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7269961977186312,
+                "y": 0.7133561643835619,
+                "width": 0.1961977186311787,
+                "height": 0.08630136986301368
+            },
+            "image": "1fb62621-5ddb-1aa5-dc2c-9933e5c1c40c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7268518518518519,
+                        "y": 0.7133333333333334
+                    },
+                    "size": {
+                        "width": 0.1962962962962963,
+                        "height": 0.08625
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "0e7fff08-a9d2-668b-c4e3-59a2306b76a2",
+            "originalFrame": "b493acfe-dd48-0d48-5c64-d4cacfab6545_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.04638783269961976,
+                "y": 0.5284246575342465,
+                "width": 0.28365019011406845,
+                "height": 0.07431506849315068
+            },
+            "image": "066118ae-67ea-5662-1d91-7be47230cced_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.046296296296296294,
+                        "y": 0.5283333333333333
+                    },
+                    "size": {
+                        "width": 0.2833333333333333,
+                        "height": 0.07416666666666667
+                    },
+                    "probability": 0.9999996773666832
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "05a11d79-15e4-bf0b-0f52-95558399bcab",
+            "originalFrame": "cbcecd6a-683f-ab95-cbc7-38f75f14f80c_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.04258555133079845,
+                "y": 0.4445205479452055,
+                "width": 0.34828897338403036,
+                "height": 0.06746575342465753
+            },
+            "image": "0707ca62-c784-e749-4dbb-a299f6cbc476_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.04259259259259259,
+                        "y": 0.44458333333333333
+                    },
+                    "size": {
+                        "width": 0.34814814814814815,
+                        "height": 0.0675
+                    },
+                    "probability": 0.9999999517018807
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "065ea2c3-efc9-911e-ed9f-071cb02c1477",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "73aedc2b-b7a5-4216-3126-66c23e2d048d",
+            "originalFrame": "aa33b8f3-518d-6c0c-d06c-7514034620d0_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.27832699619771867,
+                "y": 0.42054794520547945,
+                "width": 0.4167300380228137,
+                "height": 0.08630136986301372
+            },
+            "image": "7be78534-6a60-9064-a283-9f03e5f8f31a_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.27870370370370373,
+                        "y": 0.42041666666666666
+                    },
+                    "size": {
+                        "width": 0.4166666666666667,
+                        "height": 0.08625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "9232747b-5661-bc2d-3582-22244095cb63",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-08-08T17:39:35.975Z",
+    "changedOn": 1628497664559,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

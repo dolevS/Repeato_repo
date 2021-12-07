@@ -1,0 +1,179 @@
+{
+    "id": "0c2ae674-7f83-fb3e-abbb-0a7b29b669cc",
+    "title": "Exit Game Popup UI",
+    "steps": [
+        {
+            "id": "7b234926-2d14-e451-43ff-90ebe63263b6",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1634718360066
+        },
+        {
+            "id": "65906ca1-29d0-a670-f4e6-7a49f149c4d5",
+            "originalFrame": "84da7a5d-bec1-bc69-4dc0-d8c70a75bce5_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1636636530576,
+            "selection": {
+                "x": 0.31631359768241907,
+                "y": 0.332054794520548,
+                "width": 0.3756050455670226,
+                "height": 0.03493150684931507
+            },
+            "image": "c04068ee-6e27-165a-d3ea-318203a1593d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.31574074074074077,
+                        "y": 0.33166666666666667
+                    },
+                    "size": {
+                        "width": 0.375,
+                        "height": 0.034583333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "91f6e076-80f2-d340-ed6f-1b4dc758e8cf",
+            "originalFrame": "fb6f3794-2c4d-4bda-ee9c-06656a71c8d5_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1636636543769,
+            "selection": {
+                "x": 0.13502323616392034,
+                "y": 0.34090998043052845,
+                "width": 0.724231999517171,
+                "height": 0.37457925636007827
+            },
+            "image": "f3d5d103-503d-9bc6-f228-a81e15fb197c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.13425925925925927,
+                        "y": 0.3408333333333333
+                    },
+                    "size": {
+                        "width": 0.7240740740740741,
+                        "height": 0.37416666666666665
+                    },
+                    "probability": 0.9999999122623345
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "fffced15-42b9-161e-3640-b3af15061e99",
+            "originalFrame": "cba64e13-6a58-0b24-5e62-62c1a8baa5fd_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1636636473678,
+            "selection": {
+                "x": 0.8570908322771436,
+                "y": 0.3249158512720157,
+                "width": 0.06311787072243348,
+                "height": 0.0297945205479452
+            },
+            "image": "a41a4dfb-8eca-b7eb-4940-5d5bb3132e70_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8564814814814815,
+                        "y": 0.32458333333333333
+                    },
+                    "size": {
+                        "width": 0.06296296296296296,
+                        "height": 0.029583333333333333
+                    },
+                    "probability": 0.999999205271403
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1622726649079,
+    "changedOn": 1636636547750,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "f69f6680-9aeb-02f6-702d-b0765175a202",
+            "date": 1636636515451,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "01383524-4efb-3b83-5276-fa480f0760c6",
+                    "step": "7b234926-2d14-e451-43ff-90ebe63263b6",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "a860625c-f80d-e96e-6157-2f900803823d-screenshot.jpg",
+                    "createdOn": 1636636516197
+                },
+                {
+                    "id": "0a995c21-762b-816d-f49a-e5c2fd1a0ab7",
+                    "step": "fffced15-42b9-161e-3640-b3af15061e99",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.8564814814814815,
+                                "y": 0.32458333333333333
+                            },
+                            "size": {
+                                "width": 0.06296296296296296,
+                                "height": 0.029583333333333333
+                            },
+                            "probability": 0.999999205271403
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "93776111-d9cd-7323-5839-57412f81d109-screenshot.jpg",
+                    "createdOn": 1636636546515
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

@@ -1,0 +1,176 @@
+{
+    "id": "16021708-992a-2c42-e746-7be8a34a3db7",
+    "title": "Enter A Level",
+    "steps": [
+        {
+            "id": "24534bc3-314d-eec9-8080-5badfd14f139",
+            "originalFrame": "0ee7aad9-95a3-e52b-a627-da693a4006fb_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1638449067513,
+            "selection": {
+                "x": 0.24602571066449397,
+                "y": 0.7758414872798434,
+                "width": 0.12775665399239544,
+                "height": 0.052054794520547946
+            },
+            "image": "4a91164b-526c-c34b-f36f-22a3c292f577_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.24537037037037038,
+                        "y": 0.7758333333333334
+                    },
+                    "size": {
+                        "width": 0.12685185185185185,
+                        "height": 0.051666666666666666
+                    },
+                    "probability": 0.9999991257985433
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "cfd7f7b0-ae61-bcef-a83e-4891c9aaac01",
+            "originalFrame": "622ce8eb-15ea-5342-a288-daaa76af046c_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1638449083068,
+            "selection": {
+                "x": 0.36581567988412106,
+                "y": 0.6100684931506849,
+                "width": 0.2760094151729133,
+                "height": 0.043463796477495105
+            },
+            "image": "17089557-1e22-6cd9-3fb3-4065e456e283_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.36574074074074076,
+                        "y": 0.61
+                    },
+                    "size": {
+                        "width": 0.2759259259259259,
+                        "height": 0.043333333333333335
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "0475187a-2a18-57d2-d21a-6541b1137cd7",
+            "originalFrame": "eb8b6820-cf8c-3804-ae2e-306df057bace_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1638449095877,
+            "selection": {
+                "x": 0.39682539682539686,
+                "y": 0.6086399217221135,
+                "width": 0.21140684410646388,
+                "height": 0.04575342465753424
+            },
+            "image": "5409df75-29e0-fb9f-f0a7-6dc4cf525af7_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3962962962962963,
+                        "y": 0.6083333333333333
+                    },
+                    "size": {
+                        "width": 0.2111111111111111,
+                        "height": 0.04541666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1638449097082,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "af6036e0-0342-09c0-f784-55420499d371",
+            "date": 1636634484182,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "7275161c-1255-827a-b495-ceb620110d9e",
+                    "step": "24534bc3-314d-eec9-8080-5badfd14f139",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.24537037037037038,
+                                "y": 0.7758333333333334
+                            },
+                            "size": {
+                                "width": 0.12685185185185185,
+                                "height": 0.051666666666666666
+                            },
+                            "probability": 0.9869515585464302
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "8c2f203f-f06f-15ba-2b3e-630774c909b9-screenshot.jpg",
+                    "createdOn": 1638449071221
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.34",
+                    "code": 90000941,
+                    "minSdk": 19,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-11-11 13:43:38",
+                    "lastUpdateTime": "2021-11-11 13:43:38"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

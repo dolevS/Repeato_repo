@@ -1,0 +1,205 @@
+{
+    "id": "c4fb05e0-7dc1-074b-d281-1b74ddbdc287",
+    "title": "Rate Us Button - Map",
+    "steps": [
+        {
+            "id": "f18f22ba-b406-f523-8fad-2b8220e07950",
+            "originalFrame": "0bcad23d-fb41-8b74-f08c-abbc28c039ef_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7657794676806086,
+                "y": 0.03698630136986296,
+                "width": 0.22661596958174904,
+                "height": 0.0452054794520548
+            },
+            "image": "f3ebff6e-585e-2dbb-369f-3258b9af11e4_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7657407407407407,
+                        "y": 0.03666666666666667
+                    },
+                    "size": {
+                        "width": 0.22592592592592592,
+                        "height": 0.045
+                    },
+                    "probability": 0.999999990432741
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "de5c9b50-e190-db7d-e486-36d30189d180",
+            "originalFrame": "eada1787-a0cc-52ca-af43-6a2ac0c4bbfd_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.15285171102661604,
+                "y": 0.03869863013698629,
+                "width": 0.31787072243346004,
+                "height": 0.04863013698630137
+            },
+            "image": "426fab33-43aa-97fb-a9e5-7b379ec5a762_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.1527777777777778,
+                        "y": 0.03875
+                    },
+                    "size": {
+                        "width": 0.3175925925925926,
+                        "height": 0.04875
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "07523f8e-d488-e860-c3fb-a4f060b4eca0",
+            "originalFrame": "68df65c3-e0ba-f483-ea3b-7c76ffe82400_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.03041825095057013,
+                "y": 0.08664383561643836,
+                "width": 0.9307984790874524,
+                "height": 0.18561643835616437
+            },
+            "image": "d0ae563e-c047-00d2-a409-ec21c9428251_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.030555555555555555,
+                        "y": 0.08666666666666667
+                    },
+                    "size": {
+                        "width": 0.9305555555555556,
+                        "height": 0.18541666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "256b6e3a-6750-54bc-a0b4-87df10499fbb",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "shooter.two.purple",
+            "activityName": ".main.BubbleShooterOriginal",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ]
+        },
+        {
+            "id": "7348614b-c4ba-39a9-33ec-765e8b302588",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-05-30T08:27:16.944Z",
+    "changedOn": 1622363386278,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "0abbb0a2-0ca0-d9d4-9635-04e34333be1e",
+            "date": 1622363320788,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "935bae8e-6ffc-a50b-3335-02e49ed98964",
+                    "step": "f18f22ba-b406-f523-8fad-2b8220e07950",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7657407407407407,
+                                "y": 0.03666666666666667
+                            },
+                            "size": {
+                                "width": 0.22592592592592592,
+                                "height": 0.045
+                            },
+                            "probability": 0.999999990432741
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "5dbb8c75-3cbd-d393-1ed5-487902bf7179-screenshot.jpg"
+                },
+                {
+                    "id": "8a47e375-0b17-9522-eca1-d52cfd6b403c",
+                    "step": "de5c9b50-e190-db7d-e486-36d30189d180",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.1527777777777778,
+                                "y": 0.03875
+                            },
+                            "size": {
+                                "width": 0.3175925925925926,
+                                "height": 0.04875
+                            },
+                            "probability": 0.9999998924169802
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "7f09bda1-84d8-a666-9a89-87aa6ddd3bf4-screenshot.jpg"
+                },
+                {
+                    "id": "ff4033ad-9e12-a3f9-d406-8bdaf16c45c3",
+                    "step": "07523f8e-d488-e860-c3fb-a4f060b4eca0",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.030555555555555555,
+                                "y": 0.08666666666666667
+                            },
+                            "size": {
+                                "width": 0.9305555555555556,
+                                "height": 0.18541666666666667
+                            },
+                            "probability": 0.9991171460693269
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "6b2e6ee3-feff-fb1d-7c01-2b37e357be0f-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

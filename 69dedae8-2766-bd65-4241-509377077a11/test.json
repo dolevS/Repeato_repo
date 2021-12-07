@@ -1,0 +1,118 @@
+{
+    "id": "69dedae8-2766-bd65-4241-509377077a11",
+    "title": "USA VPN Ads",
+    "steps": [
+        {
+            "id": "f3193f22-c615-8f4a-b239-253453f3f105",
+            "type": "subTest",
+            "optional": false,
+            "testId": "d7f4894f-0e2e-e8f0-29f9-cd91d297e56f",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f646ecfa-0fc3-8cbd-c6ed-6877bb2479f6",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9bb5c3d8-5873-e2c7-b1ba-54c60feaf583",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cd7d8d83-a43a-1131-5210-44a8752f5138",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0069518e-1588-43de-f9d9-6906c751de93",
+            "originalFrame": "32bd2ead-d812-6196-3e2d-c1a3bb387729_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.0349809885931559,
+                "y": 0.036986301369862945,
+                "width": 0.08973384030418251,
+                "height": 0.029794520547945215
+            },
+            "image": "7631dcbc-6c02-074f-a513-b81b0dca54dd_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.03518518518518519,
+                        "y": 0.037083333333333336
+                    },
+                    "size": {
+                        "width": 0.08981481481481482,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "a6cd1625-1ebb-b23c-7d7f-da3f07a36c5c",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "cbf297ca-aa99-bc6f-a999-2d0e374e11d3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8fd6af36-2c73-7f1d-f53a-2af0a46deee6",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9d775bb1-1e7c-faae-f206-531c12e0fe76",
+            "type": "subTest",
+            "optional": false,
+            "testId": "75a7ed52-877d-cdd5-074f-7ecb7c2ff992",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3691a4a4-2e9a-2e3b-80b2-501ea7d12426",
+            "type": "subTest",
+            "optional": false,
+            "testId": "08a55d0c-61d0-b82c-8d8f-6d2a7e0613c1",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0eb175bf-3c17-5e75-cf22-d9785228644f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a536c940-a798-6c16-17fa-2a7a56b547d2",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8f5524b3-3dbc-d12d-2d31-dc8d8d63ba4d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f1fbd324-1dc1-a7b1-943c-0352d2403fa1",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "1db09d72-baec-9848-7087-cb9a9fbe555a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-23T08:27:49.764Z",
+    "changedOn": 1624437449388,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,167 @@
+{
+    "id": "801cf297-229b-12d8-d478-45408922a96f",
+    "title": "Quest - Ads",
+    "steps": [
+        {
+            "id": "4cc38c29-78ad-1385-02ed-eb10f8dd1a9e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ddc7babf-0294-48e2-e752-ac7bd25c45ad",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "88cf28f2-e781-d050-0216-155f70eaa80d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a0439cf3-cd19-9ca9-402b-f678da04f5aa",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b571879a-a357-2876-deb1-703fe9417fd6",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "ea4529e4-b49e-e7b2-faaa-f96091e2f2e6",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8fd6af36-2c73-7f1d-f53a-2af0a46deee6",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0d89fe84-a1bf-0b6a-370a-32ea13a37dc1",
+            "type": "subTest",
+            "optional": false,
+            "testId": "6bb7e7af-006d-f30c-48b6-88783ac32a42",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "760e9498-16a9-f5d8-04ff-c0254c4ac14b",
+            "type": "subTest",
+            "optional": false,
+            "testId": "08a55d0c-61d0-b82c-8d8f-6d2a7e0613c1",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2973f220-8c0e-8b89-28a0-e6a8869685a4",
+            "type": "subTest",
+            "optional": false,
+            "testId": "3632dd3a-c474-edf6-27f5-73d619259c73",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": 1625662554509,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "7be350c3-79b2-e113-a04b-eb9c416e23f6",
+            "date": 1619356894473,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "14604d60-220a-29f9-c149-93cf02f10c07",
+                    "step": "bbed9f34-fab1-5b6b-83c0-fc0686d187fa",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.07314814814814814,
+                                "y": 0.049166666666666664
+                            },
+                            "size": {
+                                "width": 0.09722222222222222,
+                                "height": 0.043333333333333335
+                            },
+                            "probability": 0.999999483426412
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "ce97a0a6-827a-e781-0bd9-7fb27d005b00-screenshot.jpg"
+                },
+                {
+                    "id": "c1e32359-567b-a9b6-f1c0-dc0da8538886",
+                    "step": "9441e118-bfc5-7700-3240-acdfd67dc3c5",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.14537037037037037,
+                                "y": 0.5616666666666666
+                            },
+                            "size": {
+                                "width": 0.2,
+                                "height": 0.07083333333333333
+                            },
+                            "probability": 0.9961418654499702
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "529e34f5-6e5a-a20c-ad28-3a253e0ecf4c-screenshot.jpg"
+                },
+                {
+                    "id": "34f1e622-7e85-26e6-0991-94a44fef8e6f",
+                    "step": "cc0cf69d-b2ed-b868-4de1-4773b89823ab",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.18333333333333332,
+                                "y": 0.56
+                            },
+                            "size": {
+                                "width": 0.2,
+                                "height": 0.07416666666666667
+                            },
+                            "probability": 0.996651759625032
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "d852ae0c-c476-87a9-a232-7fa50d78f1fc-screenshot.jpg"
+                },
+                {
+                    "id": "ef25a211-9b7a-8409-315f-ffb4de6a8cea",
+                    "step": "0d89fe84-a1bf-0b6a-370a-32ea13a37dc1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "8cb51c9f-f161-bd56-5571-0038d2dad461-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 33842,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

@@ -1,0 +1,173 @@
+{
+    "id": "449d00e8-e4c2-3588-c5cd-f193051694df",
+    "title": "Close VPN",
+    "steps": [
+        {
+            "id": "604bdd0e-419d-86b5-f600-64c32a0e8ba7",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "83413d8f-2285-3e96-444c-5fd0796f7dca",
+            "originalFrame": "c48fb110-25c7-045d-eded-1c74d7e36c58_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.5406844106463878,
+                "y": 0.43253424657534256,
+                "width": 0.15437262357414447,
+                "height": 0.06575342465753425
+            },
+            "image": "ad8d0733-60b4-b3db-62cc-659699d85529_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5407407407407407,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.15462962962962962,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "0099982f-dcef-b1a9-c5ba-d7d4e818c634",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "4090f98e-415b-85bc-89b8-6048911bde3c",
+            "originalFrame": "ca01411f-35b1-a5d3-2b98-9ac3167fbd90_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.30494296577946783,
+                "y": 0.43082191780821916,
+                "width": 0.38631178707224334,
+                "height": 0.0726027397260274
+            },
+            "image": "07cc6aee-dcf8-b747-3a5e-97fbeef3172a_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.43083333333333335
+                    },
+                    "size": {
+                        "width": 0.3861111111111111,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "965786d3-9034-2c92-df93-f8d276011954",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubble.shooter.exxtreme",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1632739806433,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "bc178447-3b64-03ea-0487-f62fdbffbcf2",
+            "date": 1630221723092,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "67c12016-5962-4309-e703-37250c21d30c",
+                    "step": "604bdd0e-419d-86b5-f600-64c32a0e8ba7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f52767fd-3a84-ef29-5b7f-68191d37faf6-screenshot.jpg"
+                },
+                {
+                    "id": "18e46135-08b2-d866-20a7-aec1108fd7c9",
+                    "step": "83413d8f-2285-3e96-444c-5fd0796f7dca",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "d5ebb945-afdb-d7fd-1238-b786fcbd2480-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "com.hidemyass.hidemyassprovpn",
+                    "name": "5.36.5960",
+                    "code": 6505960,
+                    "minSdk": 23,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-02-14 09:56:15",
+                    "lastUpdateTime": "2021-07-12 17:43:42"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

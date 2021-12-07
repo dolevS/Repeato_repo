@@ -1,0 +1,270 @@
+{
+    "id": "69802f6c-6646-812a-1c42-ec6e4fd4eae9",
+    "title": "test subtest banner bug",
+    "steps": [
+        {
+            "id": "c64737cb-844b-5814-5a56-40c201e2e28b",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "33c67d96-d61a-a7ce-11e3-0df983f2b863",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "7417ef7e-8e5b-089d-7673-42e01f498fb3",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "7dfad647-0f83-1cfe-0cc1-2dca6fb08ae7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "79fa2fe6-3396-ab74-0bfc-48a9439658ed",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "165f543e-d67e-1c2a-54e1-081f3c9da133",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-28T10:19:22.754Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "fd1a31c1-d68c-3649-137c-599157048b4c",
+            "date": 1619441523626,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "fb6de075-fe16-9ad5-9a07-0c069825e2bf",
+                    "step": "c64737cb-844b-5814-5a56-40c201e2e28b",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "6dccadad-a3b8-6baf-a9de-d41f0de7692b-screenshot.jpg"
+                },
+                {
+                    "id": "46c43967-5def-aeea-aacb-2fd070281f23",
+                    "step": "33c67d96-d61a-a7ce-11e3-0df983f2b863",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "7f39bd7e-0abf-a208-ee31-a78ddada989c-screenshot.jpg"
+                },
+                {
+                    "id": "4d3d0d09-519c-064a-2199-f0b88f44c6ab",
+                    "step": "7417ef7e-8e5b-089d-7673-42e01f498fb3",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "5b430dc0-68e8-f783-e44e-ad7c89c39774-screenshot.jpg"
+                },
+                {
+                    "id": "f19c5600-c0d1-4329-8fb5-6149a4c80aa6",
+                    "step": "606e7a5c-cbab-305b-aeef-4726203f08a8",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "6bfac4ff-2420-3b70-0227-81c95a0c1ddc-screenshot.jpg"
+                },
+                {
+                    "id": "573d2c68-9e1c-9b10-ff37-2c37243c9c29",
+                    "step": "437a9809-f5c5-fc14-17d1-5a80935215e5",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "39e65b2d-3a09-4edf-26ad-a60fdfe5c3d4-screenshot.jpg"
+                },
+                {
+                    "id": "7f161352-1304-8225-bbb7-d479531fb2b2",
+                    "step": "c4210112-befc-c691-1d8f-6fceecfcc252",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "65e033ec-9f34-5d39-b8eb-1bd366652eba-screenshot.jpg"
+                },
+                {
+                    "id": "e5c4a289-9399-6db6-f1ef-1c13b1726e5b",
+                    "step": "adf686dc-e912-a34a-c0ef-a0932e0d39d4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "fbce60e6-2cf4-e980-8bcc-0e28ef7eba67-screenshot.jpg"
+                },
+                {
+                    "id": "716cc187-5814-0d36-14bc-927b60410f04",
+                    "step": "0eca7951-dec6-b024-670f-9613226d1f3b",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "8e63e784-2930-8ded-1a72-918f80a7b010-screenshot.jpg"
+                },
+                {
+                    "id": "a3091a9b-d050-9e00-039a-9dd836035bf7",
+                    "step": "2c1343d2-949a-1faa-c775-06c6de7cdc81",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "aec06d86-e1ca-5d18-cc8c-d61dc2bd5ec2-screenshot.jpg"
+                },
+                {
+                    "id": "719c15b3-47e7-33a3-c499-2584aa15732c",
+                    "step": "f497ac7e-ebb6-5202-6566-80fb16303af0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "fc81e3fa-043e-7080-c8f5-4f5ac0f5bdd4-screenshot.jpg"
+                },
+                {
+                    "id": "7c49888d-7896-d7cb-45a8-cd453285b224",
+                    "step": "e5774f8a-5366-0c40-dc7b-76b01b69fb71",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "f58d096a-2d73-c869-97f0-7c04c9054938-screenshot.jpg"
+                },
+                {
+                    "id": "4a66d676-1d20-0911-ff22-67eaa063ec39",
+                    "step": "02424f3c-4df0-299f-11aa-c0fe0c6920ff",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "4c263068-331f-4cd3-2fb9-aa66d622c421-screenshot.jpg"
+                },
+                {
+                    "id": "44940752-e9b2-01f5-af85-004f48d7436d",
+                    "step": "c5d371b3-fd7e-9a56-0744-f23c09b86403",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.6777777777777778,
+                                "y": 0.9291666666666667
+                            },
+                            "size": {
+                                "width": 0.2490740740740741,
+                                "height": 0.04
+                            },
+                            "probability": 0.9995575626024858
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "ff287101-4ec8-7b63-265e-b60e76bc71d5-screenshot.jpg"
+                },
+                {
+                    "id": "c31a6b01-bb75-0154-c492-28f60a60c8f0",
+                    "step": "990a5e69-c265-c435-58db-c7be6a34b70f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "fac70c7f-18fd-e775-780d-0edf29974d22-screenshot.jpg"
+                },
+                {
+                    "id": "afadc975-092a-5c29-2426-b4044934af19",
+                    "step": "60ce9011-fb0a-691e-461b-487cea3e90fc",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "4028970c-c615-dc13-5ef8-c5864e4cbaf1-screenshot.jpg"
+                },
+                {
+                    "id": "bf5a0051-a03a-ddad-02a2-396c9d82f242",
+                    "step": "4223c9d6-3002-5bab-4166-54c33b819ae5",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "daf548ac-5a4f-7e51-8be9-32821e090206-screenshot.jpg"
+                },
+                {
+                    "id": "043a2800-59f5-5f66-9b12-5c666aebcfc6",
+                    "step": "f2187395-f8b5-d70a-5a44-b8d3dd28b84c",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "86f54e5f-3be1-db68-ade7-2059ffac22f1-screenshot.jpg"
+                },
+                {
+                    "id": "df7fe588-7989-1ae4-974c-4cf443a4ffdf",
+                    "step": "c9ae62c3-3eef-26eb-0dc2-9e857f53781e",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "8389fd26-f23f-4797-2b03-fc390b2b3324-screenshot.jpg"
+                },
+                {
+                    "id": "55e0dfb0-4bfc-fb4f-2b61-68f2ac2e1224",
+                    "step": "e50a9605-95a5-7c9e-4078-9f60eb167d22",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "daf97df2-0cce-e8d8-6602-35403fa3e40e-screenshot.jpg"
+                },
+                {
+                    "id": "ecb7ba01-3964-e112-808c-fb3963ba2b82",
+                    "step": "84185da1-3439-b184-c1cd-b3bf83d4ec25",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "bd60b20d-5147-7a7e-1f06-95828aba43a4-screenshot.jpg"
+                },
+                {
+                    "id": "f83bfb2a-da68-9d92-047a-0c1cb6e022f9",
+                    "step": "18836bec-5a13-ad0c-2abb-01a9b9325cf2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "066d29c0-71b6-0a6e-05e6-6dd224af69a3-screenshot.jpg"
+                },
+                {
+                    "id": "bd3dbf2e-c320-725c-5c3e-8053e551429c",
+                    "step": "7dfad647-0f83-1cfe-0cc1-2dca6fb08ae7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "5315cc52-ea4c-b9c3-ca3e-710367c0862c-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 17892,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

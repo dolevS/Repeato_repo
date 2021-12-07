@@ -1,0 +1,267 @@
+{
+    "id": "cbe3cb51-2309-35ce-988d-fcd47779cf45",
+    "title": "Restart Level + Inside Level Settings UI ",
+    "steps": [
+        {
+            "id": "09ca2ed0-617c-23e4-381f-553e21d1e7c7",
+            "originalFrame": "5b40b4ec-4c56-8099-243b-041300f4c845_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.05541586258287635,
+                "y": 0.04844771586189797,
+                "width": 0.0923132774136844,
+                "height": 0.03670582036818941
+            },
+            "image": "23a855d5-8dac-095d-6fc0-eaf9b4a2bca6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05462962962962963,
+                        "y": 0.04833333333333333
+                    },
+                    "size": {
+                        "width": 0.09166666666666666,
+                        "height": 0.03666666666666667
+                    },
+                    "probability": 0.9999999763779831
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "77b5856d-c312-d56e-3420-6360b7f4f39b",
+            "originalFrame": "50e55a54-78a3-38a4-d632-845b4dd2875e_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.31270565812055895,
+                "y": 0.29518416501165573,
+                "width": 0.37477119437491635,
+                "height": 0.043617120188433646
+            },
+            "image": "67287ca3-2745-a6d8-78b7-10f1a7a423c1_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.31203703703703706,
+                        "y": 0.295
+                    },
+                    "size": {
+                        "width": 0.37407407407407406,
+                        "height": 0.043333333333333335
+                    },
+                    "probability": 0.9999999560361866
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "3e32f015-561d-3552-ab55-972bfe7d0031",
+            "originalFrame": "357a2077-19ac-9914-973b-95f73370d8c3_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.09007263922518181,
+                "y": 0.26804798255179935,
+                "width": 0.8101694915254236,
+                "height": 0.3529989094874591
+            },
+            "image": "7d38fa25-ef10-9fc0-1a25-dea57728325f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.08981481481481482,
+                        "y": 0.2679166666666667
+                    },
+                    "size": {
+                        "width": 0.8092592592592592,
+                        "height": 0.35291666666666666
+                    },
+                    "probability": 0.9999998989286212
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "1ace3cc5-c68c-5986-240a-9e0bc913fa8b",
+            "originalFrame": "e9a639a8-2607-db7c-08a4-a389886f9588_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.44600484261501205,
+                "y": 0.6191930207197384,
+                "width": 0.10799031476997578,
+                "height": 0.022573609596510363
+            },
+            "image": "7580cc93-a2b9-8fae-bbff-d61b937468e5_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.44537037037037036,
+                        "y": 0.6191666666666666
+                    },
+                    "size": {
+                        "width": 0.10740740740740741,
+                        "height": 0.0225
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "fe34247e-d0f9-54da-6ad9-eb7e0702aabb",
+            "originalFrame": "37988db5-71f6-beb2-4a65-4c93cbe0b6c5_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.4246693516006181,
+                "y": 0.5403180409222385,
+                "width": 0.16555416306715176,
+                "height": 0.0661619781882621
+            },
+            "image": "0c9bd7fd-82f5-f6ba-8cd8-a31943f3a4f7_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.42407407407407405,
+                        "y": 0.54
+                    },
+                    "size": {
+                        "width": 0.1648148148148148,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 0.9999998583570194
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626349700642,
+    "changedOn": 1634647079544,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "1d3b6d06-669a-9aaa-b8ff-78cd562e4651",
+            "date": 1630406368074,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "77ce5a5b-cdb4-271c-42a3-131dc8428843",
+                    "step": "09ca2ed0-617c-23e4-381f-553e21d1e7c7",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.38796296296296295,
+                                "y": 0.04833333333333333
+                            },
+                            "size": {
+                                "width": 0.09166666666666666,
+                                "height": 0.03666666666666667
+                            },
+                            "probability": 0.9961053825372552
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "0ef88725-fc05-6db3-c25f-a6dee8207936-screenshot.jpg"
+                },
+                {
+                    "id": "1d020e73-f198-0a92-c28a-d132c91f8bba",
+                    "step": "77b5856d-c312-d56e-3420-6360b7f4f39b",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.31203703703703706,
+                                "y": 0.295
+                            },
+                            "size": {
+                                "width": 0.37407407407407406,
+                                "height": 0.043333333333333335
+                            },
+                            "probability": 0.9999999560361866
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "0006f109-547c-8fa7-7982-fd12347fb7b7-screenshot.jpg"
+                },
+                {
+                    "id": "41e11fa8-91d0-4dfa-bf23-ae86302a89ab",
+                    "step": "fe34247e-d0f9-54da-6ad9-eb7e0702aabb",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.42407407407407405,
+                                "y": 0.54
+                            },
+                            "size": {
+                                "width": 0.1648148148148148,
+                                "height": 0.06583333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "02e3d476-1859-13b5-0c30-c80083a16716-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "champions.empire.bubble",
+                    "name": "9.3.26",
+                    "code": 300009129,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-08-29 11:29:35",
+                    "lastUpdateTime": "2021-08-29 11:29:35"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

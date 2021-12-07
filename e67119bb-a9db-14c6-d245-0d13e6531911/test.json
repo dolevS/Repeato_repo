@@ -1,0 +1,132 @@
+{
+    "id": "e67119bb-a9db-14c6-d245-0d13e6531911",
+    "title": "Three OOM RV /",
+    "steps": [
+        {
+            "id": "affbb0a0-602d-b17c-ab1d-025e3f781ebe",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fe520c23-20de-d63d-de00-67cb8f6928cf",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3787bd74-050f-62de-1fbc-1994186b4293",
+            "type": "subTest",
+            "optional": true,
+            "testId": "5ed59c8d-29d4-9726-24f5-89f0a34003f8",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "96368ad8-532a-d4c6-51ff-02bbd9b730e0",
+            "originalFrame": "fc9eae20-5999-ff8d-6e05-77c230cac34a_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7627739457744993,
+                "y": 0.3010026033595736,
+                "width": 0.056803026539541814,
+                "height": 0.026431847765449695
+            },
+            "image": "27198b87-45f0-3cfc-c63a-1d09d64b2be2_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7620370370370371,
+                        "y": 0.30083333333333334
+                    },
+                    "size": {
+                        "width": 0.05648148148148148,
+                        "height": 0.02625
+                    },
+                    "probability": 0.9999999578658153
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "cc0b4cbd-4f95-6d8b-0bb9-23995c415cce",
+            "originalFrame": "c29851d0-d62c-f653-1dce-2394dfa340d1_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.24924623115577893,
+                "y": 0.23597285067873308,
+                "width": 0.5065326633165829,
+                "height": 0.04909502262443438
+            },
+            "image": "e1508028-5e89-29ea-c049-4c943317ec57_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2490740740740741,
+                        "y": 0.23583333333333334
+                    },
+                    "size": {
+                        "width": 0.5064814814814815,
+                        "height": 0.04875
+                    },
+                    "probability": 0.9999998875352144
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "607329f6-aaa3-5506-61ab-0886a365e042",
+            "originalFrame": "b233ba2f-15e4-7516-8b08-de552fc82cf0_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8331257045684691,
+                "y": 0.23765418706998076,
+                "width": 0.05931558935361217,
+                "height": 0.029825512923820737
+            },
+            "image": "d9fec129-2917-8157-8041-b114da0aea3e_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8324074074074074,
+                        "y": 0.2375
+                    },
+                    "size": {
+                        "width": 0.05925925925925926,
+                        "height": 0.029583333333333333
+                    },
+                    "probability": 0.9999999676635838
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1625491116847,
+    "changedOn": 1634651007581,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

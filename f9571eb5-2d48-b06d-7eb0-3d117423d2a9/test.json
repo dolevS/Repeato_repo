@@ -1,0 +1,134 @@
+{
+    "id": "f9571eb5-2d48-b06d-7eb0-3d117423d2a9",
+    "title": "Enter A Level",
+    "steps": [
+        {
+            "id": "3a729e95-9969-6aad-43ed-19ba436f269d",
+            "originalFrame": "e784285b-18c1-2090-e747-2344acb2dc67_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.6962531287616791,
+                "y": 0.7686543110394843,
+                "width": 0.12395437262357412,
+                "height": 0.046398685923262885
+            },
+            "image": "d1c0ecd6-18a1-d6fc-2e53-5ae9e2ffce9f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.6953703703703704,
+                        "y": 0.7683333333333333
+                    },
+                    "size": {
+                        "width": 0.12314814814814815,
+                        "height": 0.04625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "b0c089e2-a1af-872b-4eac-782fbb77ceef",
+            "originalFrame": "10f48657-ebf6-c7bb-7743-d3a77c129979_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.36346752775283264,
+                "y": 0.6306762536416042,
+                "width": 0.2642375374973727,
+                "height": 0.05447219983883965
+            },
+            "image": "ffd6fd97-7632-4c57-6457-7e063032bc64_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.362962962962963,
+                        "y": 0.6304166666666666
+                    },
+                    "size": {
+                        "width": 0.2638888888888889,
+                        "height": 0.05416666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-08-29T08:53:04.446Z",
+    "changedOn": 1630227224685,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "cf048308-279a-8417-ea97-6960965d9370",
+            "date": 1630227197478,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "08fcf279-9a40-60e0-5c80-5f547b13ca35",
+                    "step": "3a729e95-9969-6aad-43ed-19ba436f269d",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.6953703703703704,
+                                "y": 0.7683333333333333
+                            },
+                            "size": {
+                                "width": 0.12314814814814815,
+                                "height": 0.04625
+                            },
+                            "probability": 0.9911773025154886
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "df461d79-e634-9510-bc52-04396eef0a70-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

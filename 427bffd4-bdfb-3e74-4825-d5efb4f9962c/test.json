@@ -1,0 +1,233 @@
+{
+    "id": "427bffd4-bdfb-3e74-4825-d5efb4f9962c",
+    "title": "Accept New GDPR",
+    "steps": [
+        {
+            "id": "f6d8db01-9764-9d5f-66a2-7eb785b27567",
+            "originalFrame": "a5044c16-d290-5e3e-a6f2-242dc755683f_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.1274333950754332,
+                "y": 0.7303815573800689,
+                "width": 0.7326432381019617,
+                "height": 0.03540280557722167
+            },
+            "image": "cbf495ba-d81c-3187-1863-ae92ed652446_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.12685185185185185,
+                        "y": 0.73
+                    },
+                    "size": {
+                        "width": 0.7324074074074074,
+                        "height": 0.035
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "e49016d5-fe06-5bf9-0cbe-7dcc8b6921b6",
+            "originalFrame": "808d589e-34a0-d091-d552-1d6defbed68f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.34109929035523673,
+                "y": 0.6575566729559448,
+                "width": 0.3199489608715283,
+                "height": 0.04442082651157456
+            },
+            "image": "0c247575-dbfe-21f9-b77d-e87e46f1db21_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.34074074074074073,
+                        "y": 0.6575
+                    },
+                    "size": {
+                        "width": 0.3194444444444444,
+                        "height": 0.04416666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "e1f3b77f-8028-f009-840e-1063c81f9625",
+            "originalFrame": "6a1fc73e-6d5c-5094-76ba-7fdcd2a1039b_frame.jpg",
+            "type": "drag",
+            "optional": false,
+            "selection": {
+                "x": 0.4,
+                "y": 0.4,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "image": "a090e64d-02f4-1077-17da-a38dbf29f8d1_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.1
+                    },
+                    "probability": 0.9999999205271403
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [
+                {
+                    "x": 0.37537621961111095,
+                    "y": 0.3943300026422296
+                },
+                {
+                    "x": 0.46669799628619757,
+                    "y": 0.30584355985605666
+                },
+                {
+                    "x": 0.5275791807362553,
+                    "y": 0.2513903642953348
+                },
+                {
+                    "x": 0.5770451431019272,
+                    "y": 0.212252129986066
+                },
+                {
+                    "x": 0.6455364756082422,
+                    "y": 0.12206402483862043
+                },
+                {
+                    "x": 0.6683669197770139,
+                    "y": 0.06420750455535347
+                },
+                {
+                    "x": 0.7102227340864287,
+                    "y": 0
+                },
+                {
+                    "x": 0.7634937704802292,
+                    "y": 0
+                },
+                {
+                    "x": 0.7026125860301714,
+                    "y": 0
+                },
+                {
+                    "x": 0.6379263275519851,
+                    "y": 0
+                },
+                {
+                    "x": 0.5161639586518695,
+                    "y": 0.040384231497537657
+                },
+                {
+                    "x": 0.4705030703143262,
+                    "y": 0.0948374270582595
+                }
+            ],
+            "duration": 0,
+            "longClick": false,
+            "startPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.37537621961111095,
+                    "y": 0.3943300026422296
+                }
+            },
+            "endPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.4705030703143262,
+                    "y": 0.0948374270582595
+                }
+            },
+            "dragType": "DragAndDrop",
+            "repeatDrag": false,
+            "stopOnFingerprintFound": false
+        },
+        {
+            "id": "5d2ebd29-a1a8-cc4d-dc84-1d36562e2438",
+            "originalFrame": "92a80d78-afb6-2946-de2a-3fe5213e0298_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "acc8bb6b-fe2a-daed-3d20-1529d6977f81",
+            "type": "subTest",
+            "optional": false,
+            "testId": "1cdb73f9-13ec-c42b-90fd-354fbe257061",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1630829120938,
+    "changedOn": 1634129732476,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "666e0e96-2a63-3fda-dea4-57cb8f247ede",
+            "date": 1630829545521,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "champions.empire.bubble",
+                    "name": "9.3.26",
+                    "code": 300009129,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-08-29 11:29:35",
+                    "lastUpdateTime": "2021-08-29 11:29:35"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

@@ -1,0 +1,280 @@
+{
+    "id": "ec15ee18-47d8-9d26-4eca-fea76a562e87",
+    "title": "Yo Yo Tutorial (lvl 16)",
+    "steps": [
+        {
+            "id": "49892bd1-1c76-5a08-01d0-d99008c5a2a1",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1635436405854,
+            "testId": "3f77faf4-ca78-363b-5cd0-b0bf778ad6cb",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "758eb97c-babb-7a9b-7247-5b1887242402",
+            "originalFrame": "8f78aaf1-b89e-c77a-3981-f67a5d52b792_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1635428394512,
+            "selection": {
+                "x": 0.14320634920634923,
+                "y": 0.45085714285714285,
+                "width": 0.7174603174603175,
+                "height": 0.1
+            },
+            "image": "d280367e-b255-0109-10b4-c6a52c5cebee_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.1425925925925926,
+                        "y": 0.4508333333333333
+                    },
+                    "size": {
+                        "width": 0.7166666666666667,
+                        "height": 0.1
+                    },
+                    "probability": 0.9999978144963583
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "52a845a9-38fb-95d6-8dca-8e77edb4ee71",
+            "originalFrame": "c7a7334c-91c2-2019-e6eb-95763244a54c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1635428414584,
+            "selection": {
+                "x": 0.7142857142857142,
+                "y": 0.8528571428571423,
+                "width": 0.1111111111111111,
+                "height": 0.08428571428571427
+            },
+            "image": "9a195820-b50e-5c96-7221-ca9c712f9ef2_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7138888888888889,
+                        "y": 0.8525
+                    },
+                    "size": {
+                        "width": 0.1111111111111111,
+                        "height": 0.08416666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "8a736f6c-eb66-9c56-b638-aeb0ca935d3b",
+            "originalFrame": "5275ce6b-9742-4fa2-47d4-ec46f16aeafb_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1635428435597,
+            "selection": {
+                "x": 0.2761904761904762,
+                "y": 0.7914285714285715,
+                "width": 0.42539682539682544,
+                "height": 0.06285714285714286
+            },
+            "image": "33f422d8-c246-0a64-f740-57241009f0ae_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2759259259259259,
+                        "y": 0.79125
+                    },
+                    "size": {
+                        "width": 0.425,
+                        "height": 0.0625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "803b7dde-955b-c447-0421-ead617c17721",
+            "originalFrame": "4130c8f2-13b0-5e15-0150-6a768d4b4a9c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1635428445402,
+            "selection": {
+                "x": 0.43174603174603177,
+                "y": 0.4857142857142857,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "image": "9ed3da12-c080-04cb-d835-d4ef585953ed_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.43148148148148147,
+                        "y": 0.48541666666666666
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.1
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "3a89a01b-4ea5-450d-d382-af157fd75b09",
+            "originalFrame": "43fa6027-afc6-0ccd-8b02-825ad5b290af_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1635421389618,
+            "duration": 1000
+        },
+        {
+            "id": "a9565261-720b-8ea0-8a91-0505dc5bb8a7",
+            "originalFrame": "0e6b11ab-273e-6971-8407-253885d43b09_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1636480127988,
+            "selection": {
+                "x": 0.717269841269846,
+                "y": 0.9057142857142861,
+                "width": 0.09523809523809526,
+                "height": 0.06285714285714285
+            },
+            "image": "b5bc8e8d-858c-5138-b4a3-b178aa3d89c1_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7166666666666667,
+                        "y": 0.9054166666666666
+                    },
+                    "size": {
+                        "width": 0.09444444444444444,
+                        "height": 0.0625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1635074103947,
+    "changedOn": 1636480130006,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "228e1bf7-5e22-6182-1db3-62cbafba34c1",
+            "date": 1635424211175,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "0d42452e-7a3b-a00a-e4dd-194f3ac8674d",
+                    "step": "3a89a01b-4ea5-450d-d382-af157fd75b09",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "ef6de040-086c-8ccf-7991-d2a761ef9d9f-screenshot.jpg",
+                    "createdOn": 1635424213349
+                },
+                {
+                    "id": "e2f797b8-2717-c680-d8c5-4f489f004dfc",
+                    "step": "52a845a9-38fb-95d6-8dca-8e77edb4ee71",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.7138888888888889,
+                                "y": 0.8845833333333334
+                            },
+                            "size": {
+                                "width": 0.1111111111111111,
+                                "height": 0.08416666666666667
+                            },
+                            "probability": 0.9751804644387866
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "cd1994f6-f3f2-ff37-93a2-066fefe81ffd-screenshot.jpg",
+                    "createdOn": 1636480103402
+                },
+                {
+                    "id": "2f8fa739-52aa-48e0-ff6f-895671729c07",
+                    "step": "803b7dde-955b-c447-0421-ead617c17721",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.43148148148148147,
+                                "y": 0.5141666666666667
+                            },
+                            "size": {
+                                "width": 0.2,
+                                "height": 0.1
+                            },
+                            "probability": 0.9676279217750112
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "b97ae5fd-b0b5-bc41-9362-c12b55a62831-screenshot.jpg",
+                    "createdOn": 1636480109451
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 1768,
+            "appVersions": [
+                {
+                    "packageName": "com.ilyon.cuberush",
+                    "name": "7.3.11",
+                    "code": 300009620,
+                    "minSdk": 21,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-10-24 14:05:58",
+                    "lastUpdateTime": "2021-10-24 14:05:58"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

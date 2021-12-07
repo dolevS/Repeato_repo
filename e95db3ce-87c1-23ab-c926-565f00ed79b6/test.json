@@ -1,0 +1,225 @@
+{
+    "id": "e95db3ce-87c1-23ab-c926-565f00ed79b6",
+    "title": "Facebook - Log Out",
+    "steps": [
+        {
+            "id": "2a4f2c4a-5afe-f351-6abe-f86a469f96fe",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "40d10d87-e5ba-63dc-62ac-dfe9bcb0d699",
+            "originalFrame": "4ef721f5-197d-f38e-95ee-7176051eea3f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8760456273764258,
+                "y": 0.050684931506849294,
+                "width": 0.10874524714828898,
+                "height": 0.0452054794520548
+            },
+            "image": "c8d7ece9-51b5-73a2-1418-974a7e7198cb_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8759259259259259,
+                        "y": 0.050416666666666665
+                    },
+                    "size": {
+                        "width": 0.10833333333333334,
+                        "height": 0.045
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "89055218-a83e-cec6-232e-5adc723bc7fa",
+            "originalFrame": "3631605d-984f-3875-21d2-b1265b59ef16_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.30114068441064645,
+                "y": 0.5284246575342465,
+                "width": 0.38250950570342207,
+                "height": 0.05719178082191781
+            },
+            "image": "173283d4-66f8-c614-8e04-8dd4f7226fa6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30092592592592593,
+                        "y": 0.5283333333333333
+                    },
+                    "size": {
+                        "width": 0.3824074074074074,
+                        "height": 0.05708333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "e986ef29-8a7c-63eb-2881-f3629cdcd324",
+            "originalFrame": "ffbc34ce-30cf-dbee-0c6e-18ebbbcdc02c_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.3011406844106464,
+                "y": 0.5267123287671233,
+                "width": 0.3977186311787073,
+                "height": 0.060616438356164384
+            },
+            "image": "c76ada96-5c0c-b793-f253-d9e3b83f61a8_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30092592592592593,
+                        "y": 0.5266666666666666
+                    },
+                    "size": {
+                        "width": 0.3972222222222222,
+                        "height": 0.06041666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "5f8fd165-9b6b-87d1-04db-5eccbef33904",
+            "originalFrame": "e6381a95-266f-2de1-057e-db4ef003bddd_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.848669201520913,
+                "y": 0.23561643835616441,
+                "width": 0.07452471482889735,
+                "height": 0.031506849315068496
+            },
+            "image": "abdeaae8-3db4-3bf9-166d-88d71fd76cb1_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8481481481481481,
+                        "y": 0.23541666666666666
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03125
+                    },
+                    "probability": 0.999999964272566
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-12T12:10:01.578Z",
+    "changedOn": 1626099794594,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "96ce8b00-9cbe-c467-b347-4ace771a438c",
+            "date": 1626091806860,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "251201ec-5515-7c3d-791f-a1aca469d2b0",
+                    "step": "40d10d87-e5ba-63dc-62ac-dfe9bcb0d699",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.8759259259259259,
+                                "y": 0.050416666666666665
+                            },
+                            "size": {
+                                "width": 0.10833333333333334,
+                                "height": 0.045
+                            },
+                            "probability": 0.9886038304952619
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "305cf7a9-30c8-9209-df66-e4b507636bea-screenshot.jpg"
+                },
+                {
+                    "id": "cf4fa5af-49b5-455f-f0e7-4caf0b5dad36",
+                    "step": "89055218-a83e-cec6-232e-5adc723bc7fa",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.30092592592592593,
+                                "y": 0.5283333333333333
+                            },
+                            "size": {
+                                "width": 0.3824074074074074,
+                                "height": 0.05708333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1f0a9013-3a2b-d198-fb3c-2df0347d1aa6-screenshot.jpg"
+                },
+                {
+                    "id": "17dde256-0e73-380b-d253-ebcd927408d0",
+                    "step": "5f8fd165-9b6b-87d1-04db-5eccbef33904",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.8481481481481481,
+                                "y": 0.23541666666666666
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03125
+                            },
+                            "probability": 0.999999964272566
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f6bf4822-8066-c8fa-56a3-43d29d75d23a-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

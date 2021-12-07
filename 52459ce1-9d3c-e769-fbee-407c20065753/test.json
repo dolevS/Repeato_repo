@@ -1,0 +1,90 @@
+{
+    "id": "52459ce1-9d3c-e769-fbee-407c20065753",
+    "title": "Minimize App",
+    "steps": [
+        {
+            "id": "c4a3455b-08fc-844e-36cb-ae969c893ca2",
+            "type": "home",
+            "optional": false
+        },
+        {
+            "id": "267b3dfd-d7f8-1854-6fe0-fbfa00ae8d3a",
+            "type": "appSwitch",
+            "optional": false
+        },
+        {
+            "id": "b6b967bc-f227-91a1-fef3-476ea0940959",
+            "originalFrame": "d23cd67a-5fec-825e-18ad-39ed32bddd84_frame.jpg",
+            "type": "someContentClick",
+            "optional": false,
+            "selection": {
+                "x": 0.04626363757953274,
+                "y": 0.3247892518440464,
+                "width": 0.10114068441064639,
+                "height": 0.04691780821917809
+            },
+            "delay": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": 1628166403800,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "1b1b8d35-b76e-2e64-c8d6-1b741cea02ae",
+            "date": 1628166383118,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "1cd1fcf8-84ac-3dca-2c7c-052d6d780d53",
+                    "step": "c4a3455b-08fc-844e-36cb-ae969c893ca2",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1177ef55-5a92-6a33-637b-b7e5967db61e-screenshot.jpg"
+                },
+                {
+                    "id": "c523a37e-b354-3973-4e4e-595a6c24fa64",
+                    "step": "267b3dfd-d7f8-1854-6fe0-fbfa00ae8d3a",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "0e153e05-a4b2-1cf8-e254-b14985ba0d9e-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 2665,
+            "appVersions": [
+                {
+                    "packageName": "com.miui.home",
+                    "name": "RELEASE-4.19.0.2340-11281519",
+                    "code": 41902340,
+                    "minSdk": 24,
+                    "targetSdk": 28,
+                    "firstInstallTime": "2009-01-01 02:00:00",
+                    "lastUpdateTime": "2009-01-01 02:00:00"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

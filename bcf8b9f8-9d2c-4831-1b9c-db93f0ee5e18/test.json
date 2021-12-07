@@ -1,0 +1,177 @@
+{
+    "id": "bcf8b9f8-9d2c-4831-1b9c-db93f0ee5e18",
+    "title": "Google Play UI",
+    "steps": [
+        {
+            "id": "18982a73-2506-8756-d33c-52a541c0630a",
+            "originalFrame": "07744974-b632-bf91-3780-841a5b16e25a_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1638351633034,
+            "selection": {
+                "x": 0.03939513549399481,
+                "y": 0.8379804305283757,
+                "width": 0.13155893536121674,
+                "height": 0.05461839530332682
+            },
+            "image": "2e21a1f5-4555-9bbd-40c2-43d3fcdbbda2_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.03888888888888889,
+                        "y": 0.8379166666666666
+                    },
+                    "size": {
+                        "width": 0.13148148148148148,
+                        "height": 0.05458333333333333
+                    },
+                    "probability": 0.999999896600959
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "7b1406a5-6b1d-2452-171d-5eeb14718562",
+            "originalFrame": "e72fd77c-ff28-6fa0-af63-fc13ac6d6f84_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1638351648977,
+            "selection": {
+                "x": 0.2095238095238098,
+                "y": 0.40285714285714286,
+                "width": 0.5746031746031746,
+                "height": 0.22
+            },
+            "image": "9363e54d-ff36-b91d-ce28-da1260d6b3af_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.20925925925925926,
+                        "y": 0.4025
+                    },
+                    "size": {
+                        "width": 0.5740740740740741,
+                        "height": 0.22
+                    },
+                    "probability": 0.9999999836547163
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "67577fcf-99f8-e7cf-1420-c00018c73d6a",
+            "originalFrame": "88065cd1-9cce-1f09-cee3-eeaae4cf18a7_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1638351664536,
+            "selection": {
+                "x": 0.787168809222041,
+                "y": 0.38428571428571423,
+                "width": 0.058024020761663346,
+                "height": 0.023796477495107632
+            },
+            "image": "4b7af6d5-da96-fc40-c072-f249b6190f04_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7870370370370371,
+                        "y": 0.38416666666666666
+                    },
+                    "size": {
+                        "width": 0.05740740740740741,
+                        "height": 0.02375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1622635641628,
+    "changedOn": 1638351666394,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "43bd5a83-1dce-b60a-9dce-d80f02187ee0",
+            "date": 1636636618780,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "fd198e0a-6724-f0b2-19a4-bbf8e1c0ff36",
+                    "step": "18982a73-2506-8756-d33c-52a541c0630a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.03888888888888889,
+                                "y": 0.8379166666666666
+                            },
+                            "size": {
+                                "width": 0.13148148148148148,
+                                "height": 0.05458333333333333
+                            },
+                            "probability": 0.9999999968666957
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "ad873ef0-aa2b-1794-d7df-2c1c102c73ec-screenshot.jpg",
+                    "createdOn": 1638351635800
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.34",
+                    "code": 90000941,
+                    "minSdk": 19,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-11-11 13:43:38",
+                    "lastUpdateTime": "2021-11-11 13:43:38"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

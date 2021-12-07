@@ -1,0 +1,77 @@
+{
+    "id": "d87ef231-0371-caba-8771-132e9e7e3cea",
+    "title": "Switch Segment to CPI & Check 10 Inters",
+    "steps": [
+        {
+            "id": "848d2ed5-c022-5d5d-ad65-8df4e49f1263",
+            "originalFrame": "586d6be0-501b-d117-c7f9-4c00d8100345_frame.jpg",
+            "type": "someContentClick",
+            "optional": false,
+            "createdOn": 1636548869444,
+            "region": {
+                "x": 0.4,
+                "y": 0.4,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "8dbdd0d2-851f-0e02-bb5f-df4319f0640a",
+            "originalFrame": "ddfe5f9a-ad91-e100-366f-2579899ba65e_frame.jpg",
+            "type": "someContentClick",
+            "optional": false,
+            "createdOn": 1636548869444,
+            "region": {
+                "x": 0.4,
+                "y": 0.4,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "8cdd0d67-6bbb-b0a4-7417-b1acf07e2a6c",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636293668147,
+            "testId": "f77b60fd-c8e5-b0c3-cb25-8ec4008c8e02",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "978b6aea-54c4-9931-d14e-ab274b8f9531",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1636551514905,
+            "testId": "c9ba97cd-41e9-a72d-76c3-28328e0b0f56",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1636293665960,
+    "changedOn": 1636551583020,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

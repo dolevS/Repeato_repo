@@ -1,0 +1,125 @@
+{
+    "id": "6841d980-3ee6-3cc2-24f5-3ce1fb2986cf",
+    "title": "Targeted Ads Button - OFF",
+    "steps": [
+        {
+            "id": "109f2ea2-3608-aa6a-a1df-c23e33b21571",
+            "originalFrame": "c464cb8d-450a-50c8-49f0-bf043e911459_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.8828897338403041,
+                "y": 0.05239726027397225,
+                "width": 0.09353612167300379,
+                "height": 0.04178082191780822
+            },
+            "image": "f7019a10-e2f7-7da7-5123-0b2655658756_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8824074074074074,
+                        "y": 0.052083333333333336
+                    },
+                    "size": {
+                        "width": 0.09351851851851851,
+                        "height": 0.041666666666666664
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "bbb9ac19-f7be-d22c-6273-ca431025e06c",
+            "originalFrame": "82066f2c-b434-59ce-c2b8-6ab4a4f8b8eb_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.28593155893536115,
+                "y": 0.19623287671232878,
+                "width": 0.4243346007604562,
+                "height": 0.05205479452054794
+            },
+            "image": "a691647a-ac7b-be60-ccd9-8edc3d4d6623_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2851851851851852,
+                        "y": 0.19583333333333333
+                    },
+                    "size": {
+                        "width": 0.42407407407407405,
+                        "height": 0.051666666666666666
+                    },
+                    "probability": 0.9999999372825575
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "f70c94d7-d57d-86e4-518b-de3419257998",
+            "originalFrame": "6377ea73-7c37-e935-8cf3-d6e0567a9ebb_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.29733840304182535,
+                "y": 0.7065068493150681,
+                "width": 0.409125475285171,
+                "height": 0.05376712328767124
+            },
+            "image": "3919ef5a-a65d-1ff1-80fe-d735d9f0a004_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2972222222222222,
+                        "y": 0.70625
+                    },
+                    "size": {
+                        "width": 0.4083333333333333,
+                        "height": 0.05375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-05T10:09:23.940Z",
+    "changedOn": 1626092655551,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "6b82adb9-2c47-a119-7aa8-44e0025e4b15",
+            "date": 1625479780477,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

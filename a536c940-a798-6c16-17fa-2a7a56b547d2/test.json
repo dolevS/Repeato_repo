@@ -1,0 +1,103 @@
+{
+    "id": "a536c940-a798-6c16-17fa-2a7a56b547d2",
+    "title": "Three OOM RV",
+    "steps": [
+        {
+            "id": "0f100e14-5742-2442-3e0f-03bffc035d9a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cd7d8d83-a43a-1131-5210-44a8752f5138",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8a36a732-5133-3397-949a-371542aa0b2b",
+            "originalFrame": "90d020ca-06e5-c951-8f38-716862e0905a_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.8950570342205324,
+                "y": 0.0780821917808219,
+                "width": 0.10494296577946756,
+                "height": 0.04178082191780822
+            },
+            "image": "405e07db-8d94-cda0-d49b-f5a5b14da014_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8944444444444445,
+                        "y": 0.07791666666666666
+                    },
+                    "size": {
+                        "width": 0.10462962962962963,
+                        "height": 0.041666666666666664
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "71113df5-53f3-0dfd-90a1-cf328999e8fc",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ed0f108e-d91c-6c7f-2c86-ec9230e5a5ce",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-06T13:37:41.888Z",
+    "changedOn": 1623588784986,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "9164410a-ad61-c1cd-0827-b6e3d69949f4",
+            "date": 1623048235940,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "1be56d47-428a-7b39-6dd1-0de3c6657423",
+                    "step": "8a36a732-5133-3397-949a-371542aa0b2b",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.8944444444444445,
+                                "y": 0.07791666666666666
+                            },
+                            "size": {
+                                "width": 0.10462962962962963,
+                                "height": 0.041666666666666664
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "c90843c6-62d0-b3b2-d0b9-9b09d8723791-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

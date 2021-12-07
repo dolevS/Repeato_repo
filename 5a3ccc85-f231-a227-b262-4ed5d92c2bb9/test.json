@@ -1,0 +1,120 @@
+{
+    "id": "5a3ccc85-f231-a227-b262-4ed5d92c2bb9",
+    "title": "PPA - PPA Part",
+    "steps": [
+        {
+            "id": "64a835a4-2e70-4581-7d6f-ca7f059a1619",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubble.shooter.exxtreme",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": true,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "3c3a0100-54d4-50e6-7478-dd5b448e8747",
+            "type": "subTest",
+            "optional": false,
+            "testId": "0ef466c9-fa4e-3574-b82f-3a38eaafeddf",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0bdc7396-3069-e847-664e-26cc6b6d6d66",
+            "originalFrame": "7f7d9718-c003-1943-f220-43c1f5e48824_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "ce7a6d45-c013-d77c-c9a1-353583de6877",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c99f028a-0fbb-8b77-dd48-88720f15535b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "cb800f39-e7a3-9230-33e8-459419d2e7ab",
+            "originalFrame": "f278ff7d-3abd-35d8-2849-57e3119ac6bc_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "f37f17e1-e707-41b7-9b9f-33aad5de7ece",
+            "type": "subTest",
+            "optional": false,
+            "testId": "14bab355-8814-5025-f5b5-3d79acb4da23",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f707d69a-edc1-58b7-d442-b6afaf4dd92f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fbe91eb6-91c8-0608-faa4-a473b3857539",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "360c3259-f028-abb3-60a0-8ea6fab3fabc",
+            "type": "subTest",
+            "optional": false,
+            "testId": "051a6075-c05a-bdc9-3ccc-1ed721a4e749",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b5e2d337-2f18-fd1f-53b4-1aaf486b1c7a",
+            "type": "subTest",
+            "optional": true,
+            "testId": "fd170fff-54cd-2a24-39e4-03b33ddd1cd6",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "e2252d5d-0a2b-7b8f-5ebc-5ac723e5ebe9",
+            "type": "subTest",
+            "optional": false,
+            "testId": "1223fc2a-caa3-6e8d-1260-bfd59fa81f9b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "6a74988e-7715-66cc-71b9-75603e554522",
+            "type": "subTest",
+            "optional": false,
+            "testId": "6a10e2bd-5962-a48d-592d-a60f9d6ff75e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1632379376125,
+    "changedOn": 1634645882191,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

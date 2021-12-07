@@ -1,0 +1,110 @@
+{
+    "id": "90567271-90e6-05c3-0d96-8e16bb2e81c2",
+    "title": "In-App Purchases - Banner",
+    "steps": [
+        {
+            "id": "6c46f6f7-06d5-dea6-57f0-e885930e7d33",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cd7d8d83-a43a-1131-5210-44a8752f5138",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "7857620c-4326-7803-8796-66bcf5b05f12",
+            "originalFrame": "8e7683be-4e94-efe0-d70e-cef29034ddd0_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0,
+                "y": 0.9205479452054794,
+                "width": 0.29961977186311783,
+                "height": 0.07945205479452057
+            },
+            "image": "1ae51ba3-93b2-7ce0-aecb-1b480120aea0_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0.9204166666666667
+                    },
+                    "size": {
+                        "width": 0.29907407407407405,
+                        "height": 0.07916666666666666
+                    },
+                    "probability": 0.9999998487503964
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "6cca70f1-cd3c-b6c6-b23e-e01936903b7c",
+            "originalFrame": "b80977d1-4d00-7935-0e27-33ecaf20e4fd_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.7049429657794677,
+                "y": 0.9102739726027397,
+                "width": 0.2950570342205323,
+                "height": 0.08972602739726028
+            },
+            "image": "16872a01-b672-fcc9-04ad-b55261143e26_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7046296296296296,
+                        "y": 0.91
+                    },
+                    "size": {
+                        "width": 0.29444444444444445,
+                        "height": 0.08958333333333333
+                    },
+                    "probability": 0.9999999665486191
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "449a3c9e-1b31-5f00-492d-4b3ac23746e1",
+            "originalFrame": "92ff34a5-4192-622b-f4a2-fdc3b36dc7f9_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.4114068441064639,
+                "y": 0.9616438356164382,
+                "width": 0.16197718631178706,
+                "height": 0.03835616438356165
+            },
+            "image": "1ef376d3-ece0-eb6d-bfc0-0980c85660a3_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4111111111111111,
+                        "y": 0.96125
+                    },
+                    "size": {
+                        "width": 0.16111111111111112,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-27T07:27:14.765Z",
+    "changedOn": 1624778891075,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

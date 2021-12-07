@@ -1,0 +1,133 @@
+{
+    "id": "a7bb4ca9-538e-1660-060d-d0ed07cc3181",
+    "title": "Close Inter",
+    "steps": [
+        {
+            "id": "ae3e7562-96dc-c264-f3ff-439674766c2a",
+            "originalFrame": "328936c0-cafc-42ee-7c4b-7eb7062ce61d_frame.jpg",
+            "timeout": 1,
+            "type": "someContentClick",
+            "optional": true,
+            "createdOn": 1637852666580,
+            "region": {
+                "x": 0.8962199312714774,
+                "y": 0.03777089783281731,
+                "width": 0.10378006872852233,
+                "height": 0.0411764705882353
+            },
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "1b9ec43d-788b-5f96-13bd-bd6fb91e6739",
+            "originalFrame": "cff4596d-3915-f4ca-4f6e-8a709b046e36_frame.jpg",
+            "timeout": 1,
+            "type": "someContentClick",
+            "optional": true,
+            "createdOn": 1637852666580,
+            "region": {
+                "x": 0.019931271477662875,
+                "y": 0.08111455108359131,
+                "width": 0.09347079037800687,
+                "height": 0.0411764705882353
+            },
+            "delay": 0,
+            "longClick": false
+        },
+        {
+            "id": "ce4220fc-7577-1600-d469-659d74b7b0ad",
+            "originalFrame": "d09f9e50-3e0e-0dce-583e-c6b89f841014_frame.jpg",
+            "timeout": 1,
+            "type": "someContentClick",
+            "optional": true,
+            "createdOn": 1637852666580,
+            "region": {
+                "x": 0.23298969072164913,
+                "y": 0.8659442724458205,
+                "width": 0.23780068728522338,
+                "height": 0.0411764705882353
+            },
+            "delay": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1638716815362,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "78c82111-2e2d-7dd7-0227-ec727c3a7783",
+            "date": 1623853064969,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "a7191e08-6b07-aece-e20c-0113c7dfe162",
+                    "step": "1b9ec43d-788b-5f96-13bd-bd6fb91e6739",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.019931271477662875,
+                                "y": 0.08111455108359131
+                            },
+                            "size": {
+                                "width": 0.09347079037800687,
+                                "height": 0.0411764705882353
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "7e5c2d04-00d7-4888-323e-7f1d29ebfd8c-screenshot.jpg",
+                    "createdOn": 1638449483068
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-06-01 11:36:32"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

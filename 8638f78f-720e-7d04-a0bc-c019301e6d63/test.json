@@ -1,0 +1,394 @@
+{
+    "id": "8638f78f-720e-7d04-a0bc-c019301e6d63",
+    "title": "Gameplay (Master)",
+    "steps": [
+        {
+            "id": "9166f25d-0ff9-a984-c980-e5facbcbdfcd",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubbles.pop.power",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": true,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_STATE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "429e4e61-9cc2-33d7-0202-bb6beb87ccc9",
+            "type": "subTest",
+            "optional": false,
+            "testId": "0bbd7658-bc51-7c80-81e7-5cd60dcee33a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0bde1dd3-1b0c-1094-b1c6-be42e7e59c6a",
+            "originalFrame": "082c3614-f62b-2a04-20a6-7238dd8ebdd3_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "6f6ffcdd-f8fd-f577-cf8e-bf8e687ee8d1",
+            "type": "subTest",
+            "optional": true,
+            "testId": "96c8b713-1e70-d0ba-ee5c-d51ea3cfeb3a",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "614cf4e4-519d-0fef-1293-06ddb19de178",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cdd83c54-4d25-4581-7ec6-2942cbf54140",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "40481d74-286c-6223-1acc-d592e3018f5a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "6bb7e7af-006d-f30c-48b6-88783ac32a42",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "744e97df-6b81-0f2f-195f-3ec9c0e8f91e",
+            "originalFrame": "7ccab191-a8e4-4ec8-1627-8b0e8f961f6c_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "749019f7-1b52-70a9-4e26-d9f68f396370",
+            "type": "subTest",
+            "optional": false,
+            "testId": "281f968d-f856-eb31-fbcd-cbce30f9bed8",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "76d6d47e-2a82-ef70-98a9-92aa9ba68e01",
+            "type": "subTest",
+            "optional": false,
+            "testId": "0c02bdd4-eaec-be20-ccb4-b0a7024c7273",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b1b8ff32-9e08-102c-7133-a1e7de6426e4",
+            "type": "subTest",
+            "optional": false,
+            "testId": "195d0f55-340b-cf50-fa1b-9c5b05d3282a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "54e5ddbe-56c6-a9a8-f581-4bacaa7aea07",
+            "type": "subTest",
+            "optional": false,
+            "testId": "12c685f1-6585-2a22-705c-82e667d00900",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9143d819-f743-8f48-d7d3-8583cd1acca3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "63cea83d-f058-d54a-7e4b-ed30eea07592",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "774b6cbf-7774-c708-30a6-5b42367b15b3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e3f1f186-56dc-47c2-ecf9-92eb1de1d68f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3950823e-7509-62e0-d888-25258f1a8e0e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "7bb4d392-67dd-d090-c2ec-0fc73796af9f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "5da26a83-c164-9de2-4e7f-bd473477fadd",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f6904c2d-afc5-b67c-cb66-8d428fc9247d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c32beb9e-6258-804d-f06d-dbdfe71034d7",
+            "originalFrame": "1c9b0f4e-bbf8-c2af-1607-bd54f6822290_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.38859315589353616,
+                "y": 0.7219178082191781,
+                "width": 0.2,
+                "height": 0.05719178082191781
+            },
+            "image": "fe2b372e-3414-8c34-81f1-98897e683617_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.38796296296296295,
+                        "y": 0.7216666666666667
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.05708333333333333
+                    },
+                    "probability": 0.9999997441508602
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "b9da8fd8-1c9e-2f6e-1b11-6659c1765845",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "1dd004e7-8a75-bef6-b8c4-755e50040987",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a71ae486-2b1d-434f-0bf5-9270732c6e95",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b3571bfd-b09b-41a9-270f-80336202ebb1",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "904f0329-6693-976f-756c-e01f57824414",
+            "type": "subTest",
+            "optional": false,
+            "testId": "63ae2c92-8351-38e4-e108-5b35601e5672",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "03c48bd9-60fc-f72e-a7af-376b7dde2c88",
+            "type": "subTest",
+            "optional": true,
+            "testId": "08f3e70c-b6d6-324a-8d77-a6a478297aec",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "7c361724-4474-7842-650f-a14911365e80",
+            "type": "subTest",
+            "optional": false,
+            "testId": "4bc140a3-d895-5765-d269-ac90c6056d7d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "617ebaa7-8a50-f0fb-e1a4-b477482910bb",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b7b01e34-a977-be9d-0c53-7775b8085578",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626677370326,
+    "changedOn": 1631428682086,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "dfc04d7a-c0f3-6d39-4240-bd5a25c172fd",
+            "date": 1631428638173,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "61c1ca61-7616-44ff-7dee-599fcb4d8278",
+                    "step": "9166f25d-0ff9-a984-c980-e5facbcbdfcd",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f1d4b357-1543-6815-7e3d-36134a3707c8-screenshot.jpg"
+                },
+                {
+                    "id": "d4c50200-11e8-497a-c065-3898b75fa45a",
+                    "step": "dbef2dd1-7742-448a-dcbd-67ad4c18b54c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3574074074074074,
+                                "y": 0.6891666666666667
+                            },
+                            "size": {
+                                "width": 0.2759259259259259,
+                                "height": 0.06916666666666667
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1cb37f3e-2466-b863-6024-e4167a447264-screenshot.jpg"
+                },
+                {
+                    "id": "84806c58-e8c8-407f-a3a1-bcbc6d0ee77b",
+                    "step": "8fcb197e-2bed-424d-eccf-f834fab5a1a4",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.32592592592592595,
+                                "y": 0.6808333333333333
+                            },
+                            "size": {
+                                "width": 0.3398148148148148,
+                                "height": 0.08125
+                            },
+                            "probability": 0.9987230302555306
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3fa78f26-7d9b-0c0a-f1ad-025a35ce5277-screenshot.jpg"
+                },
+                {
+                    "id": "1565adff-ee4c-9749-521b-364101efb8d5",
+                    "step": "9b2d5331-51d6-7fb3-9531-00e088d9640f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3ec91fd5-8a2c-b8b7-66fc-a7d40c746f23-screenshot.jpg"
+                },
+                {
+                    "id": "9ce41410-4d99-4a75-2f0f-8e862bd5ddac",
+                    "step": "12bbbbc4-090c-cf58-f46e-e698d6b3d84b",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "a0b68b67-6619-fcef-9d21-e53f96215368-screenshot.jpg"
+                },
+                {
+                    "id": "fea5b4e4-c810-bab6-1475-011aabc9c780",
+                    "step": "f9a3d41a-f293-b148-09fb-835efb546d20",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "55950b2a-6b8f-1741-a744-ac90c62a5c1c-screenshot.jpg"
+                },
+                {
+                    "id": "47d7a1ea-730c-11cd-1fec-e6e3966ed82e",
+                    "step": "429e4e61-9cc2-33d7-0202-bb6beb87ccc9",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f1686f9b-c423-805a-e9d3-cc8d1c86ced3-screenshot.jpg"
+                },
+                {
+                    "id": "c34b3758-6d96-6d59-ce3b-5e0e07a59b55",
+                    "step": "b432e4d0-7309-b65e-b3df-fe8166c31432",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "404afdc6-575e-c5eb-61fe-85dc34b92970-screenshot.jpg"
+                },
+                {
+                    "id": "743c4d44-6b0e-1788-0fe9-71cc9f1b28c4",
+                    "step": "123bb5cc-fff7-d150-2aa5-92224b4e7ce0",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "a952006c-4489-73f5-f821-06c697385f9e-screenshot.jpg"
+                },
+                {
+                    "id": "f63d7295-2cbb-6a8f-69fc-993726254558",
+                    "step": "6f6ffcdd-f8fd-f577-cf8e-bf8e687ee8d1",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "af2aeadd-147b-8b90-3545-69647b0778f2-screenshot.jpg"
+                },
+                {
+                    "id": "53c7a5c0-213d-bc51-f17a-66b63b7256f7",
+                    "step": "97a6c18f-9015-f8ce-7668-be9130457501",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "69dde16c-2bff-a219-a771-d4a399b9fe73-screenshot.jpg"
+                },
+                {
+                    "id": "04b3bafc-1622-a88a-d294-02d3d634a50a",
+                    "step": "614cf4e4-519d-0fef-1293-06ddb19de178",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "25c384cf-5aca-bb10-a11d-505a59813646-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 9094,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.30",
+                    "code": 300009068,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-08-31 10:32:46"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

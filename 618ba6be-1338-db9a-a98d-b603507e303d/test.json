@@ -1,0 +1,154 @@
+{
+    "id": "618ba6be-1338-db9a-a98d-b603507e303d",
+    "title": "Shoot Green Bubble",
+    "steps": [
+        {
+            "id": "c9d03598-6a4f-e174-4a35-c6b5a781a642",
+            "originalFrame": "b6b6f4b9-aef9-06a2-2986-b2b8e23e253a_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.4684410646387831,
+                "y": 0.852054794520548,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "df6c2bf3-154e-2dc4-eae8-798a228194a9_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.22962962962962963,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9885848619905814
+                },
+                {
+                    "position": {
+                        "x": 0.31666666666666665,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9853895925397728
+                },
+                {
+                    "position": {
+                        "x": 0.40370370370370373,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9846128233643786
+                },
+                {
+                    "position": {
+                        "x": 0.40370370370370373,
+                        "y": 0.30416666666666664
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9860108717064543
+                },
+                {
+                    "position": {
+                        "x": 0.40370370370370373,
+                        "y": 0.37083333333333335
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9869686530172102
+                },
+                {
+                    "position": {
+                        "x": 0.4685185185185185,
+                        "y": 0.8520833333333333
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.49074074074074076,
+                        "y": 0.30416666666666664
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9875666793722675
+                },
+                {
+                    "position": {
+                        "x": 0.5333333333333333,
+                        "y": 0.3375
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9852082914011145
+                },
+                {
+                    "position": {
+                        "x": 0.5768518518518518,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9865021784253453
+                },
+                {
+                    "position": {
+                        "x": 0.6638888888888889,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9870327893603127
+                }
+            ],
+            "matchIndex": 5
+        },
+        {
+            "id": "6c6635cc-3adf-f755-2eca-aa9dc94e5ed0",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot green ball')\n }\nelse {\n  log('No green ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-02T13:01:00.954Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

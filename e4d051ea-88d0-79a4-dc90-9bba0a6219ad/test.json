@@ -1,0 +1,133 @@
+{
+    "id": "e4d051ea-88d0-79a4-dc90-9bba0a6219ad",
+    "title": "Minimize App",
+    "steps": [
+        {
+            "id": "88a61b76-fb61-fc52-c48f-63cccd5555a7",
+            "type": "home",
+            "optional": false
+        },
+        {
+            "id": "144b7278-6e89-7da0-a198-1a858a66a6a4",
+            "type": "appSwitch",
+            "optional": false
+        },
+        {
+            "id": "fb159a54-9f9a-f654-bc55-4b90779b0a4f",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "d01e5b95-b836-3625-3115-a3272ab0b8bb",
+            "originalFrame": "c385c66f-253d-a130-ddc0-321869e6f168_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.28212927756654,
+                "y": 0.32300719023120317,
+                "width": 0.3368821292775665,
+                "height": 0.048630136986301385
+            },
+            "image": "e72b936f-f8d3-6b4c-2697-472e14a2d305_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2814814814814815,
+                        "y": 0.3229166666666667
+                    },
+                    "size": {
+                        "width": 0.33611111111111114,
+                        "height": 0.04833333333333333
+                    },
+                    "probability": 0.9999999502778252
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1630313937905,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "694f2b0f-9860-971e-efcb-dd65868f0941",
+            "date": 1630313928398,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "d3975cdf-617d-d3b1-0b53-9df3a529599d",
+                    "step": "88a61b76-fb61-fc52-c48f-63cccd5555a7",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "ed3ad8a8-6d34-a449-6cd7-afb98ad6d102-screenshot.jpg"
+                },
+                {
+                    "id": "e4793310-759f-c094-050b-decbd66cf55f",
+                    "step": "144b7278-6e89-7da0-a198-1a858a66a6a4",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "65a47530-d6b0-fc8a-42ed-08ed2a1a62a9-screenshot.jpg"
+                },
+                {
+                    "id": "5ddf1ed4-3002-2d4b-2ac2-cd1572c580be",
+                    "step": "fb159a54-9f9a-f654-bc55-4b90779b0a4f",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "5f4f2124-c6b3-0990-cb9c-05c1ee428c61-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "com.miui.home",
+                    "name": "RELEASE-4.19.0.2340-11281519",
+                    "code": 41902340,
+                    "minSdk": 24,
+                    "targetSdk": 28,
+                    "firstInstallTime": "2009-01-01 02:00:00",
+                    "lastUpdateTime": "2009-01-01 02:00:00"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

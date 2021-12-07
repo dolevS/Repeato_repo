@@ -1,0 +1,225 @@
+{
+    "id": "5bd99374-bcb7-55cb-8dc9-31c0dcc16b27",
+    "title": "893 - Ads",
+    "steps": [
+        {
+            "id": "855bd9bd-3567-7ac4-8a22-d57e98e2f174",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubble.shooter.exxtreme",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": true,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "8a57ec79-391c-b20d-5781-a184a6faf675",
+            "originalFrame": "b20f645a-6e0f-761c-9403-2587e5c3f865_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.12154963680387407,
+                "y": 0.1371864776444929,
+                "width": 0.8004842615012108,
+                "height": 0.30283533260632495
+            },
+            "image": "4ffe8751-0c68-d365-2ecd-25d5d5ed17ec_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.12129629629629629,
+                        "y": 0.13708333333333333
+                    },
+                    "size": {
+                        "width": 0.8,
+                        "height": 0.3025
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "6206203a-d15d-fb25-aa2c-bfa987ba362b",
+            "type": "subTest",
+            "optional": true,
+            "testId": "427bffd4-bdfb-3e74-4825-d5efb4f9962c",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "72818c13-71de-e249-7af9-7094e3f1da33",
+            "type": "subTest",
+            "optional": true,
+            "testId": "0ef466c9-fa4e-3574-b82f-3a38eaafeddf",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "6d358982-0953-2bfd-a810-5fab92b7cacd",
+            "originalFrame": "4eee28a2-a10f-8667-8a30-994def52030c_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "81fdf6d3-8efb-80f6-3e67-5fdc04b6024e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "47594281-9a60-22a2-72b2-04391720f32e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "af9d5103-2a0f-8fdc-6d96-67c3dd0747e8",
+            "originalFrame": "2639b052-a331-f442-4aa4-371eac523c47_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "b7ac1f92-e750-ecab-6109-42bb39b8e1e7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fbe91eb6-91c8-0608-faa4-a473b3857539",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "220e5eb2-3366-add3-0fb2-1b103cbd641f",
+            "originalFrame": "907a5b96-bac2-8ae6-230b-f782596b2934_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "07840cfc-13f6-58df-5ccf-fa32eddc81b5",
+            "type": "subTest",
+            "optional": false,
+            "testId": "3bf9c7ca-25f0-9db7-2339-c0d168a54465",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "5568679d-0dc3-c51f-15f8-b96ce1a67c99",
+            "originalFrame": "1453535d-ab77-1724-6024-10c5b4da91a2_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "14fb9202-89e0-668b-fcdb-c7f624a64be2",
+            "type": "subTest",
+            "optional": true,
+            "testId": "e67119bb-a9db-14c6-d245-0d13e6531911",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "e5674cf1-fc1b-fe5e-4729-63b2919886de",
+            "type": "subTest",
+            "optional": false,
+            "testId": "5c74f3eb-3a8b-da2f-404a-fada33a53e68",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0899cadc-2e21-9c3a-ce00-43062b3dea33",
+            "type": "subTest",
+            "optional": false,
+            "testId": "5c88941d-2a04-665d-5a78-500236026fa6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "1258879b-79e0-b47e-dbf1-9eaa7c1e1f10",
+            "type": "subTest",
+            "optional": false,
+            "testId": "8fd6af36-2c73-7f1d-f53a-2af0a46deee6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "70b28df4-e7a8-376a-b14e-88b7b0070439",
+            "type": "subTest",
+            "optional": false,
+            "testId": "263d04c8-dbf8-44df-9d36-1bd5552b148f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d288bf94-d65d-9461-e39e-39e11327e26c",
+            "type": "subTest",
+            "optional": false,
+            "testId": "2060e676-629e-83df-07ae-f5f5244b4477",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0f13824b-7363-29fa-75a5-1e5be9bf0550",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c99f028a-0fbb-8b77-dd48-88720f15535b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "dccf20a6-6f5d-24fc-fafa-9692d5a19367",
+            "type": "subTest",
+            "optional": false,
+            "testId": "847d3139-6db3-cf30-fa4b-9c547b20cad5",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2e8320a3-721c-ed8e-cd4b-279ae261fb8d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "76ecb3c1-25e0-7bac-5074-a65bb8ff3418",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "58b1d002-0536-d466-08fd-33a68138fb3e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "1c341616-e603-ca85-9855-f28f406f0fa3",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ffdb437f-7111-84b0-9ef8-e3291ec34acc",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e99ae723-cf02-961b-fbe3-bff4eab77907",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1633608932016,
+    "changedOn": 1634651063510,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

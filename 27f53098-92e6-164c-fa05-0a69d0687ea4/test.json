@@ -1,0 +1,148 @@
+{
+    "id": "27f53098-92e6-164c-fa05-0a69d0687ea4",
+    "title": "Turn Slow WIFI On",
+    "steps": [
+        {
+            "id": "30053f04-3013-1562-e161-2ce4ce74dcf3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "9c419e82-55cc-d674-2e1c-e293f77723d1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f23f002b-41d4-8492-02e2-3756718252ce",
+            "originalFrame": "365ad008-7001-17d6-3ad8-5f523ec051f6_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.05859564164648909,
+                "y": 0.44580152671755724,
+                "width": 0.8997578692493947,
+                "height": 0.09018538713195202
+            },
+            "image": "07186385-79b6-6d38-2da1-b273c73a154f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.058333333333333334,
+                        "y": 0.4454166666666667
+                    },
+                    "size": {
+                        "width": 0.899074074074074,
+                        "height": 0.09
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "193d5db0-e832-005e-34d7-7bbf48312d18",
+            "originalFrame": "fef462de-5985-bea6-7d40-750becf816b1_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "e49ca4f8-fb05-e993-b286-0fee5fcd7441",
+            "originalFrame": "de1aecb2-d3c6-21e8-3877-ae9aba4409f7_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.05859564164648909,
+                "y": 0.31384950926935656,
+                "width": 0.8900726392251816,
+                "height": 0.1
+            },
+            "image": "c11470fb-dddc-99d2-1e4e-d0a345eecf70_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.058333333333333334,
+                        "y": 0.31375
+                    },
+                    "size": {
+                        "width": 0.8898148148148148,
+                        "height": 0.1
+                    },
+                    "probability": 0.999997016255524
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1634561473724,
+    "changedOn": 1634561743968,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "a6ae5117-8d70-df75-8dd6-b0567f041967",
+            "date": 1634561478743,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "8fdfa1ac-c9b2-9669-36b0-27e57d054f47",
+                    "step": "f23f002b-41d4-8492-02e2-3756718252ce",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.058333333333333334,
+                                "y": 0.4454166666666667
+                            },
+                            "size": {
+                                "width": 0.899074074074074,
+                                "height": 0.09
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "043bb78f-be54-017c-c6d9-bd30d5eb6925-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

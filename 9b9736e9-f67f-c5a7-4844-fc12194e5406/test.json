@@ -1,0 +1,82 @@
+{
+    "id": "9b9736e9-f67f-c5a7-4844-fc12194e5406",
+    "title": "Banner Doesn't Interfere With UI",
+    "steps": [
+        {
+            "id": "937f0523-09cd-dce8-025a-53557566c6e7",
+            "originalFrame": "6b46da34-5a91-5bbf-e522-f09942c53d48_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.5467451325066395,
+                "y": 0.8743150684931509,
+                "width": 0.45325486749336036,
+                "height": 0.021232876712328784
+            },
+            "image": "385538b1-7ec2-ddef-8c79-705fee72c7ed_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5462962962962963,
+                        "y": 0.8741666666666666
+                    },
+                    "size": {
+                        "width": 0.4527777777777778,
+                        "height": 0.020833333333333332
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "611b023c-904b-40b6-0665-5f85222124b4",
+            "originalFrame": "27f8402a-d67d-84b3-c3ad-e609b20e608a_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0,
+                "y": 0.8726027397260274,
+                "width": 0.4524905898312857,
+                "height": 0.026369863013698654
+            },
+            "image": "f9815405-5ce4-e343-0dd2-740f3aa61ee7_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0.8725
+                    },
+                    "size": {
+                        "width": 0.45185185185185184,
+                        "height": 0.02625
+                    },
+                    "probability": 0.9999999708855848
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-07T10:55:33.715Z",
+    "changedOn": 1630330145813,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,45 @@
+{
+    "id": "a5027d27-0b3c-e733-cc04-68834552cb86",
+    "title": "Three OOM RV - All Segments",
+    "steps": [
+        {
+            "id": "751ad609-b3ba-90b8-636f-34e4b84fcc3c",
+            "type": "subTest",
+            "optional": false,
+            "testId": "7aee6fa7-aeb3-0546-fef6-9cb5b64ece3e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "19b6b04e-72eb-0c3d-6c6d-d0df1a809ec2",
+            "type": "subTest",
+            "optional": false,
+            "testId": "53b93821-d65b-7a9e-199f-e314f8797b59",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1632398909400,
+    "changedOn": 1632403460059,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

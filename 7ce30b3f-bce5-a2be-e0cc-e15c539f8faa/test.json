@@ -1,0 +1,64 @@
+{
+    "id": "7ce30b3f-bce5-a2be-e0cc-e15c539f8faa",
+    "title": "Close CP",
+    "steps": [
+        {
+            "id": "44ff5343-6fb4-4837-32d1-287b1d3313ca",
+            "originalFrame": "fc0abd11-8f02-c8b2-0578-5b82ae18044e_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.866195999006439,
+                "y": 0.20885452178764027,
+                "width": 0.0634522421995911,
+                "height": 0.03389326225748466
+            },
+            "image": "d08d819f-93b3-eed8-efd1-c24d69cecbf8_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8657407407407407,
+                        "y": 0.20875
+                    },
+                    "size": {
+                        "width": 0.06296296296296296,
+                        "height": 0.03375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "9b14e671-5c26-9dbe-c436-c94e02be25df",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-08-12T12:29:58.144Z",
+    "changedOn": 1628772806976,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

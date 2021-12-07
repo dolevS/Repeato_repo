@@ -1,0 +1,179 @@
+{
+    "id": "e18acf35-f79a-b9be-c241-39070e667ff3",
+    "title": "Level Failed Popup UI",
+    "steps": [
+        {
+            "id": "0f99e8a0-18cf-355c-7287-70385f44af3a",
+            "originalFrame": "fc3d8274-a1ba-8182-56a1-afa830b19fe8_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1638448267016,
+            "selection": {
+                "x": 0.3339888949242561,
+                "y": 0.30529354207436393,
+                "width": 0.32421992878266637,
+                "height": 0.03548923679060665
+            },
+            "image": "7a2056c0-ee68-2c8c-5e6a-2b6edaa9b06c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3333333333333333,
+                        "y": 0.305
+                    },
+                    "size": {
+                        "width": 0.32407407407407407,
+                        "height": 0.035416666666666666
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "03e667f4-b83c-9c83-3d40-97f07c63ebaa",
+            "originalFrame": "d327a2bd-b462-af1a-09a9-b1cdabb10fbc_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1638448282495,
+            "selection": {
+                "x": 0.21316917134407531,
+                "y": 0.3312720156555772,
+                "width": 0.5939646327479027,
+                "height": 0.0968199608610567
+            },
+            "image": "73340c17-09a3-0fde-125d-bfcdb4323942_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.21296296296296297,
+                        "y": 0.33125
+                    },
+                    "size": {
+                        "width": 0.5935185185185186,
+                        "height": 0.09666666666666666
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "4f056fb7-91a9-acdf-a81e-a708d1d91300",
+            "originalFrame": "26649886-f5d9-fd45-73f4-9aa37a8467a3_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1638448305669,
+            "selection": {
+                "x": 0.2239121250528095,
+                "y": 0.48998043052837587,
+                "width": 0.5648741625927937,
+                "height": 0.2662915851272016
+            },
+            "image": "b8523dc1-dce3-1268-83f7-3cfef7673971_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.22314814814814815,
+                        "y": 0.4895833333333333
+                    },
+                    "size": {
+                        "width": 0.5648148148148148,
+                        "height": 0.26625
+                    },
+                    "probability": 0.9999991257985433
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "43a0e189-e735-6907-284f-719a86701b7c",
+            "originalFrame": "47156ff8-0644-5b48-9601-19df4ace3e55_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1638448320812,
+            "selection": {
+                "x": 0.7718872593397303,
+                "y": 0.3167221135029353,
+                "width": 0.06311787072243347,
+                "height": 0.02722113502935421
+            },
+            "image": "fc0f0436-8c68-52bf-fbb7-76e9c4a53bd0_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7712962962962963,
+                        "y": 0.31666666666666665
+                    },
+                    "size": {
+                        "width": 0.06296296296296296,
+                        "height": 0.027083333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1622637117946,
+    "changedOn": 1638448323406,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "372e812a-e2f2-91ee-a77d-44c7cc00579e",
+            "date": 1622729155441,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 4267,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-06-01 11:36:32"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

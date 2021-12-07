@@ -1,0 +1,128 @@
+{
+    "id": "eafffd6a-1112-2ea3-d90e-ff4d20bfbb76",
+    "title": "More Games Button - Exit Game Popup",
+    "steps": [
+        {
+            "id": "fcbff301-dc3d-748a-0334-caaf91d4a051",
+            "type": "back",
+            "optional": false,
+            "createdOn": 1634718360032
+        },
+        {
+            "id": "0a6fc155-4b9f-7295-5e99-5b959cfd291e",
+            "originalFrame": "750beab6-a8b0-2ff5-9ffd-b6d74b91a4e2_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1637847389649,
+            "selection": {
+                "x": 0.5746031746031747,
+                "y": 0.4442857142857143,
+                "width": 0.18095238095238095,
+                "height": 0.08428571428571428
+            },
+            "image": "152a0e7c-7d04-478f-3a34-f191f636d6c6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5740740740740741,
+                        "y": 0.44416666666666665
+                    },
+                    "size": {
+                        "width": 0.18055555555555555,
+                        "height": 0.08416666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "5530e83d-325d-7bc7-03c9-60b2b0f0aa9f",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1637847533339,
+            "testId": "f408328b-80bc-3d90-1bf7-dad9d3bc358e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c9653b0c-05ad-5300-4dca-4e20737ebb8d",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1637847400335,
+            "testId": "bf1722c2-4f93-b7b4-69c0-7e9a6d74c887",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1637847549728,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "cbdea653-64cb-5ede-2261-eff89e6ae2bb",
+            "date": 1622375770815,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "a95c4d5b-3900-f402-3781-2ce8a5135146",
+                    "step": "fcbff301-dc3d-748a-0334-caaf91d4a051",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "09011d2c-b8b2-ad1c-3157-fcd304620b35-screenshot.jpg",
+                    "createdOn": 1637847377421
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 1857,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-05-24 13:25:19"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

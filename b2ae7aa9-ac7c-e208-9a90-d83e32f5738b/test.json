@@ -1,0 +1,126 @@
+{
+    "id": "b2ae7aa9-ac7c-e208-9a90-d83e32f5738b",
+    "title": "Reward - exit",
+    "steps": [
+        {
+            "id": "d8d37d44-aec8-d2bc-4356-a2ccc350634b",
+            "originalFrame": "a9dbb263-1a1e-fa07-9185-be8f02a7250d_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.38062953995157384,
+                "y": 0.8045801526717556,
+                "width": 0.23389830508474574,
+                "height": 0.052017448200654307
+            },
+            "image": "97d800d8-08bb-204d-4fb1-ca0b037db010_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.38055555555555554,
+                        "y": 0.8041666666666667
+                    },
+                    "size": {
+                        "width": 0.23333333333333334,
+                        "height": 0.051666666666666666
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "74dcef46-9347-3b33-059e-d89013e3e642",
+            "originalFrame": "53ae37aa-ac1e-227d-e097-bab05815547f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.35883777239709447,
+                "y": 0.6911668484187569,
+                "width": 0.31138014527845037,
+                "height": 0.043293347873500546
+            },
+            "image": "3abf156c-f878-c004-8014-846d515c84be_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.35833333333333334,
+                        "y": 0.6908333333333333
+                    },
+                    "size": {
+                        "width": 0.3111111111111111,
+                        "height": 0.042916666666666665
+                    },
+                    "probability": 0.9999997790040046
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "cc606a45-04d0-fa23-f9dd-4b707f9ad435",
+            "originalFrame": "1811460c-86e8-3ce6-5fd2-ef5e18abd783_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "3e1dda38-c9e6-763e-1184-8c1cdcd74c49",
+            "originalFrame": "3a0ac472-4a72-69e5-69cb-97e594659706_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.3346246973365617,
+                "y": 0.7956750272628136,
+                "width": 0.3573849878934625,
+                "height": 0.02148309705561614
+            },
+            "image": "7d1d04ea-a1f1-30ae-729a-b7d9f77a2c3f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.33425925925925926,
+                        "y": 0.7954166666666667
+                    },
+                    "size": {
+                        "width": 0.35648148148148145,
+                        "height": 0.02125
+                    },
+                    "probability": 0.9999999515671902
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1632324471369,
+    "changedOn": 1632324510887,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

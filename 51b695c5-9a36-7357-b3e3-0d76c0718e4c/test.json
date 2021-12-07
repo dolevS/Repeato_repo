@@ -1,0 +1,88 @@
+{
+    "id": "51b695c5-9a36-7357-b3e3-0d76c0718e4c",
+    "title": "Sale Icon",
+    "steps": [
+        {
+            "id": "14281ac1-4205-9d16-1d64-7f141fd3b392",
+            "originalFrame": "269c29f0-122e-1c37-716a-edb8d9696c6f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1636384041519,
+            "selection": {
+                "x": 0.057142857142857155,
+                "y": 0.12285714285714285,
+                "width": 0.15238095238095237,
+                "height": 0.07285714285714287
+            },
+            "image": "3da5de06-a148-b459-13aa-3a75039b3a99_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05648148148148148,
+                        "y": 0.1225
+                    },
+                    "size": {
+                        "width": 0.15185185185185185,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "3648452a-d452-9bb0-869e-78c8dd6420b5",
+            "originalFrame": "1242799f-565e-ef10-ef26-77edf13d9236_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1636384065705,
+            "selection": {
+                "x": 0.37142857142857144,
+                "y": 0.03857142857142854,
+                "width": 0.2634920634920635,
+                "height": 0.05428571428571429
+            },
+            "image": "0c13c3a9-ac65-2817-1004-691a6abe66b6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3712962962962963,
+                        "y": 0.03833333333333333
+                    },
+                    "size": {
+                        "width": 0.26296296296296295,
+                        "height": 0.05416666666666667
+                    },
+                    "probability": 0.9999999866914658
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1636623010817,
+    "changedOn": 1636623023167,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,43 @@
+{
+    "id": "febe0d68-0b6b-b5ae-2bef-678ca9d6ebe7",
+    "title": "Load Test - Sanity",
+    "steps": [
+        {
+            "id": "3b0c850e-2068-0097-bf35-a959fdc3a659",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f8f5e125-f477-46d6-aa15-8347eb5f6f5f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b0192df9-95b5-2856-d51c-c024cd97eab1",
+            "type": "execScript",
+            "optional": false,
+            "script": "for(i = 0; i < 10; i++){\n   setNextStepIndex(0) \n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-08-12T10:22:37.589Z",
+    "changedOn": 1628763850605,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

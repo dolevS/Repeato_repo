@@ -1,0 +1,165 @@
+{
+    "id": "fdbf36e8-fd63-12ad-5f64-bf263b1ab896",
+    "title": "Missions Identification ",
+    "steps": [
+        {
+            "id": "beb5547f-6056-8f7a-e2a2-81639a624180",
+            "originalFrame": "7abe8042-49aa-5de6-ed53-db91a3a59b83_frame.jpg",
+            "timeout": 1,
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.127673003802282,
+                "y": 0.10218801631287229,
+                "width": 0.7316196982111782,
+                "height": 0.07496377406970314
+            },
+            "image": "aa8b2c46-1860-ceeb-fa31-6e4d57bb0729_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.12685185185185185,
+                        "y": 0.10208333333333333
+                    },
+                    "size": {
+                        "width": 0.7314814814814815,
+                        "height": 0.07458333333333333
+                    },
+                    "probability": 0.9999999751006357
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "497b8279-8772-af8c-7562-82bfeb6dc0c3",
+            "originalFrame": "e37ea1b6-db5e-4fdf-d2a6-ea6bc443c3d6_frame.jpg",
+            "timeout": 1,
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.1349369263204418,
+                "y": 0.19942465753424635,
+                "width": 0.7316196982111782,
+                "height": 0.07496377406970314
+            },
+            "image": "31753b54-e4a4-797e-0539-265837e49cc8_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.13425925925925927,
+                        "y": 0.19916666666666666
+                    },
+                    "size": {
+                        "width": 0.7314814814814815,
+                        "height": 0.07458333333333333
+                    },
+                    "probability": 0.9999999721291601
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "69a51a2f-e1e0-3666-9282-1522d6a95676",
+            "originalFrame": "b3b5b1c7-5559-5b49-5a9d-1177a5cb9a9a_frame.jpg",
+            "timeout": 1,
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.1349369263204418,
+                "y": 0.2994246575342462,
+                "width": 0.7316196982111782,
+                "height": 0.07496377406970314
+            },
+            "image": "6a8b23da-d9ac-8d39-edac-57835d06b060_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.13425925925925927,
+                        "y": 0.2991666666666667
+                    },
+                    "size": {
+                        "width": 0.7314814814814815,
+                        "height": 0.07458333333333333
+                    },
+                    "probability": 0.9999999647532244
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "9570a1b2-33b7-d15c-098f-228aa2ff5997",
+            "type": "execScript",
+            "optional": false,
+            "script": "const stepResults = testRunner.getTestRun().stepResults\nconst allStepResults = testRunner.getTestRun().stepResults\nconst thisTestStepResults = allStepResults.filter(stepResult => testRunner.currentTest.steps.find(step => step === stepResult.step))\ndata.oneAdShown = 0\nfor(data.i = 0; data.i <= thisTestStepResults.length-1; data.i++){  //5\n   log((data.i-1) + ' steps before prev result: '+ stepResults[currentStepIndex-data.i].success)\n   if(thisTestStepResults[data.i].success){   \n     log('Mission shown: '+data.i+'th from the end')\n     data.oneAdShown++\n     if(data.oneAdShown == 3){\n        break\n     }\n   }\n}\nif(data.oneAdShown < 3){\n  throw \"less than three missions\"\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626780412599,
+    "changedOn": 1632057958194,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "d6a6a56c-1cee-8edf-958b-25342bf76907",
+            "date": 1626866955988,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "ec45e88d-a7a4-df57-826f-0b55a448350c",
+                    "step": "9570a1b2-33b7-d15c-098f-228aa2ff5997",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "ERROR occured while execution script:\n\nTypeError: Cannot read property 'success' of undefined",
+                    "screenshot": "4b326ac1-e7cd-fd15-cd4f-7c09af8db5cc-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.28",
+                    "code": 300009066,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-18 09:33:26"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

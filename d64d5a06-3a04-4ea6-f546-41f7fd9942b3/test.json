@@ -1,0 +1,115 @@
+{
+    "id": "d64d5a06-3a04-4ea6-f546-41f7fd9942b3",
+    "title": "Cheats - Map",
+    "steps": [
+        {
+            "id": "afc4c8b3-a79b-2307-ae84-6bdb87995192",
+            "originalFrame": "51a1a259-51bd-2a4b-0018-8740c0a25504_frame.jpg",
+            "type": "drag",
+            "optional": false,
+            "selection": {
+                "x": 0.4,
+                "y": 0.4,
+                "width": 0.2,
+                "height": 0.1
+            },
+            "image": "e67bb690-8f6a-d8d2-9b2c-aa838fcbf444_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.1
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [
+                {
+                    "x": 0.9741363933646471,
+                    "y": 0.1845287130291515
+                },
+                {
+                    "x": 0.9703311730780665,
+                    "y": 0.1301054981265446
+                },
+                {
+                    "x": 0.9703311730780665,
+                    "y": 0.07738300868964418
+                }
+            ],
+            "duration": 0,
+            "longClick": false,
+            "startPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.9322789702122599,
+                    "y": 0.31038239749142993
+                }
+            },
+            "endPositionSource": {
+                "type": "xy",
+                "point": {
+                    "x": 0.9360841904988406,
+                    "y": 0.039967048444101934
+                }
+            },
+            "dragType": "AtoB",
+            "repeatDrag": false,
+            "stopOnFingerprintFound": false
+        },
+        {
+            "id": "057773f1-7572-8b03-8579-8109a32b90de",
+            "originalFrame": "526258f5-92f6-e78a-b4bf-da4a5530a115_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.06539923954372626,
+                "y": 0.12773972602739728,
+                "width": 0.2,
+                "height": 0.10684931506849316
+            },
+            "image": "ba55cf6e-6efe-1029-09e5-f48aff116278_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.06481481481481481,
+                        "y": 0.1275
+                    },
+                    "size": {
+                        "width": 0.2,
+                        "height": 0.10666666666666667
+                    },
+                    "probability": 0.999998410542806
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626960354667,
+    "changedOn": 1626960381300,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

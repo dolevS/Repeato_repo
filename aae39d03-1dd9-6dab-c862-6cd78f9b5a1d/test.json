@@ -1,0 +1,124 @@
+{
+    "id": "aae39d03-1dd9-6dab-c862-6cd78f9b5a1d",
+    "title": "Main UI",
+    "steps": [
+        {
+            "id": "940ea93b-2e85-466e-b9fc-67e4caf93538",
+            "type": "subTest",
+            "optional": false,
+            "testId": "26a80909-a1e3-0cb5-217d-f72bbbb94e6b",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "63aa2793-88e4-21f8-81c1-c24a6bf5ae1b",
+            "type": "subTest",
+            "optional": true,
+            "testId": "17169eb4-e9d4-4caf-2294-01fd139ae320",
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "d7a3bc8e-09a9-a396-b5e4-799819f27f18",
+            "type": "subTest",
+            "optional": false,
+            "testId": "4d3e1704-d2bf-36ae-fa14-1ca94c67b155",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b12d54e1-ba48-2169-ff6c-b4761110836a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a1c4edc3-6b02-4bc6-4608-fa9dfb10b445",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "7a740c29-0f92-8e21-b321-6b2b8d9ce6e8",
+            "type": "subTest",
+            "optional": false,
+            "testId": "aadc2a59-b1a2-a70a-863c-32928a0f70e4",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "0fcaad54-bdfa-bb88-2f81-5bcfdfb3773c",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "fb95aea2-07a9-491a-7709-821320c35975",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e615fde1-0507-924f-040e-28a9d51c502d",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e3c281b9-2c6a-274c-a2c4-815a8713a199",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a95c4113-bf44-26e3-564e-45cb7e1cf317",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b12bb618-3c1d-827a-29a0-29a377334669",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "91bb8f87-ee43-9276-72c6-3bed3c7498dc",
+            "type": "subTest",
+            "optional": false,
+            "testId": "281f968d-f856-eb31-fbcd-cbce30f9bed8",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "ec670ef8-6e28-1c96-e27f-bc1af6439b76",
+            "type": "subTest",
+            "optional": false,
+            "testId": "60d4f8dd-3376-979e-4355-8c823013a9b4",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c748edf7-e0f6-a858-e5e6-63fcb5cb4dfb",
+            "type": "subTest",
+            "optional": false,
+            "testId": "d6cb706e-85de-4e90-3fb2-330d7f26beff",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b55d30e3-729d-9d45-bc83-54f767ab2b0f",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "841f5d7f-2353-81ba-2d50-890a51853736",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b06e8037-0bcf-6627-6ac7-c7594c4e13ea",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "950b36a6-e530-211f-b572-7ba37ed1c1de",
+            "type": "subTest",
+            "optional": false,
+            "testId": "07e03ecc-84f9-1377-37d3-35075905d7eb",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-15T12:54:06.146Z",
+    "changedOn": 1627459625219,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

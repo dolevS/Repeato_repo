@@ -1,0 +1,57 @@
+{
+    "id": "35b99e4c-0d43-9a41-9aff-cc8df7b01ad7",
+    "title": "Google Play UI",
+    "steps": [
+        {
+            "id": "24c3932c-3525-7981-3d5e-c5edafda7899",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626353209003,
+    "changedOn": 1627457797130,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "6190d86d-0678-459f-3e5a-831666e9edbf",
+            "date": 1626353231636,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

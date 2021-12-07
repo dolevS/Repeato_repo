@@ -1,0 +1,149 @@
+{
+    "id": "b64c0d77-dec1-df5a-a395-ed16b13ae22d",
+    "title": "Exit Game Popup",
+    "steps": [
+        {
+            "id": "770334a4-91e5-0e3c-8380-fa47d64bcd28",
+            "type": "back",
+            "optional": false
+        },
+        {
+            "id": "3375a2e2-e5a2-e5c8-c630-8c1e99012d3f",
+            "originalFrame": "a69d4507-0fd5-a447-392b-be92fc857441_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.22129277566539934,
+                "y": 0.32294520547945205,
+                "width": 0.5688212927756654,
+                "height": 0.060616438356164384
+            },
+            "image": "05f2f21e-9cf1-09fe-fbd1-84eb549f078f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.22037037037037038,
+                        "y": 0.3229166666666667
+                    },
+                    "size": {
+                        "width": 0.5685185185185185,
+                        "height": 0.06041666666666667
+                    },
+                    "probability": 0.9999998250683765
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "3bd4717e-deb7-5301-713a-4036d631addb",
+            "originalFrame": "ad2aeaad-13a6-407e-5506-ef594911aa13_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.07680608365019012,
+                "y": 0.364041095890411,
+                "width": 0.8463878326996198,
+                "height": 0.36369863013698633
+            },
+            "image": "c23305ac-c42c-e44d-7cad-7716fad9c047_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.07592592592592592,
+                        "y": 0.36375
+                    },
+                    "size": {
+                        "width": 0.8462962962962963,
+                        "height": 0.36333333333333334
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "f445e244-3eb6-f13f-8d4f-f136c5cf8bcf",
+            "originalFrame": "4e43d2b0-c1df-e9a2-f7d5-d98967624cbd_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8410646387832698,
+                "y": 0.36746575342465754,
+                "width": 0.08593155893536122,
+                "height": 0.0297945205479452
+            },
+            "image": "e8693666-30d3-3f51-fe86-80d88ccedf5f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8407407407407408,
+                        "y": 0.3670833333333333
+                    },
+                    "size": {
+                        "width": 0.08518518518518518,
+                        "height": 0.029583333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-07-15T11:52:19.088Z",
+    "changedOn": 1626350121074,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "2767e6b5-71f7-604c-ad34-0f73431fc058",
+            "date": 1626350025152,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "6f779601-da25-700e-6b52-e7c9a2eaa9b3",
+                    "step": "770334a4-91e5-0e3c-8380-fa47d64bcd28",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "f70ea0a2-1d45-c949-d6bb-6c63749089ff-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-08 13:48:06"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

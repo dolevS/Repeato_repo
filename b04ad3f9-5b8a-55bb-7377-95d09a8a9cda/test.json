@@ -1,0 +1,119 @@
+{
+    "id": "b04ad3f9-5b8a-55bb-7377-95d09a8a9cda",
+    "title": "Offline Tests",
+    "steps": [
+        {
+            "id": "83b2cb44-fa4e-fa16-2488-ba9d42bd0f9b",
+            "type": "subTest",
+            "optional": false,
+            "testId": "21f5d45f-23a8-050e-bf88-aa09b0dccbc4",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "b6968254-c7aa-c69d-cda8-a181421426d6",
+            "originalFrame": "cf2b39fe-53ed-2389-bb56-0d95cf2a7f8b_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "d8a30425-3662-e00d-e07d-b3a5b36579dd",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bc36ae05-b946-c375-ec12-b00e06126628",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "7d9b5b89-9095-b99c-3699-ce2a1d2151da",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e482fdfd-d86e-09b0-b21a-fa729de48b4f",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "1b0466c1-661c-a932-7fe7-31507113f081",
+            "type": "subTest",
+            "optional": false,
+            "testId": "3f20fb3a-427c-1993-2f3a-a0f1e646340e",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "d2d4f719-644e-c40a-9136-1539e2eead38",
+            "type": "subTest",
+            "optional": false,
+            "testId": "0080b148-7d98-0e54-f6fe-1e5212111970",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "55406f41-e204-e374-1e68-70e8a6f3dd06",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ca90c5fa-fc9c-5620-f465-b4534ea55fe5",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1626345480254,
+    "changedOn": 1630593199125,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "665de8cc-c957-affe-2f1d-931560eb49a8",
+            "date": 1626359746419,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 2419,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-07-08 13:48:06",
+                    "lastUpdateTime": "2021-07-08 13:48:06"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

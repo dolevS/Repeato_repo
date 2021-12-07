@@ -1,0 +1,224 @@
+{
+    "id": "d5adeede-018f-ae4b-a629-f119e3c1d9cf",
+    "title": "Shoot Blue Bubble",
+    "steps": [
+        {
+            "id": "800b209c-b987-59f8-baed-5e7a6bc36320",
+            "originalFrame": "d7c838c4-abd9-d332-2ad0-57909df7d5e5_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.45703422053231935,
+                "y": 0.8246575342465755,
+                "width": 0.07452471482889735,
+                "height": 0.03835616438356164
+            },
+            "image": "9c606cea-4ffe-0160-cbd2-b164ec2d35f9_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2175925925925926,
+                        "y": 0.13375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9800013326965251
+                },
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.13375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9793153676894364
+                },
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.46625
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9510220422431154
+                },
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.5329166666666667
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9549237471784645
+                },
+                {
+                    "position": {
+                        "x": 0.45740740740740743,
+                        "y": 0.8245833333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.5648148148148148,
+                        "y": 0.13375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.971083430101309
+                },
+                {
+                    "position": {
+                        "x": 0.6518518518518519,
+                        "y": 0.3333333333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9525396977164942
+                }
+            ],
+            "matchIndex": 4
+        },
+        {
+            "id": "974b9ea2-3b66-180b-ea7b-2941d8be9218",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot blue ball')\n }\nelse {\n  log('No blue ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-13T08:15:54.569Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "9fb589db-6dc7-4055-ae63-019e1110c6d9",
+            "date": 1618301736147,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "b0fa7cf5-f7f6-4792-0e3e-2945f2941698",
+                    "step": "800b209c-b987-59f8-baed-5e7a6bc36320",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.2175925925925926,
+                                "y": 0.13375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9800013326965251
+                        },
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.13375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9793153676894364
+                        },
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.46625
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9510220422431154
+                        },
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.5329166666666667
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9549237471784645
+                        },
+                        {
+                            "position": {
+                                "x": 0.45740740740740743,
+                                "y": 0.8245833333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "d58316fb-50f8-669a-ebfb-7581100d72f6-screenshot.jpg"
+                },
+                {
+                    "id": "47ac1211-cd86-e682-1792-ed3d40e6b3b8",
+                    "step": "974b9ea2-3b66-180b-ea7b-2941d8be9218",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "ERROR occured while execution script:\n\nTypeError: testRunner.rootTest.checkLastMatchAndShoot is not a function",
+                    "screenshot": "c059fbb7-743b-aa61-b11b-0f4e709c82a2-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

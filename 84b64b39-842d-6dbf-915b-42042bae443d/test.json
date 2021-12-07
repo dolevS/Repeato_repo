@@ -1,0 +1,122 @@
+{
+    "id": "84b64b39-842d-6dbf-915b-42042bae443d",
+    "title": "Enter A Level",
+    "steps": [
+        {
+            "id": "899b8ea6-2a89-915d-5d51-c8693001cf1b",
+            "originalFrame": "79cb7051-9efd-ff74-a91c-b393ee72ee53_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1635078096175,
+            "selection": {
+                "x": 0.33650793650793653,
+                "y": 0.2671428571428571,
+                "width": 0.24761904761904766,
+                "height": 0.05
+            },
+            "image": "1b744a19-d177-5247-b3bd-68d14ce4b371_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.33611111111111114,
+                        "y": 0.26708333333333334
+                    },
+                    "size": {
+                        "width": 0.24722222222222223,
+                        "height": 0.05
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "ddecad54-3028-991c-9a14-4154851c8b2e",
+            "originalFrame": "196cab6b-057b-af23-557e-344cffdd2524_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1635075937455,
+            "selection": {
+                "x": 0.37777777777777777,
+                "y": 0.6157142857142857,
+                "width": 0.26031746031746034,
+                "height": 0.05571428571428571
+            },
+            "image": "bd4cbf75-2f47-075b-c813-1745c2ea3573_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.37777777777777777,
+                        "y": 0.6154166666666666
+                    },
+                    "size": {
+                        "width": 0.2601851851851852,
+                        "height": 0.05541666666666667
+                    },
+                    "probability": 0.999999956097966
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "ff3cabda-91e9-107a-64c9-b756785b1df2",
+            "originalFrame": "acdcdce1-889b-827f-b7e5-0824ea1ef737_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1635078133219,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1630227184446,
+    "changedOn": 1635698160210,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "bdcf0b0b-0128-8cb4-49fd-ed2fb24f87db",
+            "date": 1630227197478,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

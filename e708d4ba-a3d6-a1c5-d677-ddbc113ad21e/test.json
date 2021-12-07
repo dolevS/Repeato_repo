@@ -1,0 +1,43 @@
+{
+    "id": "e708d4ba-a3d6-a1c5-d677-ddbc113ad21e",
+    "title": "PPA",
+    "steps": [
+        {
+            "id": "bf8cfe1a-2dc3-9d85-48e6-5f4b8f978888",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ac742cce-a547-020e-9072-3e6fbe7260db",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f20cbf0e-beea-51dd-c26f-cb35aa392bb1",
+            "type": "subTest",
+            "optional": false,
+            "testId": "486d1607-7837-0cbd-6a2e-edf7ae651056",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "71f62475-ce16-8c5a-d281-a19db59251c0",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c68c4389-95a6-dd64-4523-e7a671fd17cd",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-27T06:14:21.485Z",
+    "changedOn": 1627289381870,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

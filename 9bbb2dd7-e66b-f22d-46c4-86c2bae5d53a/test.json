@@ -1,0 +1,123 @@
+{
+    "id": "9bbb2dd7-e66b-f22d-46c4-86c2bae5d53a",
+    "title": "Accept New GDPR",
+    "steps": [
+        {
+            "id": "1be7de36-fb47-828c-436c-e70454af0d3c",
+            "originalFrame": "c72cd1b2-b338-71f4-d8ec-450a9e0a07d2_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1636632221068,
+            "selection": {
+                "x": 0.2668341708542713,
+                "y": 0.17531351001939235,
+                "width": 0.4512562814070351,
+                "height": 0.05361990950226245
+            },
+            "image": "5b0b4ced-eb66-3a4e-d66f-7aebcedef503_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.26666666666666666,
+                        "y": 0.175
+                    },
+                    "size": {
+                        "width": 0.45092592592592595,
+                        "height": 0.05333333333333334
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "d6119d5d-be27-fca5-3093-8b6e35db1b52",
+            "originalFrame": "1e2f5904-f96f-1b50-5b61-7657f8896bf6_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1636632230269,
+            "selection": {
+                "x": 0.3265820508177923,
+                "y": 0.7664774951076319,
+                "width": 0.340684410646388,
+                "height": 0.05547945205479451
+            },
+            "image": "36f5ba0c-d720-ac46-7060-6c5f5bc82523_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.32592592592592595,
+                        "y": 0.76625
+                    },
+                    "size": {
+                        "width": 0.3398148148148148,
+                        "height": 0.05541666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1622448533053,
+    "changedOn": 1636632231514,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "a15cc327-82bf-ffef-6f80-cdfe3616c161",
+            "date": 1622448538832,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 4058,
+            "appVersions": [
+                {
+                    "packageName": "shooter.two.purple",
+                    "name": "9.21",
+                    "code": 90000922,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-05-24 13:25:19",
+                    "lastUpdateTime": "2021-05-24 13:25:19"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

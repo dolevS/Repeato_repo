@@ -1,0 +1,76 @@
+{
+    "id": "486d1607-7837-0cbd-6a2e-edf7ae651056",
+    "title": "PPA - PPA Part",
+    "steps": [
+        {
+            "id": "4ecbc5bd-7b40-8623-9f37-55462b2c7c28",
+            "type": "subTest",
+            "optional": false,
+            "testId": "82719f15-1d7b-89ef-1188-df2c73d761c7",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "4caba554-dec7-bf35-02a8-b9ca6af59bbd",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2ba2c80e-6be1-0a80-4966-b170b61b5a66",
+            "type": "subTest",
+            "optional": false,
+            "testId": "26bfc1de-1873-381f-b61c-de12de2aa676",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "99e5fa85-6675-6f81-536f-157f9c36025a",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "1fee5a75-ee4e-0340-9e96-9e4c899ce379",
+            "type": "subTest",
+            "optional": false,
+            "testId": "acbc2ebe-3ce7-586c-e2df-0fc3e8c3d969",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "f18636e3-1dec-82db-7247-071c84809d23",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "be051219-486d-7fb9-40e8-19b579f58f48",
+            "type": "subTest",
+            "optional": false,
+            "testId": "9526f502-5e59-c45c-cd3b-d85f3fc50771",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "088a0bcd-af79-b634-9c49-67b6990ececd",
+            "type": "subTest",
+            "optional": false,
+            "testId": "18ae983f-e372-244a-ee26-6196ab446016",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-27T06:27:52.799Z",
+    "changedOn": 1624775714637,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

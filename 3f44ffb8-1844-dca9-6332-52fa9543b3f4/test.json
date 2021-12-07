@@ -1,0 +1,140 @@
+{
+    "id": "3f44ffb8-1844-dca9-6332-52fa9543b3f4",
+    "title": "Targeted Ads Button - ON",
+    "steps": [
+        {
+            "id": "45843ad3-db30-a2b6-fc6d-81b2486b27b5",
+            "originalFrame": "4057dd7c-b825-7edf-422a-e8062d280c03_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1634718360030,
+            "selection": {
+                "x": 0.04638783269961976,
+                "y": 0.9171232876712325,
+                "width": 0.11634980988593156,
+                "height": 0.053767123287671234
+            },
+            "image": "63832259-c2d3-15d3-1344-b59281401ada_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.046296296296296294,
+                        "y": 0.9170833333333334
+                    },
+                    "size": {
+                        "width": 0.11666666666666667,
+                        "height": 0.05375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "d4646073-09c9-d27e-3bbf-0fb2cf499ed8",
+            "originalFrame": "4c8aa7db-dba8-241b-e4bf-3140e642eec5_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1636631948409,
+            "selection": {
+                "x": 0.34865109541915623,
+                "y": 0.2141780821917808,
+                "width": 0.2950570342205323,
+                "height": 0.041780821917808214
+            },
+            "image": "5a626d6a-3c34-959b-0a91-eb7202188d11_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.34814814814814815,
+                        "y": 0.21416666666666667
+                    },
+                    "size": {
+                        "width": 0.29444444444444445,
+                        "height": 0.041666666666666664
+                    },
+                    "probability": 0.9999998992947591
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "4a5bfc06-315a-583e-754d-3ce609f18c4c",
+            "originalFrame": "76c45b1e-a6c3-8034-be42-a10379ed1ebd_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "createdOn": 1636631968299,
+            "selection": {
+                "x": 0.25101092401472647,
+                "y": 0.6591585127201561,
+                "width": 0.4700706137968495,
+                "height": 0.048630136986301385
+            },
+            "image": "aca0db09-1d01-8883-8328-d3516661348b_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.25092592592592594,
+                        "y": 0.65875
+                    },
+                    "size": {
+                        "width": 0.46944444444444444,
+                        "height": 0.04833333333333333
+                    },
+                    "probability": 0.9999998802884175
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "changedOn": 1636631970675,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "35bfb95a-f676-3501-3a13-ddf7284931ad",
+            "date": 1622104257971,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

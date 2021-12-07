@@ -1,0 +1,197 @@
+{
+    "id": "954c6d7d-1bed-a20b-a5d0-b8f4238ef1bd",
+    "title": "Opev UK VPN",
+    "steps": [
+        {
+            "id": "78177919-ba1d-e45d-5645-3706fd54e518",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ]
+        },
+        {
+            "id": "422f8bfd-d450-e63e-a63c-a5d421e96578",
+            "originalFrame": "bba7d535-7ef9-d5a5-08ec-8fec818a0e05_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.01596958174904941,
+                "y": 0.8794520547945203,
+                "width": 0.9718631178707224,
+                "height": 0.06917808219178082
+            },
+            "image": "ec75f082-683d-996f-e399-fc1d964152b6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.01574074074074074,
+                        "y": 0.8795833333333334
+                    },
+                    "size": {
+                        "width": 0.9722222222222222,
+                        "height": 0.06916666666666667
+                    },
+                    "probability": 0.9999997615814209
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "8ba3781e-4969-9a43-5dd2-776660f54ea7",
+            "originalFrame": "69bb0a58-b3db-605f-6258-740f0f84ddc4_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7269961977186312,
+                "y": 0.7133561643835619,
+                "width": 0.1961977186311787,
+                "height": 0.08630136986301368
+            },
+            "image": "34a20447-9902-0c64-0def-b73e4e6ee749_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7268518518518519,
+                        "y": 0.7133333333333334
+                    },
+                    "size": {
+                        "width": 0.1962962962962963,
+                        "height": 0.08625
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "a63b21c5-4554-287c-404f-60a16e6cc3c8",
+            "originalFrame": "2edad4f7-bb40-e90d-dc9f-f02525c06124_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.04638783269961976,
+                "y": 0.5284246575342465,
+                "width": 0.28365019011406845,
+                "height": 0.07431506849315068
+            },
+            "image": "9f4bbb5a-5db3-34d6-1488-3d4e483c1934_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.046296296296296294,
+                        "y": 0.5283333333333333
+                    },
+                    "size": {
+                        "width": 0.2833333333333333,
+                        "height": 0.07416666666666667
+                    },
+                    "probability": 0.9999996773666832
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "071dfe25-a599-3b41-52a9-cf9489fc8b59",
+            "originalFrame": "4fd9a06b-8dbc-97f4-1395-599cf0b97a83_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.04258555133079845,
+                "y": 0.4445205479452055,
+                "width": 0.34828897338403036,
+                "height": 0.06746575342465753
+            },
+            "image": "7f8e39c0-ed4a-5bee-9e7c-786734c64ac7_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.04259259259259259,
+                        "y": 0.44458333333333333
+                    },
+                    "size": {
+                        "width": 0.34814814814814815,
+                        "height": 0.0675
+                    },
+                    "probability": 0.9999999517018807
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "c406b758-806f-2209-aeaf-f6379afc841d",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "e8b48d87-e258-e51d-29ee-1ee0eacbc4ff",
+            "originalFrame": "4f15ab01-a67a-a45c-0591-5070aa63cc79_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.27832699619771867,
+                "y": 0.42054794520547945,
+                "width": 0.4167300380228137,
+                "height": 0.08630136986301372
+            },
+            "image": "5faab582-2b05-46f0-9164-621122ec0a2d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.27870370370370373,
+                        "y": 0.42041666666666666
+                    },
+                    "size": {
+                        "width": 0.4166666666666667,
+                        "height": 0.08625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "0e5c84c7-0918-c47f-fe08-55a90de19c4f",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "shooter.two.purple",
+            "activityName": ".main.BubbleShooterOriginal",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ]
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-24T12:09:59.027Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

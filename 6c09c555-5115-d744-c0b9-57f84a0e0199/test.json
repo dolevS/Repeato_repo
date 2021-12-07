@@ -1,0 +1,158 @@
+{
+    "id": "6c09c555-5115-d744-c0b9-57f84a0e0199",
+    "title": "Shoot Turquoise Bubble",
+    "steps": [
+        {
+            "id": "620db340-8bc2-942b-c476-84cc6265328a",
+            "originalFrame": "839ad9a6-417d-1bad-8a80-552cd25a3f46_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.45703422053231935,
+                "y": 0.8246575342465755,
+                "width": 0.07452471482889735,
+                "height": 0.03835616438356164
+            },
+            "image": "29cd578e-f0f9-c018-66b4-93a036635978_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.17407407407407408,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9579822328562179
+                },
+                {
+                    "position": {
+                        "x": 0.2175925925925926,
+                        "y": 0.16708333333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9753239593473885
+                },
+                {
+                    "position": {
+                        "x": 0.2611111111111111,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9540926301311915
+                },
+                {
+                    "position": {
+                        "x": 0.45740740740740743,
+                        "y": 0.8245833333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 3
+        },
+        {
+            "id": "33749292-7b1d-bcea-9616-2db76ea3a488",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot turquoise ball')\n }\nelse {\n  log('No turquoise ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-13T08:23:18.172Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "9177a9ac-e42b-901b-1157-8096040688b1",
+            "date": 1618302188316,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "e56bc418-2a91-137b-1a91-641ecc35c3ae",
+                    "step": "620db340-8bc2-942b-c476-84cc6265328a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.45740740740740743,
+                                "y": 0.8245833333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        },
+                        {
+                            "position": {
+                                "x": 0.2611111111111111,
+                                "y": 0.4
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9540926301311915
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "message": "Found fingerprint, but only 2x. Originally the fingerprint was found 4x",
+                    "screenshot": "5712b238-17f9-6d25-de72-3e633eab190e-screenshot.jpg"
+                },
+                {
+                    "id": "1f447b71-7298-df3e-1d0e-6d6eb8ff3419",
+                    "step": "33749292-7b1d-bcea-9616-2db76ea3a488",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "ERROR occured while execution script:\n\nTypeError: testRunner.rootTest.checkLastMatchAndShoot is not a function",
+                    "screenshot": "6118930f-d5a1-c2c4-3191-c5efbcbc9daf-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

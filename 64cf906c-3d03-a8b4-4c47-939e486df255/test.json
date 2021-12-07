@@ -1,0 +1,189 @@
+{
+    "id": "64cf906c-3d03-a8b4-4c47-939e486df255",
+    "title": "Stars & Score",
+    "steps": [
+        {
+            "id": "ec3005b1-69bb-f979-55c2-989d39a4f668",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fe520c23-20de-d63d-de00-67cb8f6928cf",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "986857e4-29f9-5c11-af66-7526266dd326",
+            "originalFrame": "75debcac-c67f-f86b-7e48-b7125d4162ae_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "3805d87e-41cd-fb25-4fc2-9b35c0b1b916",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a0129df5-2d74-51e1-c31f-b789a27ab761",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "6ad77c02-1c96-858c-ab29-6af9ed3418cd",
+            "originalFrame": "d4458e58-211f-2c68-ddf1-f4dc92b9cf6c_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": true,
+            "selection": {
+                "x": 0.2859315589353612,
+                "y": 0.1465753424657534,
+                "width": 0.40532319391634986,
+                "height": 0.05407336311079906
+            },
+            "image": "bc0378a7-9710-d058-04b3-7e3bc9ebaadc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2851851851851852,
+                        "y": 0.14625
+                    },
+                    "size": {
+                        "width": 0.4046296296296296,
+                        "height": 0.05375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "12c1c1e5-5715-197f-8d47-331f8a336ad3",
+            "originalFrame": "1020e648-9ad0-02a3-3e97-f3695ab63178_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.8324381553871789,
+                "y": 0.1502782300832076,
+                "width": 0.07104466069472196,
+                "height": 0.03025388028263696
+            },
+            "image": "b8752c6a-a205-fbb6-930c-83fa94006d33_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8324074074074074,
+                        "y": 0.15
+                    },
+                    "size": {
+                        "width": 0.07037037037037037,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "4e5d6b31-60e2-407e-05bb-15059a36f0bf",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f9571eb5-2d48-b06d-7eb0-3d117423d2a9",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "945929b9-a41e-0736-d96f-c6bcd559353b",
+            "originalFrame": "3fc763a0-a3cb-3d3f-4bc4-a1860487f48a_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "d830c2a3-0f22-8774-5fcc-6d4e3c624bed",
+            "type": "subTest",
+            "optional": false,
+            "testId": "15a89697-0f8b-ea60-512b-7fa8742de73c",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e30ac581-0e4c-3843-7719-203a0b733027",
+            "originalFrame": "1f3d5daa-1514-03cb-ea02-d692cc40e312_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": true,
+            "selection": {
+                "x": 0.2859315589353612,
+                "y": 0.1465753424657534,
+                "width": 0.40532319391634986,
+                "height": 0.05407336311079906
+            },
+            "image": "7eb3df77-9cb8-8f04-a47b-2ad4c8c7f88e_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2851851851851852,
+                        "y": 0.14625
+                    },
+                    "size": {
+                        "width": 0.4046296296296296,
+                        "height": 0.05375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "edbb05a0-f0fb-acd8-086d-3f95623b4068",
+            "originalFrame": "581e0656-1eff-40c7-edf5-e8f829e305db_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.8324381553871789,
+                "y": 0.1502782300832076,
+                "width": 0.07104466069472196,
+                "height": 0.03025388028263696
+            },
+            "image": "6085a9aa-228d-46f8-c69b-c53d0e022803_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8324074074074074,
+                        "y": 0.15
+                    },
+                    "size": {
+                        "width": 0.07037037037037037,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1630844518661,
+    "changedOn": 1634567179284,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,79 @@
+{
+    "id": "e99ae723-cf02-961b-fbe3-bff4eab77907",
+    "title": "In-App Purchases - Banner + Inter",
+    "steps": [
+        {
+            "id": "1b73d54c-675e-ecf2-9322-04ce6db3726d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "6b0a0dfc-44ea-e867-46e1-c54586a0eaef",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "49e354a5-18b5-9e75-52bd-23780dad844d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "6d512cd8-4276-6957-d26c-da6595a1ef06",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c2c831df-0c7e-73f7-3903-da54de2f1c67",
+            "type": "subTest",
+            "optional": false,
+            "testId": "41ab20f8-a5ce-539a-9a0f-648cc812bc98",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1625666671004,
+    "changedOn": 1634563592450,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "1d654281-a173-e9ae-bc6a-1c119cf631c0",
+            "date": 1634563589715,
+            "completed": true,
+            "stepResults": [],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

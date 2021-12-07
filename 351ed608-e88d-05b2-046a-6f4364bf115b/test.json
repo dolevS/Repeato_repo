@@ -1,0 +1,120 @@
+{
+    "id": "351ed608-e88d-05b2-046a-6f4364bf115b",
+    "title": "Spend All Moves",
+    "steps": [
+        {
+            "id": "12a316c6-4ce8-7e19-5354-e198f8d4ea25",
+            "originalFrame": "a1688fb2-91fc-25c3-f0a8-212441deceab_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.39031476997578696,
+                "y": 0.5984732824427481,
+                "width": 0.12736077481840194,
+                "height": 0.0618320610687023
+            },
+            "image": "5a63f334-62f8-08c9-8eb1-ece2fce7189c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.38981481481481484,
+                        "y": 0.5983333333333334
+                    },
+                    "size": {
+                        "width": 0.12685185185185185,
+                        "height": 0.06166666666666667
+                    },
+                    "probability": 0.9999999213728424
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "d1a6593f-3eb3-7a10-9a5f-e683ae621794",
+            "type": "execScript",
+            "optional": false,
+            "script": "for(data.i = 0; data.i < 10; data.i++){\n   log(data.i)\n   setNextStepIndex(0) \n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1634542465566,
+    "changedOn": 1634544700880,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "9febc038-aa3a-f17b-5ea6-6c43345cbeeb",
+            "date": 1634543848950,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "8dbcb0b0-d5ce-d0f9-a68d-5a2109152d83",
+                    "step": "d1a6593f-3eb3-7a10-9a5f-e683ae621794",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "7557d602-c1cd-8f6f-5401-49090b2555ec-screenshot.jpg"
+                },
+                {
+                    "id": "71f14322-6393-d976-2e58-d0cf8d0fae73",
+                    "step": "12a316c6-4ce8-7e19-5354-e198f8d4ea25",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "6d2435ae-1e8c-bcac-b7f9-8dbf6d028408-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubble.shooter.exxtreme",
+                    "name": "1.7",
+                    "code": 300011448,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-09-27 10:36:42",
+                    "lastUpdateTime": "2021-10-04 18:15:55"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

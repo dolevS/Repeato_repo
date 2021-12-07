@@ -1,0 +1,55 @@
+{
+    "id": "e9b7faef-471d-8fef-550b-074be616a240",
+    "title": "Shoot Red Bubble",
+    "steps": [
+        {
+            "id": "a8622097-1f6c-f832-8a00-28a526a8f09f",
+            "originalFrame": "cfaf9c4d-6976-9fa5-1868-5a1ca8d798af_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.4684410646387831,
+                "y": 0.852054794520548,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "1b3c9a76-3080-7863-e0b4-c6fe2b6da81f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.4685185185185185,
+                        "y": 0.8520833333333333
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "e4fc1b84-4943-84ee-e018-3393ecd39758",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot red ball')\n }\nelse {\n  log('No red ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-02T13:08:42.634Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

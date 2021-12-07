@@ -1,0 +1,82 @@
+{
+    "id": "e762a355-6cb1-9834-43fb-b3568187f473",
+    "title": "In-App Purchases - Banner",
+    "steps": [
+        {
+            "id": "dce904e1-8f1c-c1a1-06a2-4396eab3cf6f",
+            "originalFrame": "00e017b2-776d-37ef-deab-a0acb594e97c_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.5787129564170662,
+                "y": 0.8726337321019028,
+                "width": 0.4212870435829338,
+                "height": 0.12736626789809707
+            },
+            "image": "c99a5a77-8482-47f2-36c8-0aa623b83c45_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5787037037037037,
+                        "y": 0.8725
+                    },
+                    "size": {
+                        "width": 0.4203703703703704,
+                        "height": 0.12708333333333333
+                    },
+                    "probability": 0.9999999935154035
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "34eb344f-9b70-873f-7827-94e7f8bad6b0",
+            "originalFrame": "e174df07-3e9f-29d3-2e26-5ce4cdf0674d_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.17843972715287448,
+                "y": 0.8794520547945206,
+                "width": 0.23048512524600195,
+                "height": 0.12054794520547948
+            },
+            "image": "4d0433b2-3eec-9b7f-eac8-7f1460a97a81_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.17777777777777778,
+                        "y": 0.8791666666666667
+                    },
+                    "size": {
+                        "width": 0.22962962962962963,
+                        "height": 0.12041666666666667
+                    },
+                    "probability": 0.9999999728886971
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": "2021-07-07T13:58:45.680Z",
+    "changedOn": 1630329281971,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

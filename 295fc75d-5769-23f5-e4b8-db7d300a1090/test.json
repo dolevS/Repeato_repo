@@ -1,0 +1,136 @@
+{
+    "id": "295fc75d-5769-23f5-e4b8-db7d300a1090",
+    "title": "Travelgram UI",
+    "steps": [
+        {
+            "id": "4f203eaa-98d1-5966-42be-17fb321ba227",
+            "originalFrame": "489964b5-4405-b893-ebbc-bf3da2788e9f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1635761405323,
+            "selection": {
+                "x": 0.047619047619047644,
+                "y": 0.8142857142857142,
+                "width": 0.13015873015873017,
+                "height": 0.05142857142857142
+            },
+            "image": "23ac3a6f-026b-5894-86d6-8a94f4b314d5_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.04722222222222222,
+                        "y": 0.8141666666666667
+                    },
+                    "size": {
+                        "width": 0.12962962962962962,
+                        "height": 0.05125
+                    },
+                    "probability": 0.9999999124720299
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "e3330018-af32-c443-f0bb-68e10c6820a8",
+            "originalFrame": "393bc597-0f6b-bfa1-d1d0-d2d31ace0e5d_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "createdOn": 1635761422502,
+            "selection": {
+                "x": 0.21587301587301586,
+                "y": 0.2157142857142857,
+                "width": 0.5650793650793651,
+                "height": 0.05285714285714285
+            },
+            "image": "6cc561a2-4eaf-3472-c11f-5d40f806d5e2_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.21574074074074073,
+                        "y": 0.21541666666666667
+                    },
+                    "size": {
+                        "width": 0.5648148148148148,
+                        "height": 0.0525
+                    },
+                    "probability": 0.9999999236571426
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1635761388449,
+    "changedOn": 1635761453573,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "5cb0beaa-3d56-ad41-0370-47e6536c61bf",
+            "date": 1635761408536,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "7522269d-2298-47bb-8d3d-632743fbba3b",
+                    "step": "4f203eaa-98d1-5966-42be-17fb321ba227",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.04722222222222222,
+                                "y": 0.8141666666666667
+                            },
+                            "size": {
+                                "width": 0.12962962962962962,
+                                "height": 0.05125
+                            },
+                            "probability": 0.9621356238313554
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "86773769-5932-6bee-127a-2fb64391b3b1-screenshot.jpg",
+                    "createdOn": 1635761409385
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

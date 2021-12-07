@@ -1,0 +1,171 @@
+{
+    "id": "9c419e82-55cc-d674-2e1c-e293f77723d1",
+    "title": "Turn WIFI On",
+    "steps": [
+        {
+            "id": "5021c34d-177c-bfe3-04c2-284a68965d04",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.android.settings",
+            "activityName": ".Settings$LanguageAndInputSettingsActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "CALL_PHONE",
+                "CAMERA",
+                "GET_ACCOUNTS",
+                "READ_CALL_LOG",
+                "READ_CONTACTS",
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_STATE",
+                "READ_SMS",
+                "RECEIVE_SMS",
+                "RECORD_AUDIO",
+                "SEND_SMS",
+                "WRITE_CALL_LOG",
+                "WRITE_CONTACTS",
+                "WRITE_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "5b72130a-d315-849e-f2bd-02d39b0d183a",
+            "originalFrame": "ddeef2b5-e003-6e49-db81-d68a39423f2b_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.05133171912832935,
+                "y": 0.09792802617230098,
+                "width": 0.31380145278450366,
+                "height": 0.050926935659760086
+            },
+            "image": "f0232f72-0ec4-19d3-a76e-2012ea6a2413_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05092592592592592,
+                        "y": 0.09791666666666667
+                    },
+                    "size": {
+                        "width": 0.31296296296296294,
+                        "height": 0.050833333333333335
+                    },
+                    "probability": 0.9999999895231989
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "169323c4-cfbe-6a2a-8239-5dad200e3c14",
+            "originalFrame": "4e09f926-1f31-99f2-c0a3-4b3a6991d906_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.03680387409200968,
+                "y": 0.5526717557251909,
+                "width": 0.37675544794188864,
+                "height": 0.047655398037077426
+            },
+            "image": "cb7c1cb1-2038-ae81-60c9-f755bb82e35c_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.03611111111111111,
+                        "y": 0.5525
+                    },
+                    "size": {
+                        "width": 0.37592592592592594,
+                        "height": 0.0475
+                    },
+                    "probability": 0.9999987284342448
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "0e9b9b88-2bf1-0707-51a4-f68a517c1742",
+            "originalFrame": "6f964733-d1c3-f1b3-48ca-0841cb4b0e2d_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.8019370460048427,
+                "y": 0.18625954198473285,
+                "width": 0.12736077481840197,
+                "height": 0.03893129770992367
+            },
+            "image": "915e76f9-63bd-c2fb-49f6-722f75b7cc74_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8018518518518518,
+                        "y": 0.18625
+                    },
+                    "size": {
+                        "width": 0.12685185185185185,
+                        "height": 0.03875
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "f36e8fa5-650d-db00-50c1-db91f87d183b",
+            "originalFrame": "35834978-62dd-12a3-6f14-13eb3cae4ab5_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.7922518159806295,
+                "y": 0.17208287895310798,
+                "width": 0.14915254237288134,
+                "height": 0.04656488549618321
+            },
+            "image": "c699079b-e82e-41cb-f501-41ab4c3ca8c3_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7916666666666666,
+                        "y": 0.17166666666666666
+                    },
+                    "size": {
+                        "width": 0.14907407407407408,
+                        "height": 0.04625
+                    },
+                    "probability": 0.9999999881250368
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1634561612482,
+    "changedOn": 1634561627265,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,91 @@
+{
+    "id": "b8fcb005-1d8b-5680-c8d4-c26ec2ce3b90",
+    "title": "Enter the app",
+    "steps": [
+        {
+            "id": "adf56909-984f-27b7-d474-def245b00941",
+            "originalFrame": "592b71ca-a6ff-a1c6-0e04-ad9f55cdaa57_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.0730038022813689,
+                "y": 0.20136986301369866,
+                "width": 0.850190114068441,
+                "height": 0.147945205479452
+            },
+            "image": "f4930789-5a8c-3894-1eed-b1ac0eb72949_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.07314814814814814,
+                        "y": 0.20125
+                    },
+                    "size": {
+                        "width": 0.85,
+                        "height": 0.14791666666666667
+                    },
+                    "probability": 0.999999840121499
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "16b68700-5c21-dcc7-ec33-027c24ee9ca0",
+            "originalFrame": "561a3978-70a1-116c-abe4-eca23c3f4767_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.4190114068441065,
+                "y": 0.5523972602739725,
+                "width": 0.16577946768060836,
+                "height": 0.07773972602739726
+            },
+            "image": "f0877051-4be9-e972-7dfb-a8796af8bccb_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.41944444444444445,
+                        "y": 0.5525
+                    },
+                    "size": {
+                        "width": 0.16574074074074074,
+                        "height": 0.07791666666666666
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "44600ae1-dd19-cef9-7222-d1b4b1007f78",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "8d6a5961-5d34-bc1a-8c40-818f32930147",
+            "type": "subTest",
+            "optional": false,
+            "testId": "28ea1fc8-796c-0670-e36d-bef9f07f7d0b",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-25T15:17:20.970Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

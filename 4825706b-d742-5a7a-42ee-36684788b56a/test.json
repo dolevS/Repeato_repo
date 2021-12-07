@@ -1,0 +1,78 @@
+{
+    "id": "4825706b-d742-5a7a-42ee-36684788b56a",
+    "title": "Level Failed Inter",
+    "steps": [
+        {
+            "id": "37f9ce5f-b796-8e13-e062-824715f14e76",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1634718360072,
+            "testId": "08a55d0c-61d0-b82c-8d8f-6d2a7e0613c1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "3241b652-16b4-5264-36b8-b606fae2fb15",
+            "type": "subTest",
+            "optional": false,
+            "createdOn": 1634718360072,
+            "testId": "84ed6a09-e4d6-ab2e-dc25-fa7f0a3fc0b6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "516c094c-e733-bcfa-a25c-a1971c479174",
+            "originalFrame": "a8712727-59e1-00b6-755a-5d709794c087_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1636638212485,
+            "selection": {
+                "x": 0.8280532319391634,
+                "y": 0.2715479452054794,
+                "width": 0.05171102661596958,
+                "height": 0.024657534246575342
+            },
+            "image": "15f2b539-bb2e-a98a-2c09-91d02a09cb23_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.8277777777777777,
+                        "y": 0.27125
+                    },
+                    "size": {
+                        "width": 0.05092592592592592,
+                        "height": 0.024583333333333332
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1623051922580,
+    "changedOn": 1636638214454,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

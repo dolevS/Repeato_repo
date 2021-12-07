@@ -1,0 +1,63 @@
+{
+    "id": "c68c4389-95a6-dd64-4523-e7a671fd17cd",
+    "title": "PPA - Gameplay Part",
+    "steps": [
+        {
+            "id": "73780fd5-350c-b98e-5657-b45c0a24b01c",
+            "originalFrame": "295c0ba9-94a7-a871-185d-d623809f8e4a_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.01520912547528519,
+                "y": 0.09006849315068494,
+                "width": 0.20760456273764255,
+                "height": 0.13767123287671235
+            },
+            "image": "ae2aee21-c3be-13dc-00c4-ef7a2e9babcd_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.014814814814814815,
+                        "y": 0.09
+                    },
+                    "size": {
+                        "width": 0.2074074074074074,
+                        "height": 0.1375
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "f5a2e998-0f8f-e4b0-61ef-748a92568d1f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cd7d8d83-a43a-1131-5210-44a8752f5138",
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "79913221-870c-ec13-1674-b24155db584f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "13b4d9a3-33bc-fc8c-1a37-317d4df1378d",
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-27T06:22:46.828Z",
+    "changedOn": 1624775110913,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

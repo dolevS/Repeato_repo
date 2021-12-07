@@ -1,0 +1,131 @@
+{
+    "id": "d6cb706e-85de-4e90-3fb2-330d7f26beff",
+    "title": "Enter A Level",
+    "steps": [
+        {
+            "id": "721317dd-4a5f-3f8a-190c-04ef6d147dd6",
+            "originalFrame": "df20051c-894f-1794-c056-ea35ce0df35c_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.08821292775665399,
+                "y": 0.6363013698630138,
+                "width": 0.12395437262357412,
+                "height": 0.052054794520547946
+            },
+            "image": "0f3a27e2-e516-ca6a-e52f-0a677d539394_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.08796296296296297,
+                        "y": 0.63625
+                    },
+                    "size": {
+                        "width": 0.12314814814814815,
+                        "height": 0.051666666666666666
+                    },
+                    "probability": 0.9999999530197053
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "c29effd8-54ac-0dfb-a719-abc47386288f",
+            "originalFrame": "61231a02-969f-a9e1-09a5-132cc78a7d30_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.38859315589353616,
+                "y": 0.6397260273972603,
+                "width": 0.21901140684410642,
+                "height": 0.06917808219178083
+            },
+            "image": "3d6c3fa8-2ada-b4a1-a4c8-5d3ce4e4d42d_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.3888888888888889,
+                        "y": 0.6395833333333333
+                    },
+                    "size": {
+                        "width": 0.21944444444444444,
+                        "height": 0.06916666666666667
+                    },
+                    "probability": 0.999999986983115
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": 1625659586653,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "bb954cca-ad54-1856-aa51-9208e5f1dd7b",
+            "date": 1619100266026,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "1d187c0a-dc82-115e-46d7-7dba9169aed3",
+                    "step": "c29effd8-54ac-0dfb-a719-abc47386288f",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.3888888888888889,
+                                "y": 0.6395833333333333
+                            },
+                            "size": {
+                                "width": 0.21944444444444444,
+                                "height": 0.06916666666666667
+                            },
+                            "probability": 0.9999999964877627
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "076b3100-9e5a-88f9-334e-a293108321ff-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 1530,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

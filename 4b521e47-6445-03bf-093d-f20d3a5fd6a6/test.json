@@ -1,0 +1,313 @@
+{
+    "id": "4b521e47-6445-03bf-093d-f20d3a5fd6a6",
+    "title": "913 - Sanity",
+    "steps": [
+        {
+            "id": "4edb4b15-cb6b-0267-d437-009cbdd6e282",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "champions.empire.bubble",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": true,
+            "grantPermissions": [],
+            "allPermissions": [],
+            "os": "Android"
+        },
+        {
+            "id": "8b80bfa3-199a-4b54-ca07-45c2e10393a3",
+            "originalFrame": "094c1305-cdd2-9e5b-cfb6-880792b199a9_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "1cb54cec-513f-d21a-eb89-6358ae6cc9ce",
+            "type": "subTest",
+            "optional": false,
+            "testId": "cac3d376-5e36-a532-8a50-d1fe89aca9d7",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "669c8a13-13d9-1d73-39fb-e1c4c27e521e",
+            "originalFrame": "1e1551e1-9f85-e161-4521-187a0d8ea5cc_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "c47455b9-363d-0453-e86b-312dcc8eb1df",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bd4e1cf3-7122-ffb9-1763-1c44f4d75ee4",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "be2042bc-e639-0154-5fda-b88d5dc14dc8",
+            "originalFrame": "e72ebf5f-7868-e1cd-f3ec-ac7833eb2718_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "bbf0f719-1f61-e9f1-da92-e23290e33542",
+            "type": "subTest",
+            "optional": false,
+            "testId": "f6c033b0-9bba-c3b2-680a-4d5ccaac5c65",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "5fec56b6-e585-fbb9-f6cb-19eda37aa459",
+            "type": "subTest",
+            "optional": false,
+            "testId": "70ea7cad-1152-48d0-f811-bfbb61124664",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "fc55884b-3c4a-7c09-e1cd-8f1771f45696",
+            "originalFrame": "a242f786-c4f1-40f7-8304-0322246493a6_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "db754ba9-8607-b365-614b-4b2260e5706d",
+            "originalFrame": "5194a3ec-39e0-b7db-8799-212477c1aa1a_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.9036319612590801,
+                "y": 0.04340239912758996,
+                "width": 0.0692493946731235,
+                "height": 0.03675027262813522
+            },
+            "image": "09e0e2c9-8ed7-8525-3216-5a5a061735fc_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.9027777777777778,
+                        "y": 0.043333333333333335
+                    },
+                    "size": {
+                        "width": 0.06851851851851852,
+                        "height": 0.03666666666666667
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "25e269fe-e1bb-b7e0-5180-0174df3b8027",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bc36ae05-b946-c375-ec12-b00e06126628",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "80513744-7b11-f144-6104-fd85a158188a",
+            "originalFrame": "2f34fa98-ae86-3700-1a9b-d4f8e012877b_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "7ef1c69a-f458-3179-cde5-b190ce20ea69",
+            "type": "subTest",
+            "optional": false,
+            "testId": "48b975b2-2961-fca6-1889-5b8789c85652",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "896c66f5-428e-18d2-9c59-0f3703e29fb7",
+            "originalFrame": "377b5703-833a-f06c-e91e-cb40e549c0f2_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "6d5a1418-da6c-8914-3058-ad634ab929c3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "810cf860-1ed5-e1c5-7c66-57312627aa30",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c60e9182-d807-81ac-2eeb-160b1248f614",
+            "type": "subTest",
+            "optional": false,
+            "testId": "51c5f0ad-d4e9-54e0-c8fa-7a60a768a69d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8091850a-68b9-5dba-287f-35761b017afb",
+            "originalFrame": "421849d7-bc46-9b8d-7b90-b8dedefe2f66_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "1e15b446-eeb7-d72e-1842-5523d5f2a701",
+            "type": "subTest",
+            "optional": false,
+            "testId": "e2868b01-fa48-291c-be34-ac6c23aed2ef",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "13cb9cda-e570-77a2-b021-2f8b46537f00",
+            "originalFrame": "a16d9cef-7569-7b06-1601-54bfd37ec8d1_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 2000
+        },
+        {
+            "id": "53d4742d-a552-980c-b3a3-fd952e586cb4",
+            "type": "subTest",
+            "optional": false,
+            "testId": "55976a5b-fd11-fcdd-9096-0b4f00d1c5e1",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "97fdc98c-aa7e-e31a-876c-fc27be082d11",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c5aa74a6-eac3-4f37-8c14-df134942a3c4",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "201d37cb-f910-a158-c6c7-79b50dac3c8a",
+            "type": "subTest",
+            "optional": false,
+            "testId": "a73ff5aa-9938-176b-10b1-300a455741e4",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "29904fda-36c6-a2ef-0d0a-5179e1f6680d",
+            "originalFrame": "08ac65cb-9478-bcb7-4bc5-fbe4af6dfc9d_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 3000
+        },
+        {
+            "id": "052d212c-40e4-ffad-893d-808b3aca9e36",
+            "type": "subTest",
+            "optional": false,
+            "testId": "ef9b1383-03c0-95aa-9413-db4b854f0f9a",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9f844b7b-70f4-6e17-ac1d-5c45c838256e",
+            "type": "subTest",
+            "optional": false,
+            "testId": "488da762-11d5-c959-5f01-6aaea7ae7256",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9741f985-958e-7b1d-e341-0a2563f57bb7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "5454925a-6c51-9660-9cfe-61501fc8abf6",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "89012e6f-e3e6-bf3e-843d-81f8e568c6dd",
+            "type": "subTest",
+            "optional": false,
+            "testId": "70ea7cad-1152-48d0-f811-bfbb61124664",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "85f6156b-4a3e-8f60-f9da-4213bd3860d0",
+            "type": "subTest",
+            "optional": false,
+            "testId": "bc36ae05-b946-c375-ec12-b00e06126628",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "9897ffe0-c842-2372-da55-d27fa065eb32",
+            "originalFrame": "3e7c5c93-c353-5de5-c622-59346205fa75_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "ee4ba746-cc70-ad85-e710-2e4d65c77e5c",
+            "type": "subTest",
+            "optional": false,
+            "testId": "48b975b2-2961-fca6-1889-5b8789c85652",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "2ca4cf19-909c-7c77-94b4-48ae171376a7",
+            "type": "subTest",
+            "optional": false,
+            "testId": "810cf860-1ed5-e1c5-7c66-57312627aa30",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e4e775fd-865e-345f-df62-66e072e31fd2",
+            "type": "subTest",
+            "optional": false,
+            "testId": "51c5f0ad-d4e9-54e0-c8fa-7a60a768a69d",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "668ed9dc-3198-7492-5b14-62670c7f3045",
+            "type": "subTest",
+            "optional": false,
+            "testId": "b04ad3f9-5b8a-55bb-7377-95d09a8a9cda",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "80ce7cc3-f98a-8272-9751-996fc673426d",
+            "type": "subTest",
+            "optional": false,
+            "testId": "85c33d24-cb54-18f6-d649-ded032617aef",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1630585346762,
+    "changedOn": 1630593673857,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

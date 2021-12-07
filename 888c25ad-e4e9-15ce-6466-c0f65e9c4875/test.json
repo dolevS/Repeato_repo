@@ -1,0 +1,195 @@
+{
+    "id": "888c25ad-e4e9-15ce-6466-c0f65e9c4875",
+    "title": "Restart A Level",
+    "steps": [
+        {
+            "id": "817b822a-437c-009f-4560-d50e771422ab",
+            "originalFrame": "77b0e6df-b800-a281-fd02-47df907207f8_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1637246549038,
+            "duration": 1000
+        },
+        {
+            "id": "b0965c24-e6fe-c83c-cdfa-5b52e0d96d7c",
+            "originalFrame": "120475c9-0059-e5fc-1e7c-4da197c6dcd8_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1637245912512,
+            "selection": {
+                "x": 0.06031746031746035,
+                "y": 0.03857142857142854,
+                "width": 0.08253968253968252,
+                "height": 0.03571428571428571
+            },
+            "image": "b45878c4-dc68-586f-34c5-473f86d61461_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.06018518518518518,
+                        "y": 0.03833333333333333
+                    },
+                    "size": {
+                        "width": 0.0824074074074074,
+                        "height": 0.035416666666666666
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "43472353-60ce-6ba0-1c4c-fb8f7697817a",
+            "originalFrame": "840021d2-fb64-9ab0-9f70-929fcf273577_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "createdOn": 1637247649918,
+            "selection": {
+                "x": 0.05396825396825398,
+                "y": 0.10200000000000001,
+                "width": 0.09206349206349206,
+                "height": 0.04
+            },
+            "image": "532dc0a4-4fab-d22d-8ef0-e4c02bccdde8_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.053703703703703705,
+                        "y": 0.10166666666666667
+                    },
+                    "size": {
+                        "width": 0.09166666666666666,
+                        "height": 0.04
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "9785b044-83ce-0ece-bae2-b5ccd3db5dae",
+            "originalFrame": "57ca0a9d-5c5c-7a2b-b5fb-4db274c3c52c_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "createdOn": 1637247666583,
+            "duration": 1000
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1637245866142,
+    "changedOn": 1637247674153,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "82155454-cbe1-acf1-8bda-b9a99cea9598",
+            "date": 1637247655036,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "7f4c855c-2107-b646-de97-441b8bd9045f",
+                    "step": "817b822a-437c-009f-4560-d50e771422ab",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "552e2638-a53c-c2da-5c29-37eae656cab9-screenshot.jpg",
+                    "createdOn": 1637247616594
+                },
+                {
+                    "id": "dc8cbd4c-294d-1f50-1474-a3f5c14157d6",
+                    "step": "b0965c24-e6fe-c83c-cdfa-5b52e0d96d7c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.06018518518518518,
+                                "y": 0.03833333333333333
+                            },
+                            "size": {
+                                "width": 0.0824074074074074,
+                                "height": 0.035416666666666666
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3018c494-a399-dd57-cead-f76fef8b1472-screenshot.jpg",
+                    "createdOn": 1637247616852
+                },
+                {
+                    "id": "62299a7c-fc4d-0d0c-a6bb-dc59eaf79c69",
+                    "step": "43472353-60ce-6ba0-1c4c-fb8f7697817a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.053703703703703705,
+                                "y": 0.10166666666666667
+                            },
+                            "size": {
+                                "width": 0.09166666666666666,
+                                "height": 0.04
+                            },
+                            "probability": 0.9988485500367851
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "dee14970-d942-bdc6-2a5f-5be834aec1b2-screenshot.jpg",
+                    "createdOn": 1637247655497
+                }
+            ],
+            "deviceData": {
+                "os": "Android",
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "currentRotation": "ROTATION_0",
+                "rotationVars": {
+                    "portrait": "ROTATION_0",
+                    "landscape": "ROTATION_90",
+                    "upsideDown": "ROTATION_180",
+                    "seascape": "ROTATION_270"
+                }
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbleshooter.android",
+                    "name": "11.0.5",
+                    "code": 900000416,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-11-07 11:23:26",
+                    "lastUpdateTime": "2021-11-07 11:23:26"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

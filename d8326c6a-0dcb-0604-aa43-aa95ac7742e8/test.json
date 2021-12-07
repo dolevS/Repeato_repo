@@ -1,0 +1,77 @@
+{
+    "id": "d8326c6a-0dcb-0604-aa43-aa95ac7742e8",
+    "title": "shoot ball",
+    "steps": [
+        {
+            "id": "e2a0ad09-90b3-47b7-2b21-2c4b8162a249",
+            "originalFrame": "1bbdcf7b-6220-796c-6945-df68b0b1c20f_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.45703422053231935,
+                "y": 0.8246575342465755,
+                "width": 0.07452471482889735,
+                "height": 0.03835616438356164
+            },
+            "image": "34be6ce5-c77c-3eb7-e103-b283068eedd6_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.45740740740740743,
+                        "y": 0.8245833333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.5648148148148148,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9517849403668833
+                },
+                {
+                    "position": {
+                        "x": 0.6518518518518519,
+                        "y": 0.4
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9517626970514238
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "ef804df4-3f0c-5216-2012-372e91200175",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot purple ball')\n }\nelse {\n  log('No purple ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-12T12:23:35.022Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

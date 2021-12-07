@@ -1,0 +1,91 @@
+{
+    "id": "3632dd3a-c474-edf6-27f5-73d619259c73",
+    "title": "Quest - Exit",
+    "steps": [
+        {
+            "id": "1ac8472c-c306-ce91-d7bc-58d8af560a5a",
+            "originalFrame": "0542de58-ec4a-9579-1397-47e0c87bf320_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.030418250950570408,
+                "y": 0.9136986301369862,
+                "width": 0.1391634980988593,
+                "height": 0.038356164383561646
+            },
+            "image": "0c36e8bc-a591-3b38-8d3f-c8c9d0fa48e3_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.030555555555555555,
+                        "y": 0.91375
+                    },
+                    "size": {
+                        "width": 0.1388888888888889,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9999998996447061
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-25T13:23:12.419Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "50986160-c36a-c752-2148-18871840a55e",
+            "date": 1619356977700,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "4b9e56c7-8c2e-cdd1-f430-c8076adce1f7",
+                    "step": "1ac8472c-c306-ce91-d7bc-58d8af560a5a",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.030555555555555555,
+                                "y": 0.91375
+                            },
+                            "size": {
+                                "width": 0.1388888888888889,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "503a73fb-af5a-d8fb-5115-827636b86186-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": []
+        }
+    ],
+    "testRunExports": []
+}

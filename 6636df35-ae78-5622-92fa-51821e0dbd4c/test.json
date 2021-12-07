@@ -1,0 +1,257 @@
+{
+    "id": "6636df35-ae78-5622-92fa-51821e0dbd4c",
+    "title": "Shoot Green Bubble",
+    "steps": [
+        {
+            "id": "ff7af36c-1a05-27dc-ef19-5557b32f2719",
+            "originalFrame": "1c95da3f-9441-02e4-b65a-82f5e696f793_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.45703422053231935,
+                "y": 0.8246575342465755,
+                "width": 0.07452471482889735,
+                "height": 0.03835616438356164
+            },
+            "image": "231d28f3-29d6-5f4b-0037-520204824094_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2611111111111111,
+                        "y": 0.23375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9507273536095985
+                },
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.20041666666666666
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9622613463929762
+                },
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.26708333333333334
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9546562135653867
+                },
+                {
+                    "position": {
+                        "x": 0.34814814814814815,
+                        "y": 0.23375
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9668715189674235
+                },
+                {
+                    "position": {
+                        "x": 0.45740740740740743,
+                        "y": 0.8245833333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 1
+                },
+                {
+                    "position": {
+                        "x": 0.6953703703703704,
+                        "y": 0.16708333333333333
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9528613334165487
+                },
+                {
+                    "position": {
+                        "x": 0.7388888888888889,
+                        "y": 0.20041666666666666
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9521756736931938
+                },
+                {
+                    "position": {
+                        "x": 0.7388888888888889,
+                        "y": 0.5329166666666667
+                    },
+                    "size": {
+                        "width": 0.07407407407407407,
+                        "height": 0.03833333333333333
+                    },
+                    "probability": 0.9614356044028973
+                }
+            ],
+            "matchIndex": 4
+        },
+        {
+            "id": "754616e8-cc43-551d-01b4-8292aa56e242",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot green ball')\n }\nelse {\n  log('No green ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-13T08:31:31.350Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "415981e9-de05-6e53-2b61-9746998f1fd1",
+            "date": 1618302633869,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "022bf55c-d20b-e78c-c604-c1a3a5790805",
+                    "step": "ff7af36c-1a05-27dc-ef19-5557b32f2719",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.20041666666666666
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9622613463929762
+                        },
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.26708333333333334
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9546562135653867
+                        },
+                        {
+                            "position": {
+                                "x": 0.34814814814814815,
+                                "y": 0.23375
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9668715189674235
+                        },
+                        {
+                            "position": {
+                                "x": 0.45740740740740743,
+                                "y": 0.8245833333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 1
+                        },
+                        {
+                            "position": {
+                                "x": 0.6953703703703704,
+                                "y": 0.16708333333333333
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9535382593008609
+                        },
+                        {
+                            "position": {
+                                "x": 0.7388888888888889,
+                                "y": 0.20041666666666666
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9521756736931938
+                        },
+                        {
+                            "position": {
+                                "x": 0.7388888888888889,
+                                "y": 0.5329166666666667
+                            },
+                            "size": {
+                                "width": 0.07407407407407407,
+                                "height": 0.03833333333333333
+                            },
+                            "probability": 0.9614356044028973
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3eea9485-60c8-094c-3a77-a7c3d518ab63-screenshot.jpg"
+                },
+                {
+                    "id": "d21bad0a-39ff-4771-e60e-ba521cd8690b",
+                    "step": "754616e8-cc43-551d-01b4-8292aa56e242",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "ERROR occured while execution script:\n\nTypeError: testRunner.rootTest.checkLastMatchAndShoot is not a function",
+                    "screenshot": "2525f753-542a-261a-07fb-d35ac1ef7cbb-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "bubbles.pop.power",
+                    "name": "6.0.25",
+                    "code": 300009061,
+                    "minSdk": 16,
+                    "targetSdk": 29,
+                    "firstInstallTime": "2021-04-06 17:49:16",
+                    "lastUpdateTime": "2021-05-02 11:27:51"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

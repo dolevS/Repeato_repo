@@ -1,0 +1,154 @@
+{
+    "id": "81bae915-d229-3b62-b4a3-9792a29ed3ad",
+    "title": "Shoot Pink Bubble",
+    "steps": [
+        {
+            "id": "14e3164f-2be5-a733-752e-63d03ab1fa2a",
+            "originalFrame": "1b958d54-916b-636c-316e-61edae1e6465_frame.jpg",
+            "type": "templateAssertion",
+            "optional": true,
+            "selection": {
+                "x": 0.4684410646387831,
+                "y": 0.852054794520548,
+                "width": 0.06692015209125475,
+                "height": 0.0297945205479452
+            },
+            "image": "4c664f8d-5d42-80f4-2848-18938a3875bf_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.012037037037037037,
+                        "y": 0.37083333333333335
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9819497867888051
+                },
+                {
+                    "position": {
+                        "x": 0.18518518518518517,
+                        "y": 0.37083333333333335
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9891194989607706
+                },
+                {
+                    "position": {
+                        "x": 0.2722222222222222,
+                        "y": 0.23791666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9847045396014309
+                },
+                {
+                    "position": {
+                        "x": 0.4027777777777778,
+                        "y": 0.4041666666666667
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9872329593747944
+                },
+                {
+                    "position": {
+                        "x": 0.4462962962962963,
+                        "y": 0.37083333333333335
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.98424382884458
+                },
+                {
+                    "position": {
+                        "x": 0.4685185185185185,
+                        "y": 0.8520833333333333
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9999999327792798
+                },
+                {
+                    "position": {
+                        "x": 0.6638888888888889,
+                        "y": 0.20458333333333334
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9832539489426332
+                },
+                {
+                    "position": {
+                        "x": 0.6638888888888889,
+                        "y": 0.27125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9783085690069666
+                },
+                {
+                    "position": {
+                        "x": 0.7064814814814815,
+                        "y": 0.17166666666666666
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9794995036058931
+                },
+                {
+                    "position": {
+                        "x": 0.7064814814814815,
+                        "y": 0.37125
+                    },
+                    "size": {
+                        "width": 0.06666666666666667,
+                        "height": 0.03
+                    },
+                    "probability": 0.9804012871622598
+                }
+            ],
+            "matchIndex": 5
+        },
+        {
+            "id": "dc9e692a-6547-3918-0a3a-281eeb3c7633",
+            "type": "execScript",
+            "optional": false,
+            "script": "const hasShot = await testRunner.rootTest.checkLastMatchAndShoot()\nif(hasShot) {\n  log('Shot pink ball')\n }\nelse {\n  log('No pink ball in launcher')\n}",
+            "language": "js"
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-05-02T13:09:16.668Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

@@ -1,0 +1,284 @@
+{
+    "id": "d7f4894f-0e2e-e8f0-29f9-cd91d297e56f",
+    "title": "Open USA VPN",
+    "steps": [
+        {
+            "id": "40c90506-719d-7ec0-8837-e5f37c969730",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ]
+        },
+        {
+            "id": "c19d3b69-3cd0-bf43-27b5-91b5d51dff7c",
+            "originalFrame": "76b69147-bb1b-e90e-e945-7a94f35a67ac_frame.jpg",
+            "type": "waitForTemplate",
+            "optional": false,
+            "selection": {
+                "x": 0.01596958174904941,
+                "y": 0.8794520547945203,
+                "width": 0.9718631178707224,
+                "height": 0.06917808219178082
+            },
+            "image": "05d3d33e-951a-da23-e369-58beee363feb_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.01574074074074074,
+                        "y": 0.8795833333333334
+                    },
+                    "size": {
+                        "width": 0.9722222222222222,
+                        "height": 0.06916666666666667
+                    },
+                    "probability": 0.9999997615814209
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "5af24a62-1d73-71e9-0f7c-d8736e0a9532",
+            "originalFrame": "3b02af1e-c411-0b81-9885-e28038053f0f_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.7840304182509505,
+                "y": 0.7133561643835619,
+                "width": 0.13916349809885933,
+                "height": 0.08630136986301368
+            },
+            "image": "0d69a0ec-3169-3ed6-5c3f-2c0809308904_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.7833333333333333,
+                        "y": 0.7133333333333334
+                    },
+                    "size": {
+                        "width": 0.1388888888888889,
+                        "height": 0.08625
+                    },
+                    "probability": 0.99988658871697
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "0511b80a-9afc-11da-7d26-14570d5ec0d5",
+            "originalFrame": "f946a6d6-8c84-c119-fff8-27ddb535871d_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.05019011406844109,
+                "y": 0.7989726027397259,
+                "width": 0.29885931558935364,
+                "height": 0.07431506849315068
+            },
+            "image": "3a8b2dbd-d743-295a-cfd3-25ece9f2710f_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.05,
+                        "y": 0.62125
+                    },
+                    "size": {
+                        "width": 0.29814814814814816,
+                        "height": 0.07416666666666667
+                    },
+                    "probability": 0.9632630099701099
+                },
+                {
+                    "position": {
+                        "x": 0.05,
+                        "y": 0.79875
+                    },
+                    "size": {
+                        "width": 0.29814814814814816,
+                        "height": 0.07416666666666667
+                    },
+                    "probability": 0.9999997643869278
+                }
+            ],
+            "matchIndex": 1,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "c839ab96-aef2-2c9c-2c0d-83f9306936c3",
+            "originalFrame": "10c93cf9-76f9-e7b5-8bb3-a6e8457b3804_frame.jpg",
+            "type": "click",
+            "optional": true,
+            "selection": {
+                "x": 0.04258555133079845,
+                "y": 0.4445205479452055,
+                "width": 0.34828897338403036,
+                "height": 0.06746575342465753
+            },
+            "image": "7e9208dd-06bc-95ae-ee4c-f748ab7c04f9_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.041666666666666664,
+                        "y": 0.44416666666666665
+                    },
+                    "size": {
+                        "width": 0.34814814814814815,
+                        "height": 0.06708333333333333
+                    },
+                    "probability": 0.9999998529285676
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "3e52a881-1228-0ab4-cc5b-69f60f50a3bc",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 5000
+        },
+        {
+            "id": "0e8e57f4-2f2b-6f46-9a6e-0c4de77ded32",
+            "originalFrame": "ee34a590-0d28-0388-275a-4ca5bab8bb85_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.27832699619771867,
+                "y": 0.42054794520547945,
+                "width": 0.4167300380228137,
+                "height": 0.08630136986301372
+            },
+            "image": "76b51dc7-4285-072a-0a32-ef7f81904091_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.2777777777777778,
+                        "y": 0.42041666666666666
+                    },
+                    "size": {
+                        "width": 0.4166666666666667,
+                        "height": 0.08625
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "a9b07548-1ebd-6e29-746d-5ee8cb83f6ea",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "shooter.two.purple",
+            "activityName": ".main.BubbleShooterOriginal",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ]
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-23T08:23:51.120Z",
+    "changedOn": 1624437507779,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "f6fdf558-4ed8-4ccd-7902-0a607f03797e",
+            "date": 1624436700354,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "a8eeb245-36d2-777a-2706-74e719ce0c85",
+                    "step": "40c90506-719d-7ec0-8837-e5f37c969730",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "458bd245-6563-e472-09e1-547ba5ff963a-screenshot.jpg"
+                },
+                {
+                    "id": "83e444de-6d85-cc63-3cf1-031314c0166a",
+                    "step": "c19d3b69-3cd0-bf43-27b5-91b5d51dff7c",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.01574074074074074,
+                                "y": 0.8795833333333334
+                            },
+                            "size": {
+                                "width": 0.9722222222222222,
+                                "height": 0.06916666666666667
+                            },
+                            "probability": 0.9917520523412534
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "c83f3e04-d586-4f47-f920-0de9265f0856-screenshot.jpg"
+                },
+                {
+                    "id": "a444b123-70a7-743e-b365-22bfbcd5be35",
+                    "step": "0511b80a-9afc-11da-7d26-14570d5ec0d5",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "ead866cf-29d0-a4a2-efed-1333e740a642-screenshot.jpg"
+                },
+                {
+                    "id": "08e5f637-16a5-8b24-1335-e8acac67c871",
+                    "step": "5af24a62-1d73-71e9-0f7c-d8736e0a9532",
+                    "matches": [],
+                    "scaleFactor": 1,
+                    "success": false,
+                    "message": "Could not find fingerprint",
+                    "screenshot": "e726a89d-2ee0-37e6-2b27-3c1905b125cb-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 0,
+            "appVersions": [
+                {
+                    "packageName": "com.hidemyass.hidemyassprovpn",
+                    "name": "5.34.5945",
+                    "code": 6505945,
+                    "minSdk": 23,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-02-14 09:56:15",
+                    "lastUpdateTime": "2021-06-21 11:25:00"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

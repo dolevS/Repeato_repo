@@ -1,0 +1,182 @@
+{
+    "id": "99399528-91b2-02f2-591d-37389d54ad22",
+    "title": "Close UK VPN",
+    "steps": [
+        {
+            "id": "c923a1a7-21d4-2b39-1008-f22867e4450a",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "com.hidemyass.hidemyassprovpn",
+            "activityName": "com.avast.android.vpn.activity.HmaOnboardingActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "ACCESS_COARSE_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "GET_ACCOUNTS"
+            ]
+        },
+        {
+            "id": "de57e4f9-4083-2f6b-8251-5a7e639ed626",
+            "originalFrame": "c48fb110-25c7-045d-eded-1c74d7e36c58_frame.jpg",
+            "type": "click",
+            "optional": false,
+            "selection": {
+                "x": 0.5406844106463878,
+                "y": 0.43253424657534256,
+                "width": 0.15437262357414447,
+                "height": 0.06575342465753425
+            },
+            "image": "ad8d0733-60b4-b3db-62cc-659699d85529_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.5407407407407407,
+                        "y": 0.4325
+                    },
+                    "size": {
+                        "width": 0.15462962962962962,
+                        "height": 0.06583333333333333
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0,
+            "mouseMoveCoordinates": [],
+            "duration": 0,
+            "longClick": false
+        },
+        {
+            "id": "8648c1c3-d9bc-1025-b208-6ed1cf15ce9b",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 1000
+        },
+        {
+            "id": "bbbb9466-dde9-fe23-8880-b747a4318a87",
+            "originalFrame": "ca01411f-35b1-a5d3-2b98-9ac3167fbd90_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.30494296577946783,
+                "y": 0.43082191780821916,
+                "width": 0.38631178707224334,
+                "height": 0.0726027397260274
+            },
+            "image": "07cc6aee-dcf8-b747-3a5e-97fbeef3172a_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.30462962962962964,
+                        "y": 0.43083333333333335
+                    },
+                    "size": {
+                        "width": 0.3861111111111111,
+                        "height": 0.0725
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "55cd1869-98db-101f-c61e-4cff47a7b640",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubbles.pop.power",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": false,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE",
+                "READ_PHONE_STATE",
+                "WRITE_EXTERNAL_STORAGE"
+            ]
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "changedOn": "2021-04-22T11:08:31.043Z",
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [
+        {
+            "id": "c43e1743-4699-47a6-a460-0029dd98940d",
+            "date": 1619088134348,
+            "completed": true,
+            "stepResults": [
+                {
+                    "id": "8263ec7a-6a29-9538-44c4-a42f4714219a",
+                    "step": "de57e4f9-4083-2f6b-8251-5a7e639ed626",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.5407407407407407,
+                                "y": 0.4325
+                            },
+                            "size": {
+                                "width": 0.15462962962962962,
+                                "height": 0.06583333333333333
+                            },
+                            "probability": 0.9999999964877627
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "1ae016a5-5916-f4c3-9bd7-c527bc72390f-screenshot.jpg"
+                },
+                {
+                    "id": "1c6262ff-1997-dd22-c51c-5470929da5e3",
+                    "step": "bbbb9466-dde9-fe23-8880-b747a4318a87",
+                    "matches": [
+                        {
+                            "position": {
+                                "x": 0.30462962962962964,
+                                "y": 0.43083333333333335
+                            },
+                            "size": {
+                                "width": 0.3861111111111111,
+                                "height": 0.0725
+                            },
+                            "probability": 1
+                        }
+                    ],
+                    "scaleFactor": 1,
+                    "success": true,
+                    "screenshot": "3b8b8c39-dc90-1293-c3a2-0496e29865a4-screenshot.jpg"
+                }
+            ],
+            "deviceData": {
+                "abi": "arm64-v8a",
+                "sdk": "30",
+                "osVersion": "11",
+                "size": "1080x2400",
+                "serial": "e62205dd",
+                "name": "M2002J9G",
+                "brand": "Xiaomi",
+                "orientation": 0
+            },
+            "duration": 1057,
+            "appVersions": [
+                {
+                    "packageName": "com.hidemyass.hidemyassprovpn",
+                    "name": "5.29.5824",
+                    "code": 6505824,
+                    "minSdk": 23,
+                    "targetSdk": 30,
+                    "firstInstallTime": "2021-02-14 09:56:15",
+                    "lastUpdateTime": "2021-04-16 07:21:41"
+                }
+            ]
+        }
+    ],
+    "testRunExports": []
+}

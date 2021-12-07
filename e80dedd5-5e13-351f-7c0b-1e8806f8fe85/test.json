@@ -1,0 +1,105 @@
+{
+    "id": "e80dedd5-5e13-351f-7c0b-1e8806f8fe85",
+    "title": "893 - Gameplay",
+    "steps": [
+        {
+            "id": "37c975f6-ce57-6c05-3f9b-09610af97dfa",
+            "type": "startApp",
+            "optional": false,
+            "packageName": "bubble.shooter.exxtreme",
+            "activityName": "org.cocos2dx.javascript.AppActivity",
+            "deleteAppData": true,
+            "grantPermissions": [],
+            "allPermissions": [
+                "READ_EXTERNAL_STORAGE"
+            ],
+            "os": "Android"
+        },
+        {
+            "id": "1278731e-8ab1-e9e1-b3a0-ca3c78509148",
+            "type": "subTest",
+            "optional": false,
+            "testId": "0ef466c9-fa4e-3574-b82f-3a38eaafeddf",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "8f0d6af8-45d4-4007-2645-5595b63ada59",
+            "type": "subTest",
+            "optional": true,
+            "testId": "2b5d04c0-021c-9e4f-b2ee-478518c1c79f",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "11fbfe83-21d1-8011-74e6-bdf9c23fd94f",
+            "type": "subTest",
+            "optional": false,
+            "testId": "c99f028a-0fbb-8b77-dd48-88720f15535b",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "e93e93b8-4cc2-9b22-fd2f-70cd9d3f3004",
+            "originalFrame": "55a9ff99-e616-bd09-dea9-38194199aa28_frame.jpg",
+            "type": "waitForDuration",
+            "optional": false,
+            "duration": 30000
+        },
+        {
+            "id": "4ac2903b-086a-687a-364c-2f07f7f549ac",
+            "type": "subTest",
+            "optional": false,
+            "testId": "14bab355-8814-5025-f5b5-3d79acb4da23",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "259e147c-e74f-1297-1df6-efd5a72048ff",
+            "type": "subTest",
+            "optional": false,
+            "testId": "fbe91eb6-91c8-0608-faa4-a473b3857539",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        },
+        {
+            "id": "c0ec4b0c-d414-9a6e-c140-1e80d39db20e",
+            "type": "subTest",
+            "optional": true,
+            "testId": "64cf906c-3d03-a8b4-4c47-939e486df255",
+            "isExpanded": true,
+            "failureMode": "allOptional"
+        },
+        {
+            "id": "404869bf-f6e5-624c-0217-0bef15bfedb3",
+            "type": "subTest",
+            "optional": false,
+            "testId": "2f996d7e-42fa-b3bd-4a84-e441c8458b84",
+            "isExpanded": true,
+            "failureMode": "firstOptional"
+        }
+    ],
+    "deviceData": {
+        "os": "Android",
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "currentRotation": "ROTATION_0",
+        "rotationVars": {
+            "portrait": "ROTATION_0",
+            "landscape": "ROTATION_90",
+            "upsideDown": "ROTATION_180",
+            "seascape": "ROTATION_270"
+        }
+    },
+    "createdOn": 1633608932016,
+    "changedOn": 1634572151828,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}

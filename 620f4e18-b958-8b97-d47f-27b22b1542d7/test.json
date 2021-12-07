@@ -1,0 +1,76 @@
+{
+    "id": "620f4e18-b958-8b97-d47f-27b22b1542d7",
+    "title": "Banner doesn't interfere with UI ",
+    "steps": [
+        {
+            "id": "bd8f1398-ea72-4bf0-457f-0684690f40f7",
+            "originalFrame": "b2da771b-b85e-29cc-4d93-a48235ad2e0d_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0.41825095057034206,
+                "y": 0.9085616438356167,
+                "width": 0.5817490494296578,
+                "height": 0.021232876712328784
+            },
+            "image": "8b860924-2fe6-d2e0-a45a-fc0d8b6e59a4_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0.41759259259259257,
+                        "y": 0.9083333333333333
+                    },
+                    "size": {
+                        "width": 0.5814814814814815,
+                        "height": 0.020833333333333332
+                    },
+                    "probability": 0.9999999964877627
+                }
+            ],
+            "matchIndex": 0
+        },
+        {
+            "id": "76a3ee12-9f98-8ddc-70fe-bce5f19ac510",
+            "originalFrame": "86944fe1-8df0-a935-d572-d52438480d6a_frame.jpg",
+            "type": "templateAssertion",
+            "optional": false,
+            "selection": {
+                "x": 0,
+                "y": 0.9085616438356167,
+                "width": 0.311787072243346,
+                "height": 0.021232876712328784
+            },
+            "image": "8da1d318-1dcd-48ee-97d1-626e1f909abb_template.png",
+            "matches": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 0.9083333333333333
+                    },
+                    "size": {
+                        "width": 0.3111111111111111,
+                        "height": 0.020833333333333332
+                    },
+                    "probability": 1
+                }
+            ],
+            "matchIndex": 0
+        }
+    ],
+    "deviceData": {
+        "abi": "arm64-v8a",
+        "sdk": "30",
+        "osVersion": "11",
+        "size": "1080x2400",
+        "serial": "e62205dd",
+        "name": "M2002J9G",
+        "brand": "Xiaomi",
+        "orientation": 0
+    },
+    "createdOn": "2021-06-06T13:10:11.093Z",
+    "changedOn": 1622985035678,
+    "isWorkingCopy": false,
+    "configs": [],
+    "testRuns": [],
+    "testRunExports": []
+}
